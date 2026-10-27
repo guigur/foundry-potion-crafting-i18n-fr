@@ -1,0 +1,438 @@
+{
+  "name": "L'Alchimiste d'or",
+  "description": "Contient des recettes de préparations alchimiques très rares",
+  "ownership": {},
+  "tools": "Matériel d'alchimiste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Encre (légendaire)",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveau 9.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RPIaybBhCR5X8nyM",
+              "quantity": 1,
+              "name": "Charbon de bois"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.MdAPFn646hCxbo7D",
+              "quantity": "3",
+              "name": "Huile d'ombresaule"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.I07yfNbjLGsC8RLb",
+              "quantity": 1,
+              "name": "Encre (légendaire)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Huile d'affûtage",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette huile transparente et gélatineuse scintille de minuscules éclats d'argent extrêmement fins. Elle peut enduire une arme tranchante ou perforante, ou jusqu'à 5 munitions infligeant des dégâts tranchants ou perforants. L'application prend 1 minute. Pendant 1 heure, l'objet enduit est magique et bénéficie d'un bonus de +3 aux jets d'attaque et de dégâts.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.M6NM0PSPlkHUHTdO",
+              "quantity": 1,
+              "name": "Ichor d'ankheg"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.IvLk97TKspuqU1eX",
+              "quantity": 1,
+              "name": "Épine d'argent"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.acHCqHI55d3UcsZc",
+              "quantity": 1,
+              "name": "Huile d'affûtage"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-bat-gold-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de vol",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse de vol égale à votre vitesse de marche et pouvez voler sur place. Si vous êtes dans les airs quand l'effet prend fin, vous tombez, sauf si vous disposez d'un autre moyen de rester en vol. Le liquide transparent flotte au sommet du récipient et contient des impuretés blanches et nuageuses.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.oJHIjX6NgapONg7e",
+              "quantity": 1,
+              "name": "Volute d'élémentaire de l'air"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZxuFEfo7SerKMoMR",
+              "quantity": 1,
+              "name": "Ortie chantante"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.XRYSJU59a4tE7QMK",
+              "quantity": 1,
+              "name": "Potion de vol"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-bat-gold-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion d'invisibilité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Le récipient de cette potion semble vide, mais paraît contenir un liquide lorsqu'on le manipule. Quand vous la buvez, vous devenez invisible pendant 1 heure. Tout ce que vous portez ou transportez devient invisible avec vous. L'effet prend fin prématurément si vous attaquez ou lancez un sort.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.S13CXdPDL9vBtWoL",
+              "quantity": 1,
+              "name": "Griffe de skulque"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.gM92fpjY9teFQ8ew",
+              "quantity": 1,
+              "name": "Tabouret de fée"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.24kj5977TOuIQC0L",
+              "quantity": 1,
+              "name": "Potion d'invisibilité"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de longévité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, votre âge physique diminue de 1d6 + 6 ans, jusqu'à un minimum de 13 ans. Chaque fois que vous buvez ensuite une potion de longévité, vous avez 10 % de chances cumulatives de vieillir au contraire de 1d6 + 6 ans. Une queue de scorpion, un croc de vipère, une araignée morte et un minuscule cœur qui, contre toute logique, bat encore sont suspendus dans ce liquide ambré. Ces ingrédients disparaissent à l'ouverture de la potion.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.icRXQFh2Fx4HvQe0",
+              "quantity": 1,
+              "name": "Cœur de diablotin"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": 1,
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.T1eiPqEqfld31eGo",
+              "quantity": 1,
+              "name": "Potion de longévité"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de possibilité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion transparente, vous gagnez deux fragments de possibilité. Chacun ressemble à une minuscule perle d'énergie grisâtre qui vous suit en restant constamment à 1 pied ou moins de vous. Chaque fragment dure 8 heures ou jusqu'à son utilisation. Lorsque vous effectuez un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez dépenser un fragment pour lancer un d20 supplémentaire et choisir lequel des d20 utiliser. Vous pouvez aussi dépenser un fragment lorsqu'une attaque vous prend pour cible, lancer un d20 et choisir lequel des d20 utiliser : le vôtre ou celui de l'attaquant. Si le jet de d20 initial bénéficie de l'avantage ou subit le désavantage, vous lancez votre d20 après l'application de cet avantage ou désavantage au jet initial. Tant que vous possédez au moins un fragment de possibilité provenant de cette potion, vous ne pouvez pas obtenir d'autre fragment de possibilité, quelle qu'en soit la source.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.S13CXdPDL9vBtWoL",
+              "quantity": 1,
+              "name": "Griffe de skulque"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.OQAPiXDbXeOTP5TD",
+              "quantity": 1,
+              "name": "Ectoplasme"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.vpJwjcj2NDtKmD7q",
+              "quantity": 1,
+              "name": "Potion de possibilité"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de vitesse",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous bénéficiez de l'effet du sort hâte pendant 1 minute (sans concentration). Son liquide jaune est strié de noir et tourbillonne de lui-même.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RfEtP6JEextGAzXp",
+              "quantity": "4",
+              "name": "Serre d'aigle"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.MkUnBgXfcD2QwUwN",
+              "quantity": 1,
+              "name": "Mousse de foudre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.u50QJdilHzM5EQaV",
+              "quantity": 1,
+              "name": "Sucre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.aUFirgBdb7axX2wj",
+              "quantity": 1,
+              "name": "Potion de vitesse"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de vision véritable",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Boire cette potion confère la vision véritable sur une portée de 120 pieds pendant 1 heure.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.gM92fpjY9teFQ8ew",
+              "quantity": 1,
+              "name": "Tabouret de fée"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XZe2WSquLSLKzHrm",
+              "quantity": 1,
+              "name": "Larmes de nothic"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.dhsVGbyG9FpA1oCb",
+              "quantity": 1,
+              "name": "Potion de vision véritable"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de mana supérieure",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 8 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 8 points de sorcellerie.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WglM0mvztSmJL7Lv",
+              "quantity": 1,
+              "name": "Parasol de pixie"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.IvLk97TKspuqU1eX",
+              "quantity": 1,
+              "name": "Épine d'argent"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.FL1DOoV7dEZ4YmsH",
+              "quantity": 1,
+              "name": "Sang de dragon"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.YYUeBM8oMDoHunTb",
+              "quantity": 1,
+              "name": "Ichor de remorhaz"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.QVF5CvK1crupWD1N",
+              "quantity": 1,
+              "name": "Potion de mana supérieure"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-bubbling-blue.webp",
+      "ownership": {}
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-potion-blue.webp",
+  "documentName": "RecipeBook"
+}

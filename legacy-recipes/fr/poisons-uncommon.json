@@ -1,0 +1,497 @@
+{
+  "name": "L'Empoisonneur épicé",
+  "description": "Contient des recettes de poisons peu communs",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'empoisonneur",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Poudre des anges",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette poudre blanche très fine, à l'arôme légèrement sucré, doit être soufflée au visage de la cible avant de se disperser sans danger. La cible doit effectuer un jet de sauvegarde de Charisme DD 15. En cas d'échec, sa perception de la réalité est altérée pendant 1 heure : elle considère tout le monde comme des amis de confiance et devient extrêmement sensible à la persuasion non agressive, à la tromperie et à la séduction. Une réussite ne produit aucun effet.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.2Q5eat8DBOS7E7Xf",
+              "quantity": 1,
+              "name": "Trompette des anges"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.jjxoFljmT5atbIT8",
+              "quantity": 1,
+              "name": "Lys des rêves"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.LACxgInxIOos3xaf",
+              "quantity": 1,
+              "name": "Poudre des anges"
+            }
+          ]
+        }
+      ],
+      "img": "icons/commodities/materials/bowl-powder-grey.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Sang d'assassin",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d'échec, elle subit 6 (1d12) dégâts de poison et est empoisonnée pendant 24 heures. En cas de réussite, elle ne subit que la moitié des dégâts et n'est pas empoisonnée.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.v4AeMM9MmplrULaL",
+              "quantity": 1,
+              "name": "Poison rudimentaire (fiole)"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XsePsNGNXztjGhqt",
+              "quantity": 1,
+              "name": "Traque-lune"
+            },
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PpZ5ysLIab4PNiCL",
+              "quantity": 1,
+              "name": "Belladone"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.I5fUKyzt3lPyYjOQ",
+              "quantity": 1,
+              "name": "Sang d'assassin (ingestion)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Extrait de baie funeste",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Rose et parfumé à la fraise, ce poison impose au buveur un jet de sauvegarde de Constitution DD 14. En cas d'échec, il est empoisonné et subit le désavantage aux jets de sauvegarde de Force, de Constitution et de Dextérité pendant 15 minutes. Une réussite ne produit aucun effet.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.5eMY7G5AibuPbPAG",
+              "quantity": 1,
+              "name": "Baie funeste"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.yXlEdxbGry90qtyN",
+              "quantity": 1,
+              "name": "Extrait de baie funeste"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-pear-corked-pink.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Pâte noire",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce poison a été conçu pour ressembler à un produit d'entretien du cuir ou à du cirage. Un vêtement traité brille comme neuf, mais toute créature qui le porte pendant un total de 12 heures, consécutives ou non, doit effectuer un jet de sauvegarde de Constitution DD 15. En cas d'échec, elle subit 1d8 dégâts de poison. Tant que le vêtement n'est pas retiré, elle doit répéter ce jet toutes les 12 heures pendant les 3 mois suivants.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WeMebyyH2jXTQtTH",
+              "quantity": 1,
+              "name": "Champignon à chapeau noir"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.N0AouALqeIy09kCX",
+              "quantity": 1,
+              "name": "Sève noire"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.Ah8N6bwh8wFtFByR",
+              "quantity": 1,
+              "name": "Pâte noire"
+            }
+          ]
+        }
+      ],
+      "img": "icons/tools/laboratory/bowl-liquid-black.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Retard ciblé",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce liquide noir est très visqueux, avec la consistance d'une mélasse concentrée. Lorsqu'il entre en contact avec le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Sagesse DD 15. En cas d'échec, elle subit l'effet du sort lenteur et peut répéter le jet à la fin de chacun de ses tours. En cas de réussite, sa vitesse de déplacement est réduite de 5 pieds pendant 3 tours.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.e9SUSA3TYHv9gxXl",
+              "quantity": 1,
+              "name": "Griffes immobiles"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZTXmBm0pYhuK5AxE",
+              "quantity": 1,
+              "name": "Amanite phalloïde"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.0wixBB6YRl7uOcQs",
+              "quantity": 1,
+              "name": "Retard ciblé"
+            }
+          ]
+        }
+      ],
+      "img": "icons/creatures/slimes/slime-movement-swirling-blue.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Pâte de lave",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette préparation ressemble à une simple pâte jaunâtre, mais elle est loin d'être ordinaire. Appliquée sur la peau ou les vêtements, elle impose un jet de sauvegarde de Constitution DD 14. En cas d'échec, la cible subit 2d6 dégâts de feu et devient vulnérable aux dégâts de feu pour 1 seule occurrence au cours des 12 heures suivantes. En cas de réussite, elle ne subit que la moitié des dégâts et ne devient pas vulnérable.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.KxyuMr06YyMT9uVI",
+              "quantity": 1,
+              "name": "Lys de flamme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.yg1RFBtdR2AfVS5t",
+              "quantity": 1,
+              "name": "Pois de feu"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.pbhs9c1MzovfF4po",
+              "quantity": 1,
+              "name": "Pâte de lave"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-yellow.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Malice",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 1 heure. La créature empoisonnée est aveuglée. Ces poisons sont des poudres ou des gaz qui agissent lorsqu'on les inhale. Souffler la poudre ou libérer le gaz expose les créatures dans un cube de 5 pieds de côté. Le nuage se dissipe aussitôt. Retenir sa respiration ne protège pas contre ces poisons : ils affectent les muqueuses nasales, les canaux lacrymaux et d'autres parties du corps.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.q56qk1upHBqOeFo0",
+              "quantity": 1,
+              "name": "Rosée du matin"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.N0AouALqeIy09kCX",
+              "quantity": 1,
+              "name": "Sève noire"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.f5gVLMEkaahGfs0c",
+              "quantity": 1,
+              "name": "Malice (inhalation)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/tools/laboratory/mortar-powder-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Teinture pâle",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 sous peine de subir 3 (1d6) dégâts de poison et d'être empoisonnée. Elle doit répéter le jet de sauvegarde toutes les 24 heures et subit 3 (1d6) dégâts de poison à chaque échec. Jusqu'à la fin du poison, ses dégâts ne peuvent être soignés par aucun moyen. Après sept réussites, l'effet prend fin et la créature peut se soigner normalement.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.N0AouALqeIy09kCX",
+              "quantity": 1,
+              "name": "Sève noire"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZTXmBm0pYhuK5AxE",
+              "quantity": 1,
+              "name": "Amanite phalloïde"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.6XE396TwhJf3sO2F",
+              "quantity": 1,
+              "name": "Teinture pâle (ingestion)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Philtre d'amour",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "La prochaine fois que vous voyez une créature dans les 10 minutes suivant l'absorption de ce philtre, vous êtes charmé par elle pendant 1 heure. Si elle appartient à une espèce et à un genre qui vous attirent habituellement, vous la considérez comme votre grand amour tant que vous êtes charmé. Le liquide rose et effervescent contient une discrète bulle en forme de cœur.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.gM92fpjY9teFQ8ew",
+              "quantity": 1,
+              "name": "Tabouret de fée"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ilkJBDWZgW16fnmd",
+              "quantity": 1,
+              "name": "Venin de serpent"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.pH6FTxjthMCzpBWi",
+              "quantity": 1,
+              "name": "Philtre d'amour"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de poison",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette mixture a l'apparence, l'odeur et le goût d'une potion de soins ou d'une autre potion bénéfique. C'est pourtant un poison dissimulé par une illusion magique. Un sort d'identification révèle sa véritable nature. Si vous la buvez, vous subissez 3d6 dégâts de poison et devez réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonné. Au début de chacun de vos tours, tant que vous êtes ainsi empoisonné, vous subissez 3d6 dégâts de poison. À la fin de chacun de vos tours, vous pouvez répéter le jet de sauvegarde. Chaque réussite diminue de 1d6 les dégâts de poison subis lors des tours suivants. Le poison prend fin lorsque les dégâts sont réduits à 0.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.8Mf40znvsETtXOyc",
+              "quantity": 1,
+              "name": "Potion de soins"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.5eMY7G5AibuPbPAG",
+              "quantity": 1,
+              "name": "Baie funeste"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.Dnrr2udqlQAVcMSu",
+              "quantity": 1,
+              "name": "Potion de poison"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Sérum de vérité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 sous peine d'être empoisonnée pendant 1 heure. Elle ne peut pas mentir sciemment, comme sous l'effet d'un sort de zone de vérité.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.gM92fpjY9teFQ8ew",
+              "quantity": 1,
+              "name": "Tabouret de fée"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ebflYPaV5OfihxDW",
+              "quantity": 1,
+              "name": "Satyre fétide de flagelleur mental"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.MTbjywmmGb9FOICv",
+              "quantity": 1,
+              "name": "Sérum de vérité (ingestion)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-corked-blue.webp",
+      "ownership": {}
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+  "documentName": "RecipeBook"
+}

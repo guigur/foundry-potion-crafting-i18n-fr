@@ -1,0 +1,398 @@
+{
+  "name": "L'Herboriste épanoui",
+  "description": "Contient des recettes de potions et d'onguents rares",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'herboriste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Élixir de santé",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, elle soigne toutes vos maladies et supprime les états aveuglé, assourdi, paralysé et empoisonné. De minuscules bulles lumineuses flottent dans ce liquide rouge transparent. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.gM92fpjY9teFQ8ew",
+              "quantity": 1,
+              "name": "Tabouret de fée"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.kUzQnkx0GC5NTHsv",
+              "quantity": 1,
+              "name": "Branchiflore"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.Vxsfg5tLaCwyE1TU",
+              "quantity": 1,
+              "name": "Élixir de santé"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Chance liquide",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Impossible à distinguer visuellement de l'eau, ce liquide a le goût et l'odeur du fruit préféré du buveur. Il confère l'avantage à tous les tests de Tromperie, de Perspicacité et de Persuasion pendant 3 heures.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.O0eT04b4AYt7qvr9",
+              "quantity": 1,
+              "name": "Champignon arc-en-ciel"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sODZElZQJ8PiIvH1",
+              "quantity": 1,
+              "name": "Brindilles de muroosa"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.gM92fpjY9teFQ8ew",
+              "quantity": 1,
+              "name": "Tabouret de fée"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.8t6z474F66KdqalY",
+              "quantity": 1,
+              "name": "Chance liquide"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-ring-teal.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de métamorphose",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une potion vert pâle presque transparente contenant une projection de créature qui change constamment de forme. Elle permet au buveur d'utiliser le sort métamorphose sur lui-même pendant 15 minutes, sans concentration.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.O0eT04b4AYt7qvr9",
+              "quantity": 1,
+              "name": "Champignon arc-en-ciel"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.jjxoFljmT5atbIT8",
+              "quantity": 1,
+              "name": "Lys des rêves"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.SMab7kAjsYtxGJKJ",
+              "quantity": 1,
+              "name": "Fruit d'ombresaule"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.ochw6JbyYtwJUGVn",
+              "quantity": 1,
+              "name": "Potion de métamorphose"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-pear-corked-labeled-green.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de restauration",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Des images de fibres musculaires, de vaisseaux sanguins et de fragments d'organes flottent dans cette potion violette. La boire fait repousser en une semaine les parties du corps et les organes détruits ou manquants. Cette repousse provoque de fortes démangeaisons et parfois des douleurs irritantes aux endroits concernés.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.vperyfe91D7Y0mWW",
+              "quantity": "2",
+              "name": "Rosée acide"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.q56qk1upHBqOeFo0",
+              "quantity": 1,
+              "name": "Rosée du matin"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": "2",
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.AzmqxeFRA4vAO8D5",
+              "quantity": 1,
+              "name": "Potion de restauration"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/flask-corked-purple-glow.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de réanimation",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette potion noire et entièrement opaque contient un point lumineux suspendu en son centre. Elle n'a aucun effet sur les vivants, mais la verser dans la gorge d'une personne morte depuis moins d'une minute la ranime avec 1 point de vie. Elle ne fonctionne pas sur une personne morte de vieillesse et ne peut pas restaurer des parties du corps manquantes.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.vperyfe91D7Y0mWW",
+              "quantity": 1,
+              "name": "Rosée acide"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.jjxoFljmT5atbIT8",
+              "quantity": 1,
+              "name": "Lys des rêves"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.AvyiJlB22uJt9J5E",
+              "quantity": 1,
+              "name": "Graine blanche d'orchidée fantôme"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.3xULlbFXYFbFaVrq",
+              "quantity": 1,
+              "name": "Potion de réanimation"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-vial-corked-labeled-purple.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de soins supérieure",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Vous récupérez 8d4 + 8 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": "3",
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.rN9kdGbEOgWkqJ0g",
+              "quantity": 1,
+              "name": "Potion de soins (supérieure)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Teinture de fléau des loups-garous",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Tout lycanthrope qui boit cette teinture doit effectuer un jet de sauvegarde de Constitution DD 19. En cas d'échec, il subit 3d10 dégâts nécrotiques et doit reprendre sa forme humanoïde s'il ne l'avait pas déjà. Il ne peut ensuite plus changer de forme pendant 24 heures. En cas de réussite, il ne subit que la moitié de ces dégâts.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.Ag50fstRwIuLyrhr",
+              "quantity": 1,
+              "name": "Aconit tue-loup"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.IvLk97TKspuqU1eX",
+              "quantity": 1,
+              "name": "Épine d'argent"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.HaoqYzxdcao45krj",
+              "quantity": 1,
+              "name": "Teinture de fléau des loups-garous"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-capped-yellow-green.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-leaf-gold-green.webp",
+  "documentName": "RecipeBook"
+}

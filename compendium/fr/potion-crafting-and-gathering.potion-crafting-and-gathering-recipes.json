@@ -1,0 +1,1203 @@
+{
+  "label": "Fabrication de potions — Livres de recettes",
+  "mapping": {
+    "name": "name",
+    "flags_mastercrafted_description": "flags.mastercrafted.description",
+    "flags_mastercrafted_require": "flags.mastercrafted.require",
+    "pages": {
+      "path": "pages",
+      "converter": "document",
+      "documentType": "JournalEntryPage",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name",
+        "text": "text.content",
+        "flags_mastercrafted_ingredients_0_components_0_name": "flags.mastercrafted.ingredients.0.components.0.name",
+        "flags_mastercrafted_products_0_components_0_name": "flags.mastercrafted.products.0.components.0.name",
+        "flags_mastercrafted_recipeBook_name": "flags.mastercrafted.recipeBook.name",
+        "flags_mastercrafted_recipeBook_description": "flags.mastercrafted.recipeBook.description",
+        "flags_mastercrafted_recipeBook_require": "flags.mastercrafted.recipeBook.require",
+        "flags_mastercrafted_ingredients_1_components_0_name": "flags.mastercrafted.ingredients.1.components.0.name",
+        "flags_mastercrafted_ingredients_2_components_0_name": "flags.mastercrafted.ingredients.2.components.0.name",
+        "flags_mastercrafted_ingredients_3_components_0_name": "flags.mastercrafted.ingredients.3.components.0.name",
+        "flags_mastercrafted_ingredients_1_components_1_name": "flags.mastercrafted.ingredients.1.components.1.name",
+        "flags_mastercrafted_ingredients_0_components_1_name": "flags.mastercrafted.ingredients.0.components.1.name"
+      }
+    }
+  },
+  "entries": {
+    "2yCIQrSdDhrtMKcV": {
+      "name": "L'Empoisonneur novice",
+      "flags_mastercrafted_description": "Contient des recettes de poisons courants",
+      "flags_mastercrafted_require": "Matériel d'empoisonneur",
+      "pages": {
+        "faKJiZrv15ZL8mbX": {
+          "name": "Poison rudimentaire",
+          "text": "<p>Le poison de cette fiole peut enduire une arme tranchante ou perforante, ou jusqu'à trois munitions. L'application nécessite une action. Une créature touchée par l'arme ou la munition empoisonnée doit réussir un jet de sauvegarde de Constitution DD 10 sous peine de subir 1d4 dégâts de poison. Une fois appliqué, le poison reste actif pendant 1 minute avant de sécher.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Belladone",
+          "flags_mastercrafted_products_0_components_0_name": "Poison rudimentaire (fiole)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur novice",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "P3dikLWLCtAN5lu1": {
+          "name": "Souffle de Biza",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 sous peine d'être empoisonnée pendant 1 minute. La créature empoisonnée doit utiliser son action pour effectuer une attaque au corps à corps contre une créature déterminée aléatoirement à sa portée. S'il n'y en a aucune, elle ne fait rien pendant son tour. Elle peut répéter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet sur elle-même en cas de réussite.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Trompette des anges",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Lichen de givre",
+          "flags_mastercrafted_products_0_components_0_name": "Souffle de Biza (inhalation)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur novice",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "4Af7iw76k9VSVhAW": {
+          "name": "Paranoïa liquide",
+          "text": "<p>Une créature qui ingère ce poison subit l'état effrayé. La source de sa peur est le prochain humanoïde qu'elle voit dans les 5 minutes suivant l'ingestion. Elle doit effectuer un jet de sauvegarde de Sagesse DD 15 : la peur dure 1 heure en cas d'échec, ou deux fois moins longtemps en cas de réussite.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Traque-lune",
+          "flags_mastercrafted_products_0_components_0_name": "Paranoïa liquide",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur novice",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        }
+      }
+    },
+    "3ryQWVuV0NDcDIAe": {
+      "name": "L'Herboriste en herbe",
+      "flags_mastercrafted_description": "Contient des recettes de potions et d'onguents peu communs",
+      "flags_mastercrafted_require": "Matériel d'herboriste",
+      "pages": {
+        "JXmhg0hkKQWZZLLw": {
+          "name": "Ichor de flétrissure",
+          "text": "<p>Cette mixture amère de couleur chartreuse est distillée à partir d'un champignon originaire des terres désolées de Blightshore. Cette liqueur verdâtre possède de puissantes propriétés psychédéliques. Une créature qui n'est ni un artificiel ni un mort-vivant et qui en reçoit une dose a l'avantage aux tests d'Intelligence et de Sagesse, mais devient vulnérable aux dégâts psychiques pendant 1 heure. Pour chaque dose consommée, elle doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 1d6 heures et de subir les effets du sort confusion pendant 1 minute. Un mort-vivant qui reçoit une dose d'ichor de flétrissure a l'avantage à tous ses tests de Dextérité et est immunisé contre l'état effrayé pendant 1 heure.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Spores de flétrissure",
+          "flags_mastercrafted_products_0_components_0_name": "Ichor de flétrissure",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "62Ltl3PlR2zpWdgy": {
+          "name": "Breuvage de Babel",
+          "text": "<p>Bleu layette et très opaque, avec une présence blanche qui s'y déplace à la limite du regard, ce liquide devient d'un jaune aveuglant lorsqu'on l'agite. Il permet de parler et de comprendre une langue au choix pendant 1 heure, mais pas de la lire ni de l'écrire.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Ortie chantante",
+          "flags_mastercrafted_products_0_components_0_name": "Breuvage de Babel",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "2FqaaeeLTi3dqIkF": {
+          "name": "Baume de feu",
+          "text": "<p>Une pâte orange à base de plantes qui aide à récupérer de diverses affections. Une dose confère un bonus de +3 à un seul jet de sauvegarde de Constitution, de Sagesse ou de Charisme effectué au cours des 14 heures suivantes.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Lys de flamme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Huile (flasque)",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Racine de theki",
+          "flags_mastercrafted_products_0_components_0_name": "Baume de feu",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "kAh3in8iDCXmnP5N": {
+          "name": "Antitoxine supérieure",
+          "text": "<p>Ce liquide trouble, orange citrouille, confère pendant 12 heures l'avantage aux jets de sauvegarde contre les dégâts de poison ou l'état empoisonné. Pendant cette période, le buveur ne subit pas non plus les dégâts persistants des poisons et ses points de vie ne peuvent pas tomber à 0 à cause de dégâts de poison.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Racine de theki",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Herbe aigre",
+          "flags_mastercrafted_products_0_components_0_name": "Antitoxine supérieure",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "WwVq7PUuYYsZAOJK": {
+          "name": "Liqueur de vie",
+          "text": "<p>Cette potion rose vif est parfaitement transparente et contient l'image flottante d'un cœur rouge. Quel que soit l'angle sous lequel on la regarde, le cœur apparaît toujours de la même façon. Boire cette potion confère 2d6+2 points de vie temporaires.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Brindilles de muroosa",
+          "flags_mastercrafted_products_0_components_0_name": "Liqueur de vie",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "jc8YTjS1sl7NffP6": {
+          "name": "Élixir de vie de Murgaxor",
+          "text": "<p>Quiconque boit cette mixture a l'avantage aux jets de sauvegarde contre la mort pendant 24 heures.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Graine blanche d'orchidée fantôme",
+          "flags_mastercrafted_products_0_components_0_name": "Élixir de vie de Murgaxor",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "p9J6SjjNol4XW0lE": {
+          "name": "Pomme de senteur protectrice",
+          "text": "<p>Cette boule d'épices et de parfums aromatiques emplit d'une forte odeur une zone de 15 pieds de rayon pendant 24 heures après son déballage. Les morts-vivants de facteur de puissance 2 ou inférieur qui entrent dans cette zone doivent réussir un jet de sauvegarde de Sagesse DD 15 sous peine d'être renvoyés, comme avec l'aptitude Renvoi des morts-vivants du clerc.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_products_0_components_0_name": "Pomme de senteur protectrice",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "R6XAeSc7DOzxlLYc": {
+          "name": "Potion d'avantage",
+          "text": "<p>Quand vous buvez cette potion, vous avez l'avantage à un test de caractéristique, un jet d'attaque ou un jet de sauvegarde de votre choix effectué au cours de l'heure suivante. Cette potion prend la forme d'une brume dorée et scintillante qui se déplace et se verse comme de l'eau.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Fruit d'ombresaule",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Champignon arc-en-ciel",
+          "flags_mastercrafted_products_0_components_0_name": "Potion d'avantage",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "U67U3Euabjky6pZM": {
+          "name": "Potion de soins majeure",
+          "text": "<p>Vous récupérez 4d4 + 4 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de soins (majeure)",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "8cp016h21Y9vzdVy": {
+          "name": "Potion de puissance maximale",
+          "text": "<p>La première fois que vous lancez un sort infligeant des dégâts de niveau 4 ou inférieur dans un délai de 1 minute après avoir bu la potion, vous pouvez utiliser le résultat maximal de chaque dé au lieu de lancer les dés de dégâts. Ce liquide violet lumineux sent le sucre et la prune, mais a un goût de boue.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Racine de theki",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Feuille d'olisuba",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Lys des rêves",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de puissance maximale",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "EgooBQTAZu9NGASW": {
+          "name": "Potion de changement de forme",
+          "text": "<p>Cette étrange potion change de couleur et de transparence, ainsi que de forme et de matériau de récipient, chaque fois que personne ne la regarde. À l'ouverture, elle retrouve son récipient et son apparence d'origine : un liquide rose pâle dans lequel flottent de fines lamelles d'argent. Elle permet au buveur d'utiliser le sort modification d'apparence sur lui-même pendant 30 minutes, sans concentration.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Champignon arc-en-ciel",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Feuille d'olisuba",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de changement de forme",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "VmG0FaCCTpq7iHoL": {
+          "name": "Thé revigorant",
+          "text": "<p>Cette boisson chaude supprime un niveau d'épuisement chez quiconque la boit.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Rosée du matin",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Langue-de-chat",
+          "flags_mastercrafted_products_0_components_0_name": "Thé revigorant",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "e0GLn7T56ZlTKjT8": {
+          "name": "Antidote à la thessaltoxine",
+          "text": "<p>Cette potion semble changer de couleur et de texture à chaque regard. Quand vous la buvez, elle met fin à l'effet de métamorphose imposé par la thessaltoxine.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Graine blanche d'orchidée fantôme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Racine de theki",
+          "flags_mastercrafted_products_0_components_0_name": "Antidote à la thessaltoxine",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste en herbe",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        }
+      }
+    },
+    "5I27YMOas1stwQhb": {
+      "name": "Le Maître herboriste",
+      "flags_mastercrafted_description": "Contient des recettes de potions et d'onguents très rares",
+      "flags_mastercrafted_require": "Matériel d'herboriste",
+      "pages": {
+        "dJV88HdZ0TIDpRUc": {
+          "name": "Potion de protection",
+          "text": "<p>Un liquide trouble, gris acier, dans lequel flottent de minuscules perles jaunes, vertes, rouges, bleues, violettes, blanches et noires. Il immunise le buveur pendant 1 heure contre tous les états, sauf à terre, agrippé, entravé et inconscient.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Griffes immobiles",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Graine blanche d'orchidée fantôme",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de protection",
+          "flags_mastercrafted_recipeBook_name": "Le Maître herboriste",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "jPOHMPbNz3OR5iSn": {
+          "name": "Potion de soins suprême",
+          "text": "<p>Vous récupérez 10d4 + 20 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de soins (suprême)",
+          "flags_mastercrafted_recipeBook_name": "Le Maître herboriste",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "4ZqtL3fzeIfufAs8": {
+          "name": "Potion de vitalité",
+          "text": "<p>Le liquide écarlate de cette potion émet régulièrement une faible pulsation lumineuse évoquant un battement de cœur. La boire supprime tout épuisement et soigne toutes les maladies et tous les poisons du buveur. Pendant les 24 heures suivantes, celui-ci dispose du double de dés de vie à dépenser pendant les repos courts et récupère le maximum de points de vie pour chaque dé dépensé.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Rosée du matin",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Langue-de-chat",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Feuille d'olisuba",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de vitalité",
+          "flags_mastercrafted_recipeBook_name": "Le Maître herboriste",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        }
+      }
+    },
+    "8GvHIKEIldnqq66L": {
+      "name": "L'Alchimiste d'or",
+      "flags_mastercrafted_description": "Contient des recettes de préparations alchimiques très rares",
+      "flags_mastercrafted_require": "Matériel d'alchimiste",
+      "pages": {
+        "txuRWHzEZKeZwYok": {
+          "name": "Encre (légendaire)",
+          "text": "<p>Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveau 9.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Charbon de bois",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Huile d'ombresaule",
+          "flags_mastercrafted_products_0_components_0_name": "Encre (légendaire)",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "F9Uk5PWHwuqWtxhl": {
+          "name": "Huile d'affûtage",
+          "text": "<p>Cette huile transparente et gélatineuse scintille de minuscules éclats d'argent extrêmement fins. Elle peut enduire une arme tranchante ou perforante, ou jusqu'à 5 munitions infligeant des dégâts tranchants ou perforants. L'application prend 1 minute. Pendant 1 heure, l'objet enduit est magique et bénéficie d'un bonus de +3 aux jets d'attaque et de dégâts.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Ichor d'ankheg",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Épine d'argent",
+          "flags_mastercrafted_products_0_components_0_name": "Huile d'affûtage",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "LMdCVcUXoVpna6u3": {
+          "name": "Potion de vol",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse de vol égale à votre vitesse de marche et pouvez voler sur place. Si vous êtes dans les airs quand l'effet prend fin, vous tombez, sauf si vous disposez d'un autre moyen de rester en vol. Le liquide transparent flotte au sommet du récipient et contient des impuretés blanches et nuageuses.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Volute d'élémentaire de l'air",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Ortie chantante",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de vol",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "nOloEO2eB7DpY3Df": {
+          "name": "Potion d'invisibilité",
+          "text": "<p>Le récipient de cette potion semble vide, mais paraît contenir un liquide lorsqu'on le manipule. Quand vous la buvez, vous devenez invisible pendant 1 heure. Tout ce que vous portez ou transportez devient invisible avec vous. L'effet prend fin prématurément si vous attaquez ou lancez un sort.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Griffe de skulque",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Tabouret de fée",
+          "flags_mastercrafted_products_0_components_0_name": "Potion d'invisibilité",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "3eSYQ0j8bEh35NSp": {
+          "name": "Potion de longévité",
+          "text": "<p>Quand vous buvez cette potion, votre âge physique diminue de 1d6 + 6 ans, jusqu'à un minimum de 13 ans. Chaque fois que vous buvez ensuite une potion de longévité, vous avez 10 % de chances cumulatives de vieillir au contraire de 1d6 + 6 ans. Une queue de scorpion, un croc de vipère, une araignée morte et un minuscule cœur qui, contre toute logique, bat encore sont suspendus dans ce liquide ambré. Ces ingrédients disparaissent à l'ouverture de la potion.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Cœur de diablotin",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de longévité",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "jlAMo2ZY4E5DERLM": {
+          "name": "Potion de possibilité",
+          "text": "<p>Quand vous buvez cette potion transparente, vous gagnez deux fragments de possibilité. Chacun ressemble à une minuscule perle d'énergie grisâtre qui vous suit en restant constamment à 1 pied ou moins de vous. Chaque fragment dure 8 heures ou jusqu'à son utilisation. Lorsque vous effectuez un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez dépenser un fragment pour lancer un d20 supplémentaire et choisir lequel des d20 utiliser. Vous pouvez aussi dépenser un fragment lorsqu'une attaque vous prend pour cible, lancer un d20 et choisir lequel des d20 utiliser : le vôtre ou celui de l'attaquant. Si le jet de d20 initial bénéficie de l'avantage ou subit le désavantage, vous lancez votre d20 après l'application de cet avantage ou désavantage au jet initial. Tant que vous possédez au moins un fragment de possibilité provenant de cette potion, vous ne pouvez pas obtenir d'autre fragment de possibilité, quelle qu'en soit la source.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Griffe de skulque",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Ectoplasme",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de possibilité",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "XFdwKExMp7J1uNGB": {
+          "name": "Potion de vitesse",
+          "text": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort hâte pendant 1 minute (sans concentration). Son liquide jaune est strié de noir et tourbillonne de lui-même.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Serre d'aigle",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Mousse de foudre",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Sucre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de vitesse",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "MN89N5N5mGxlJ4wc": {
+          "name": "Potion de vision véritable",
+          "text": "<p>Boire cette potion confère la vision véritable sur une portée de 120 pieds pendant 1 heure.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Tabouret de fée",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Larmes de nothic",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de vision véritable",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "An1iGLPXLBufbV8V": {
+          "name": "Potion de mana supérieure",
+          "text": "<p>D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 8 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 8 points de sorcellerie.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Parasol de pixie",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Épine d'argent",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Sang de dragon",
+          "flags_mastercrafted_ingredients_3_components_0_name": "Ichor de remorhaz",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de mana supérieure",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste d'or",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        }
+      }
+    },
+    "I6AfxRN9aPoyBgGx": {
+      "name": "L'Herboriste épanoui",
+      "flags_mastercrafted_description": "Contient des recettes de potions et d'onguents rares",
+      "flags_mastercrafted_require": "Matériel d'herboriste",
+      "pages": {
+        "5L3zJkxiSYCvHiXR": {
+          "name": "Élixir de santé",
+          "text": "<p>Quand vous buvez cette potion, elle soigne toutes vos maladies et supprime les états aveuglé, assourdi, paralysé et empoisonné. De minuscules bulles lumineuses flottent dans ce liquide rouge transparent. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Tabouret de fée",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Branchiflore",
+          "flags_mastercrafted_products_0_components_0_name": "Élixir de santé",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "9qfISNlcCD9GMwhp": {
+          "name": "Chance liquide",
+          "text": "<p>Impossible à distinguer visuellement de l'eau, ce liquide a le goût et l'odeur du fruit préféré du buveur. Il confère l'avantage à tous les tests de Tromperie, de Perspicacité et de Persuasion pendant 3 heures.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Champignon arc-en-ciel",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Brindilles de muroosa",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Tabouret de fée",
+          "flags_mastercrafted_products_0_components_0_name": "Chance liquide",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "gIzqQdX7cCAuBR5L": {
+          "name": "Potion de métamorphose",
+          "text": "<p>Une potion vert pâle presque transparente contenant une projection de créature qui change constamment de forme. Elle permet au buveur d'utiliser le sort métamorphose sur lui-même pendant 15 minutes, sans concentration.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Champignon arc-en-ciel",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Lys des rêves",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Fruit d'ombresaule",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de métamorphose",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "o5gI78XYYEOdWPce": {
+          "name": "Potion de restauration",
+          "text": "<p>Des images de fibres musculaires, de vaisseaux sanguins et de fragments d'organes flottent dans cette potion violette. La boire fait repousser en une semaine les parties du corps et les organes détruits ou manquants. Cette repousse provoque de fortes démangeaisons et parfois des douleurs irritantes aux endroits concernés.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Rosée acide",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Rosée du matin",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de restauration",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "eoI7rqGNihPixrVQ": {
+          "name": "Potion de réanimation",
+          "text": "<p>Cette potion noire et entièrement opaque contient un point lumineux suspendu en son centre. Elle n'a aucun effet sur les vivants, mais la verser dans la gorge d'une personne morte depuis moins d'une minute la ranime avec 1 point de vie. Elle ne fonctionne pas sur une personne morte de vieillesse et ne peut pas restaurer des parties du corps manquantes.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Rosée acide",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Lys des rêves",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Graine blanche d'orchidée fantôme",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de réanimation",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "wr98OiJ0B8egc2sZ": {
+          "name": "Potion de soins supérieure",
+          "text": "<p>Vous récupérez 8d4 + 8 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de soins (supérieure)",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "iJ99JvzU1KTqlXDE": {
+          "name": "Teinture de fléau des loups-garous",
+          "text": "<p>Tout lycanthrope qui boit cette teinture doit effectuer un jet de sauvegarde de Constitution DD 19. En cas d'échec, il subit 3d10 dégâts nécrotiques et doit reprendre sa forme humanoïde s'il ne l'avait pas déjà. Il ne peut ensuite plus changer de forme pendant 24 heures. En cas de réussite, il ne subit que la moitié de ces dégâts.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Aconit tue-loup",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Épine d'argent",
+          "flags_mastercrafted_products_0_components_0_name": "Teinture de fléau des loups-garous",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste épanoui",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        }
+      }
+    },
+    "NYCAP1xZtqmlJQKO": {
+      "name": "L'Empoisonneur raffiné",
+      "flags_mastercrafted_description": "Contient des recettes de poisons rares",
+      "flags_mastercrafted_require": "Matériel d'empoisonneur",
+      "pages": {
+        "K4oRqJs1SLqhcJzG": {
+          "name": "Vapeurs d'othur brûlé",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 sous peine de subir 10 (3d6) dégâts de poison. Elle doit répéter ce jet au début de chacun de ses tours. À chaque nouvel échec, elle subit 3 (1d6) dégâts de poison. Le poison prend fin après trois réussites.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Fleur de cendre",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Traque-lune",
+          "flags_mastercrafted_products_0_components_0_name": "Vapeurs d'othur brûlé (inhalation)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "7LcPZ93HTVxeqkRP": {
+          "name": "Poudre du diable",
+          "text": "<p>Cette poudre rouge très fine, à l'arôme légèrement fumé, doit être soufflée au visage de la cible avant de se disperser sans danger. La cible doit effectuer un jet de sauvegarde de Charisme DD 18. En cas d'échec, sa perception de la réalité est altérée pendant 1 heure : elle voit un monde infernal peuplé de créatures abjectes et devient extrêmement sensible à l'intimidation, à la persuasion agressive et à la tromperie. En cas de réussite, elle devient légèrement paranoïaque et craintive.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Trompette des anges",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Spores de flétrissure",
+          "flags_mastercrafted_products_0_components_0_name": "Poudre du diable",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "Mn19pjNXzZMY3IcD": {
+          "name": "Essence de Dracula",
+          "text": "<p>Conservé dans une fiole de cristal, ce poison ressemble à du sang frais constamment en mouvement, comme s'il cherchait à s'échapper. À l'ouverture, il s'immobilise et prend une couleur rouille. Si on le boit ou s'il entre dans le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Constitution DD 18. En cas de réussite, elle vomit tout le contenu de son estomac et subit 2d8 dégâts de poison.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Sang de Dracula",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Sang de dragon",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Sanguinaire",
+          "flags_mastercrafted_ingredients_3_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Essence de Dracula",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "NKdDChjib9dniGla": {
+          "name": "Poison drow",
+          "text": "<p>Ce poison est généralement fabriqué uniquement par les drows, dans un lieu totalement à l'abri du soleil. Une créature qui y est exposée doit réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonnée pendant 1 heure. Si elle échoue de 5 ou plus, elle est également inconsciente tant qu'elle est ainsi empoisonnée. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Venin de drider",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Racine de mandragore",
+          "flags_mastercrafted_products_0_components_0_name": "Poison drow (blessure)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "X2kkJ0ysyP8LcCiS": {
+          "name": "Essence d'éther",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 8 heures. La créature empoisonnée est inconsciente. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Belladone",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Racine de mandragore",
+          "flags_mastercrafted_products_0_components_0_name": "Essence d'éther (inhalation)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "6zZuls0y3GbQvpRc": {
+          "name": "Fléau des mages",
+          "text": "<p>Cette potion ressemble à du vin rouge mais sent les vieilles bottes. La boire confère le don Tueur de mages pendant 1 minute.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Aconit tue-loup",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Venin de drider",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Venin de serpent",
+          "flags_mastercrafted_products_0_components_0_name": "Fléau des mages",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "SXU3Xxqu4Nyt3lou": {
+          "name": "Huile de taggit",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonnée pendant 24 heures. La créature empoisonnée est inconsciente. Elle se réveille si elle subit des dégâts.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Huile (flasque)",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Aconit tue-loup",
+          "flags_mastercrafted_products_0_components_0_name": "Huile de taggit (contact)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "rj0QOYR0J8YCnhe3": {
+          "name": "Thessaltoxine",
+          "text": "<p>Ce poison a été créé à l'origine à partir du sang de l'artificier Thessalar. Une créature qui y est exposée doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de changer de forme comme sous l'effet du sort métamorphose. Sa nouvelle forme est une bête aléatoire ou une créature qu'elle a vue au cours des 24 dernières heures, au choix du MJ. La transformation dure jusqu'à la fin de son prochain repos long. Ni dissipation de la magie ni délivrance des malédictions ne peuvent y mettre fin, mais restauration supérieure lui rend sa forme d'origine.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Sang de Dracula",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Champignon à chapeau noir",
+          "flags_mastercrafted_products_0_components_0_name": "Thessaltoxine",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "6TBoFWq6asyGmxEZ": {
+          "name": "Torpeur",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 4d6 heures. La créature empoisonnée est neutralisée.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Racine de mandragore",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Mousse de foudre",
+          "flags_mastercrafted_products_0_components_0_name": "Torpeur (ingestion)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur raffiné",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        }
+      }
+    },
+    "PAOPwBTXtfBFEHEp": {
+      "name": "L'Herboriste débutant",
+      "flags_mastercrafted_description": "Contient des recettes de potions et d'onguents courants",
+      "flags_mastercrafted_require": "Matériel d'herboriste",
+      "pages": {
+        "ity9cXkFNnQPwxna": {
+          "name": "Antitoxine",
+          "text": "<p>Une créature qui boit le contenu de cette fiole a l'avantage aux jets de sauvegarde contre le poison pendant 1 heure. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Baie de givre éternel",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Langue-de-chat",
+          "flags_mastercrafted_products_0_components_0_name": "Antitoxine",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "LhT4Ep6lzN7CrkfJ": {
+          "name": "Potion de soins",
+          "text": "<p>Un personnage qui boit le liquide rouge magique de cette fiole récupère 2d4 + 2 points de vie. Boire une potion ou l'administrer nécessite une action.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Amanite rouge",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de soins",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "kQePYEhGoWKnhw5X": {
+          "name": "Baume de muroosa",
+          "text": "<p>Cette pâte issue de l'arbuste muroosa est connue pour prévenir les coups de soleil, mais elle est aussi ignifuge. Après avoir passé 1 minute à appliquer un quart de pinte de ce baume sur votre peau, vous gagnez la résistance aux dégâts de feu pendant 1 heure.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Lys de flamme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Brindilles de muroosa",
+          "flags_mastercrafted_products_0_components_0_name": "Baume de muroosa",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "ADog3VkFytzM0b6x": {
+          "name": "Piments revigorants",
+          "text": "<p>Ces en-cas bénéfiques sont très piquants et agréablement croquants. Manger un piment revigorant confère 3 points de vie temporaires.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Pois de feu",
+          "flags_mastercrafted_products_0_components_0_name": "Piments revigorants",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "289OcBgwm4aWErM9": {
+          "name": "Potion de langage des plantes",
+          "text": "<p>Un liquide brun transparent contenant des brindilles et des feuilles vert vif. Il devient jaune pâle à l'ouverture. Il confère au buveur la capacité de communiquer avec les plantes pendant 5 minutes.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Langue-de-chat",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Brindilles de muroosa",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de langage des plantes",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "4ZCAMgo1EDWuTfjI": {
+          "name": "Onguent apaisant",
+          "text": "<p>Un onguent collant à l'odeur aigre qui s'applique sur les blessures. Lorsque vous dépensez des dés de vie pour récupérer des points de vie sous son effet, vous récupérez 3 points de vie supplémentaires par dé dépensé. L'effet dure 1 heure après l'application.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Herbe aigre",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Rosée acide",
+          "flags_mastercrafted_products_0_components_0_name": "Onguent apaisant",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "ARnAzgUwQlCWrN8o": {
+          "name": "Philtre désaltérant",
+          "text": "<p>Une potion bleue contenant toujours 2 glaçons, un brin de menthe et 2 rondelles de citron. Elle est toujours fraîche au toucher. Elle étanche complètement la soif et supprime le besoin de boire pendant 2 jours. Les voyageurs des caravanes la recherchent particulièrement près des déserts.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Brindilles de muroosa",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Branchiflore",
+          "flags_mastercrafted_products_0_components_0_name": "Philtre désaltérant",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        },
+        "Wi0OKK1upyW9iSV9": {
+          "name": "Huile d'ombresaule",
+          "text": "<p>On peut extraire une huile bleu sombre du fruit de l'ombresaule. Une créature peut utiliser son action pour appliquer cette huile à une autre créature pétrifiée depuis moins de 1 minute ; l'état pétrifié de cette créature prend fin au début de ce qui aurait été son prochain tour.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Fruit d'ombresaule",
+          "flags_mastercrafted_products_0_components_0_name": "Huile d'ombresaule",
+          "flags_mastercrafted_recipeBook_name": "L'Herboriste débutant",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de potions et d'onguents courants",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'herboriste"
+        }
+      }
+    },
+    "QtoUfcgW1DW3JSaR": {
+      "name": "L'Alchimiste brasseur",
+      "flags_mastercrafted_description": "Contient des recettes de préparations alchimiques courantes",
+      "flags_mastercrafted_require": "Matériel d'alchimiste",
+      "pages": {
+        "CO1mvxWQOV055ImR": {
+          "name": "Feu grégeois",
+          "text": "<p>Ce liquide collant et adhésif s'enflamme au contact de l'air. Au prix d'une action, vous pouvez lancer cette flasque à une distance maximale de 20 pieds ; elle se brise à l'impact. Effectuez une attaque à distance contre une créature ou un objet, en traitant le feu grégeois comme une arme improvisée. Si l'attaque touche, la cible subit 1d4 dégâts de feu au début de chacun de ses tours. Une créature peut mettre fin à ces dégâts en utilisant son action pour effectuer un test de Dextérité DD 10 afin d'éteindre les flammes.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Pois de feu",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Huile (flasque)",
+          "flags_mastercrafted_products_0_components_0_name": "Feu grégeois (flasque)",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "uVEipdGcDYXRMoLo": {
+          "name": "Souffle en bouteille",
+          "text": "<p>Cette bouteille contient une bouffée d'air élémentaire. Lorsque vous l'inhalez, vous pouvez soit l'expirer, soit retenir votre souffle. Si vous expirez, vous bénéficiez de l'effet du sort bourrasque. Si vous retenez votre souffle, vous n'avez pas besoin de respirer pendant 1 heure, mais vous pouvez mettre fin à cet avantage prématurément, par exemple pour parler. Y mettre fin de cette manière ne vous confère pas l'effet de l'expiration.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Volute d'élémentaire de l'air",
+          "flags_mastercrafted_products_0_components_0_name": "Souffle en bouteille",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "TGFmsjFt0iMyTVKM": {
+          "name": "Poudre explosive",
+          "text": "<p>Cette poudre alchimique instable est contenue dans un petit sachet. Elle explose lorsqu'on l'allume avec une flamme nue ou une mèche. Chaque créature située à 5 pieds ou moins du sachet qui explose doit effectuer un jet de sauvegarde de Dextérité DD 13. Elle subit 3d6 dégâts contondants en cas d'échec, ou la moitié en cas de réussite. Un personnage peut attacher plusieurs sachets de poudre explosive ensemble pour les faire exploser simultanément. Chaque sachet supplémentaire augmente les dégâts de 1d6 (jusqu'à un maximum de 10d6) et le rayon de l'explosion de 5 pieds (jusqu'à un maximum de 20 pieds).</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Lys de flamme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Charbon de bois",
+          "flags_mastercrafted_products_0_components_0_name": "Poudre explosive",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "gYsG9jS3k42ulVso": {
+          "name": "Faux sang",
+          "text": "<p>Préparée à partir de sanguinaire et de petites quantités de poudre de fer, cette mixture a l'apparence, l'odeur et même le goût du vrai sang. Un test d'Investigation de 15 ou plus, ou toute magie d'identification, révèle sa véritable nature.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Sanguinaire",
+          "flags_mastercrafted_products_0_components_0_name": "Faux sang",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "az0D84G2ch4Sh3TH": {
+          "name": "Grenade fumigène",
+          "text": "<p>Au prix d'une action, un personnage peut lancer une grenade vers un point situé à 60 pieds ou moins. Avec un lance-grenades, il peut la propulser jusqu'à 120 pieds. Un round après l'atterrissage d'une grenade fumigène, elle émet un nuage de fumée qui crée une zone à visibilité nulle dans un rayon de 20 pieds. Un vent modéré (au moins 10 miles par heure) disperse la fumée en 4 rounds ; un vent fort (au moins 20 miles par heure) la disperse en 1 round.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Lys de flamme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Lichen de givre",
+          "flags_mastercrafted_products_0_components_0_name": "Grenade fumigène",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "ARoLqAk1XK25LQA0": {
+          "name": "Encre",
+          "text": "<p>Une bouteille de 5 onces destinée à l'écriture.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Charbon de bois",
+          "flags_mastercrafted_products_0_components_0_name": "Encre (bouteille de 5 onces)",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "ZYrMMt3FM1qvGbBe": {
+          "name": "Potion d'escalade",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse d'escalade égale à votre vitesse de marche. Pendant cette période, vous avez l'avantage aux tests de Force (Athlétisme) effectués pour escalader. La potion se compose de couches brunes, argentées et grises qui évoquent des strates rocheuses. Secouer la bouteille ne mélange pas les couleurs.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Poils d'araignée-loup géante",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Griffe de skulque",
+          "flags_mastercrafted_products_0_components_0_name": "Potion d'escalade",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "gprhKm0fZ36B3o4Y": {
+          "name": "Potion de nage",
+          "text": "<p>Cette potion se compose de couches de liquide bleu sarcelle, bleu clair et indigo qui évoquent les profondeurs de l'océan. Secouer la bouteille ne mélange pas les couleurs. Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse de nage égale à votre vitesse de marche. Pendant cette période, vous avez l'avantage aux tests de Force (Athlétisme) effectués pour nager.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Écaille de quipper",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de nage",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "Dkvqc7zlvq5891Vl": {
+          "name": "Sels de lucidité",
+          "text": "<p>Les sels de lucidité proviennent d'une substance cristalline naturelle découverte dans les étendues sauvages du rivage de Miskath. Ces cristaux écarlates sont extraits de filons souterrains, comme ceux à l'entrée de la fosse de Miskath, et se trouvent aussi dans de petites géodes près de sites ravagés par la Calamité. Les sels de lucidité se consomment par voie orale, en doses de la taille d'une pastille. Leurs consommateurs réguliers se reconnaissent aux traces écarlates autour de la bouche. Une créature qui prend une dose de sels de lucidité a l'avantage à tous ses tests d'Intelligence pendant 1d4 heures. Pour chaque dose de sels de lucidité consommée, la créature doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de gagner un niveau d'épuisement. Cet effet se cumule avec les doses successives.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Géode de sels de lucidité",
+          "flags_mastercrafted_products_0_components_0_name": "Sels de lucidité",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste brasseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques courantes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        }
+      }
+    },
+    "Y1HKidmmaWiVlrZx": {
+      "name": "L'Alchimiste distillateur",
+      "flags_mastercrafted_description": "Contient des recettes de préparations alchimiques peu communes",
+      "flags_mastercrafted_require": "Matériel d'alchimiste",
+      "pages": {
+        "oYnwlmlUkyypTVEu": {
+          "name": "Encre (rare)",
+          "text": "<p>Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveaux 1 à 5.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Charbon de bois",
+          "flags_mastercrafted_products_0_components_0_name": "Encre (rare)",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "0Mnw4FrQQu4zriTf": {
+          "name": "Encre invisible",
+          "text": "<p>Une bouteille de 1 once d'encre qui ne peut être rendue visible que par des sorts, des aptitudes ou des objets permettant de voir l'invisible, ou par l'application d'un acide doux.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Parasol de pixie",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Encre (bouteille de 5 onces)",
+          "flags_mastercrafted_products_0_components_0_name": "Encre invisible",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "rTRg4ct1fBAAHKdM": {
+          "name": "Potion de mana mineure",
+          "text": "<p>D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 2 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 2 points de sorcellerie.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Parasol de pixie",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Épine d'argent",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de mana mineure",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "dWI1lF2dxPE6m4a0": {
+          "name": "Huile de minuit",
+          "text": "<p>Lorsqu'elle alimente une lanterne, l'huile de minuit émet une lumière vive sur 5 pieds et une lumière faible sur 5 pieds supplémentaires pendant 8 heures. Une créature qui reste dans cette lumière durant les 8 heures bénéficie de tous les avantages d'un repos long sans dormir, à condition de ne pratiquer que des activités légères : lecture, étude, conversation, etc.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Huile (flasque)",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Parasol de pixie",
+          "flags_mastercrafted_products_0_components_0_name": "Huile de minuit",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "glZxRHbDwP2CubJx": {
+          "name": "Huile glissante",
+          "text": "<p>Cette huile peut recouvrir une créature de taille M ou inférieure, ainsi que tout son équipement porté et transporté (une fiole supplémentaire est nécessaire par catégorie de taille au-dessus de M). L'application prend 10 minutes. La créature affectée bénéficie ensuite de l'effet du sort liberté de mouvement pendant 8 heures. Vous pouvez aussi verser l'huile au sol au prix d'une action : elle couvre alors un carré de 10 pieds de côté et reproduit l'effet du sort graisse dans cette zone pendant 8 heures.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Huile (flasque)",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Mucus de charognard rampant",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Gouttelettes d'élémentaire de l'eau",
+          "flags_mastercrafted_products_0_components_0_name": "Huile glissante",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "SgRzl4Eu5mKkBiTt": {
+          "name": "Potion d'amitié avec les animaux",
+          "text": "<p>Agiter ce liquide boueux fait apparaître de petits fragments : une écaille de poisson, une langue de colibri, une griffe de chat ou un poil d'écureuil. Quand vous buvez cette potion, vous pouvez lancer à volonté le sort amitié avec les animaux (jet de sauvegarde de Sagesse DD 13) pendant 1 heure.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Langue-de-chat",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Écaille de quipper",
+          "flags_mastercrafted_products_0_components_0_name": "Potion d'amitié avec les animaux",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "tAMZlEEwbWMEtNV7": {
+          "name": "Potion de souffle de feu",
+          "text": "<p>Après avoir bu cette potion, vous pouvez utiliser une action bonus pour cracher du feu sur une cible située à 30 pieds ou moins. Elle doit effectuer un jet de sauvegarde de Dextérité DD 13 et subit 4d6 dégâts de feu en cas d'échec, ou la moitié en cas de réussite. L'effet prend fin après trois souffles de feu ou au bout de 1 heure. Le liquide orange de cette potion vacille. De la fumée remplit le haut du récipient et s'en échappe à chaque ouverture.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Fleur de cendre",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Braises d'élémentaire du feu",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de souffle de feu",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "wpFw5xYseRYVI8Mg": {
+          "name": "Potion de croissance",
+          "text": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet « agrandissement » du sort agrandissement/rapetissement pendant 1d4 heures (sans concentration). La teinte rouge du liquide se dilate continuellement à partir d'une minuscule perle pour colorer le liquide transparent qui l'entoure, puis se contracte. Secouer la bouteille n'interrompt pas ce phénomène.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Herbe aigre",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Baie de givre éternel",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Poils d'araignée-loup géante",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de croissance",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "NuIpGrkmqWxubS1O": {
+          "name": "Potion de résistance à l'acide",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Mucus de charognard rampant",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance à l'acide",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "o2nByTa4dtmJPD6J": {
+          "name": "Potion de résistance au froid",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Lichen de givre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance au froid",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "reuk1IGlqUQDMZhm": {
+          "name": "Potion de résistance au feu",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Fleur de cendre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance au feu",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "E8cC8ru2j6te2VMP": {
+          "name": "Potion de résistance à la force",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Salive d'amphibien",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance à la force",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "1b4hO0tlZN7KmzAB": {
+          "name": "Potion de résistance à la foudre",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Mousse de foudre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance à la foudre",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "x36PJuJJYY6LvBRc": {
+          "name": "Potion de résistance nécrotique",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Belladone",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance nécrotique",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "nHunvxTJSUFnKuoO": {
+          "name": "Potion de résistance au poison",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Cailloux d'élémentaire de la terre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance au poison",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "uac8Mug0nWiXmL9J": {
+          "name": "Potion de résistance psychique",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Satyre fétide de flagelleur mental",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance psychique",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "Q4MwEJILByZ0hCPL": {
+          "name": "Potion de résistance radiante",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Herbe aigre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance radiante",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "UJylR18SvDhITZPZ": {
+          "name": "Potion de résistance au tonnerre",
+          "text": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Ortie chantante",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de résistance au tonnerre",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "bQtMzkaiPCYMGpPe": {
+          "name": "Potion de respiration aquatique",
+          "text": "<p>Vous pouvez respirer sous l'eau pendant 1 heure après avoir bu cette potion. Son liquide vert trouble sent la mer et contient une bulle flottante semblable à une méduse.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Branchiflore",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Gouttelettes d'élémentaire de l'eau",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de respiration aquatique",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste distillateur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques peu communes",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        }
+      }
+    },
+    "Y5RCYXMYgofKIy3O": {
+      "name": "L'Empoisonneur épicé",
+      "flags_mastercrafted_description": "Contient des recettes de poisons peu communs",
+      "flags_mastercrafted_require": "Matériel d'empoisonneur",
+      "pages": {
+        "FxhUDSg6AoBEUbXm": {
+          "name": "Poudre des anges",
+          "text": "<p>Cette poudre blanche très fine, à l'arôme légèrement sucré, doit être soufflée au visage de la cible avant de se disperser sans danger. La cible doit effectuer un jet de sauvegarde de Charisme DD 15. En cas d'échec, sa perception de la réalité est altérée pendant 1 heure : elle considère tout le monde comme des amis de confiance et devient extrêmement sensible à la persuasion non agressive, à la tromperie et à la séduction. Une réussite ne produit aucun effet.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Trompette des anges",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Lys des rêves",
+          "flags_mastercrafted_products_0_components_0_name": "Poudre des anges",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "uafd2kq3skHwWB1x": {
+          "name": "Sang d'assassin",
+          "text": "<p>Une créature exposée à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d'échec, elle subit 6 (1d12) dégâts de poison et est empoisonnée pendant 24 heures. En cas de réussite, elle ne subit que la moitié des dégâts et n'est pas empoisonnée.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Poison rudimentaire (fiole)",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Traque-lune",
+          "flags_mastercrafted_ingredients_1_components_1_name": "Belladone",
+          "flags_mastercrafted_products_0_components_0_name": "Sang d'assassin (ingestion)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "DHmhsJ9pN6pQJM7U": {
+          "name": "Extrait de baie funeste",
+          "text": "<p>Rose et parfumé à la fraise, ce poison impose au buveur un jet de sauvegarde de Constitution DD 14. En cas d'échec, il est empoisonné et subit le désavantage aux jets de sauvegarde de Force, de Constitution et de Dextérité pendant 15 minutes. Une réussite ne produit aucun effet.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Baie funeste",
+          "flags_mastercrafted_products_0_components_0_name": "Extrait de baie funeste",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "YMiJHvb48hyaurRW": {
+          "name": "Pâte noire",
+          "text": "<p>Ce poison a été conçu pour ressembler à un produit d'entretien du cuir ou à du cirage. Un vêtement traité brille comme neuf, mais toute créature qui le porte pendant un total de 12 heures, consécutives ou non, doit effectuer un jet de sauvegarde de Constitution DD 15. En cas d'échec, elle subit 1d8 dégâts de poison. Tant que le vêtement n'est pas retiré, elle doit répéter ce jet toutes les 12 heures pendant les 3 mois suivants.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Champignon à chapeau noir",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Sève noire",
+          "flags_mastercrafted_products_0_components_0_name": "Pâte noire",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "MZGY872408kIGqpk": {
+          "name": "Retard ciblé",
+          "text": "<p>Ce liquide noir est très visqueux, avec la consistance d'une mélasse concentrée. Lorsqu'il entre en contact avec le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Sagesse DD 15. En cas d'échec, elle subit l'effet du sort lenteur et peut répéter le jet à la fin de chacun de ses tours. En cas de réussite, sa vitesse de déplacement est réduite de 5 pieds pendant 3 tours.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Griffes immobiles",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Amanite phalloïde",
+          "flags_mastercrafted_products_0_components_0_name": "Retard ciblé",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "l7wx8rgo6DxgYiXa": {
+          "name": "Pâte de lave",
+          "text": "<p>Cette préparation ressemble à une simple pâte jaunâtre, mais elle est loin d'être ordinaire. Appliquée sur la peau ou les vêtements, elle impose un jet de sauvegarde de Constitution DD 14. En cas d'échec, la cible subit 2d6 dégâts de feu et devient vulnérable aux dégâts de feu pour 1 seule occurrence au cours des 12 heures suivantes. En cas de réussite, elle ne subit que la moitié des dégâts et ne devient pas vulnérable.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Lys de flamme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Pois de feu",
+          "flags_mastercrafted_products_0_components_0_name": "Pâte de lave",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "p5s7M61UhmCbQ93M": {
+          "name": "Malice",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 1 heure. La créature empoisonnée est aveuglée. Ces poisons sont des poudres ou des gaz qui agissent lorsqu'on les inhale. Souffler la poudre ou libérer le gaz expose les créatures dans un cube de 5 pieds de côté. Le nuage se dissipe aussitôt. Retenir sa respiration ne protège pas contre ces poisons : ils affectent les muqueuses nasales, les canaux lacrymaux et d'autres parties du corps.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Rosée du matin",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Sève noire",
+          "flags_mastercrafted_products_0_components_0_name": "Malice (inhalation)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "21x6A3PqNVazzh5P": {
+          "name": "Teinture pâle",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 sous peine de subir 3 (1d6) dégâts de poison et d'être empoisonnée. Elle doit répéter le jet de sauvegarde toutes les 24 heures et subit 3 (1d6) dégâts de poison à chaque échec. Jusqu'à la fin du poison, ses dégâts ne peuvent être soignés par aucun moyen. Après sept réussites, l'effet prend fin et la créature peut se soigner normalement.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Sève noire",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Amanite phalloïde",
+          "flags_mastercrafted_products_0_components_0_name": "Teinture pâle (ingestion)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "D19p9BarGrmbHCa0": {
+          "name": "Philtre d'amour",
+          "text": "<p>La prochaine fois que vous voyez une créature dans les 10 minutes suivant l'absorption de ce philtre, vous êtes charmé par elle pendant 1 heure. Si elle appartient à une espèce et à un genre qui vous attirent habituellement, vous la considérez comme votre grand amour tant que vous êtes charmé. Le liquide rose et effervescent contient une discrète bulle en forme de cœur.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Tabouret de fée",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Venin de serpent",
+          "flags_mastercrafted_products_0_components_0_name": "Philtre d'amour",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "6gPF0T5pLm5rN0BN": {
+          "name": "Potion de poison",
+          "text": "<p>Cette mixture a l'apparence, l'odeur et le goût d'une potion de soins ou d'une autre potion bénéfique. C'est pourtant un poison dissimulé par une illusion magique. Un sort d'identification révèle sa véritable nature. Si vous la buvez, vous subissez 3d6 dégâts de poison et devez réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonné. Au début de chacun de vos tours, tant que vous êtes ainsi empoisonné, vous subissez 3d6 dégâts de poison. À la fin de chacun de vos tours, vous pouvez répéter le jet de sauvegarde. Chaque réussite diminue de 1d6 les dégâts de poison subis lors des tours suivants. Le poison prend fin lorsque les dégâts sont réduits à 0.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Potion de soins",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Baie funeste",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de poison",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "bLwzkXphATo036ck": {
+          "name": "Sérum de vérité",
+          "text": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 sous peine d'être empoisonnée pendant 1 heure. Elle ne peut pas mentir sciemment, comme sous l'effet d'un sort de zone de vérité.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Tabouret de fée",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Satyre fétide de flagelleur mental",
+          "flags_mastercrafted_products_0_components_0_name": "Sérum de vérité (ingestion)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur épicé",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons peu communs",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        }
+      }
+    },
+    "Z8mDiWQCt1S1FJbL": {
+      "name": "L'Empoisonneur du piment fantôme",
+      "flags_mastercrafted_description": "Contient des recettes de poisons très rares",
+      "flags_mastercrafted_require": "Matériel d'empoisonneur",
+      "pages": {
+        "PKcgIDdzOaIKNTa5": {
+          "name": "Sommeil mortel",
+          "text": "<p>Une créature qui ingère ce poison doit réussir un jet de sauvegarde de Constitution DD 19 sous peine d'être empoisonnée pendant 24 heures. Elle semble morte ; seul un test de Médecine DD 20 réussi permet de déterminer le contraire.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Thé revigorant",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Venin de ver pourpre",
+          "flags_mastercrafted_products_0_components_0_name": "Sommeil mortel",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur du piment fantôme",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "GPaOf1i74sVjighx": {
+          "name": "Essence de rage",
+          "text": "<p>Cette potion brune à la consistance boueuse devient transparente et rouge vif dès qu'on l'agite un peu. La boire confère l'aptitude Rage du barbare pendant 30 secondes. Si elle entre directement dans le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Constitution DD 16. En cas de réussite, elle bénéficie de Rage pendant 60 secondes. En cas d'échec, elle entre en rage pendant 30 secondes et doit attaquer au corps à corps la cible la plus proche. À partir du 2e tour suivant l'administration, elle peut effectuer un nouveau jet de sauvegarde de Constitution. Une réussite met fin à tous les effets. Cette potion n'affecte ni les artificiels ni les morts-vivants.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Sang de dragon",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Traque-lune",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Métal frappé par la foudre",
+          "flags_mastercrafted_products_0_components_0_name": "Essence de rage",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur du piment fantôme",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "w0onDyr8ZfkgWVN8": {
+          "name": "Larmes de minuit",
+          "text": "<p>Une créature qui ingère ce poison ne subit aucun effet avant les douze coups de minuit. S'il n'a pas été neutralisé d'ici là, elle doit effectuer un jet de sauvegarde de Constitution DD 17. Elle subit 31 (9d6) dégâts de poison en cas d'échec, ou la moitié en cas de réussite.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Amanite phalloïde",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Ichor d'ankheg",
+          "flags_mastercrafted_products_0_components_0_name": "Larmes de minuit (ingestion)",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur du piment fantôme",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        },
+        "U3ZLpfFEjXtOK2Ez": {
+          "name": "Eau de mort",
+          "text": "<p>Ce liquide a l'apparence, l'odeur et le goût de l'eau. Même la plupart des analyses alchimiques et magiques ne permettent pas de le distinguer de l'eau. Seul un sort d'identification lancé au niveau 7 ou supérieur, ou une analyse alchimique détaillée durant 24 heures et coûtant 300 po, révèle qu'il s'agit d'un des poisons les plus mortels qui soient.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Champignon à chapeau noir",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Venin de vouivre",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Lys des rêves",
+          "flags_mastercrafted_ingredients_3_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_products_0_components_0_name": "Eau de mort",
+          "flags_mastercrafted_recipeBook_name": "L'Empoisonneur du piment fantôme",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de poisons très rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'empoisonneur"
+        }
+      }
+    },
+    "iCmEjfnxejnskaz6": {
+      "name": "L'Alchimiste infuseur",
+      "flags_mastercrafted_description": "Contient des recettes de préparations alchimiques rares",
+      "flags_mastercrafted_require": "Matériel d'alchimiste",
+      "pages": {
+        "IEzbjRXPZGrPC2ul": {
+          "name": "Encre (très rare)",
+          "text": "<p>Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveaux 6 à 8.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Charbon de bois",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Fruit d'ombresaule",
+          "flags_mastercrafted_products_0_components_0_name": "Encre (très rare)",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "gFRIlDuVR6VrLeFK": {
+          "name": "Huile du fléau des dragons",
+          "text": "<p>Cette huile peut enduire une seule arme pour 3 utilisations, ou jusqu'à 3 munitions pour 1 utilisation chacune. Un dragon qui subit des dégâts d'une arme ou d'une munition enduite de cette huile subit 6d6 dégâts supplémentaires de l'attaque. L'huile sèche au bout de 1 heure et devient inerte.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Sang de dragon",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Venin de vouivre",
+          "flags_mastercrafted_products_0_components_0_name": "Huile du fléau des dragons",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "gIdiuQUQ5PnZwjBH": {
+          "name": "Potion de forme gazeuse",
+          "text": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort forme gazeuse pendant 1 heure (sans concentration), ou jusqu'à ce que vous mettiez fin à l'effet par une action bonus. Le récipient semble contenir une brume qui se déplace et se verse comme de l'eau.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Ectoplasme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Ortie chantante",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de forme gazeuse",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "V1p3TbMyPL2IUGt4": {
+          "name": "Potion de force de géant",
+          "text": "<p>Quand vous buvez cette potion, votre valeur de Force change pendant 1 heure. Le type de géant détermine cette valeur. La potion n'a aucun effet si votre Force est déjà égale ou supérieure à cette valeur. Un fragment d'ongle du type de géant correspondant flotte dans le liquide transparent de cette potion.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Lichen de givre",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Ongle de géant",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de force de géant",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "0OwfB5QPotucmbMb": {
+          "name": "Potion de mana",
+          "text": "<p>D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 4 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 4 points de sorcellerie.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Parasol de pixie",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Épine d'argent",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Sang de dragon",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de mana",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "zytRu5aVVID8Vfdv": {
+          "name": "Potion de rêves véridiques",
+          "text": "<p>Noir comme le néant, ce liquide semble produire des éclats de couleurs vives lorsqu'on le regarde du coin de l'œil. Si vous buvez cette potion avant de vous endormir, vos rêves vous montrent des visions véridiques du passé, du présent ou d'événements futurs possibles liés à une créature, un lieu ou un objet de votre choix. Le MJ détermine la nature et la durée de ces visions.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Larmes de nothic",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Fruit d'ombresaule",
+          "flags_mastercrafted_ingredients_1_components_1_name": "Huile d'ombresaule",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de rêves véridiques",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "Rp3jMOl4kf1oKRWS": {
+          "name": "Huile de forme éthérée",
+          "text": "<p>Des gouttelettes de cette huile grise et trouble se forment à l'extérieur du récipient et s'évaporent rapidement. L'huile peut recouvrir une créature de taille M ou inférieure ainsi que son équipement porté et transporté (une fiole supplémentaire est nécessaire par catégorie de taille au-dessus de M). L'application prend 10 minutes. La créature affectée bénéficie ensuite de l'effet du sort forme éthérée pendant 1 heure.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Ectoplasme",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Huile (flasque)",
+          "flags_mastercrafted_products_0_components_0_name": "Huile de forme éthérée",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "AwqQrWcIl9vW5rx6": {
+          "name": "Potion de clairvoyance",
+          "text": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort clairvoyance pendant 10 minutes. Un globe oculaire flotte dans ce liquide jaunâtre et disparaît à l'ouverture de la potion.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Rosée du matin",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Racine de mandragore",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de clairvoyance",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "4s661C7WYRQvWUSy": {
+          "name": "Potion de diminution",
+          "text": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet « rapetissement » du sort agrandissement/rapetissement pendant 1d4 heures (sans concentration). La teinte rouge du liquide se contracte continuellement en une minuscule perle, puis se dilate pour colorer le liquide transparent qui l'entoure. Secouer la bouteille n'interrompt pas ce phénomène.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Parasol de pixie",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Traque-lune",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de diminution",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "rCEz3SQBvvmvcS2F": {
+          "name": "Potion d'héroïsme",
+          "text": "<p>Pendant 1 heure après l'avoir bue, vous gagnez 10 points de vie temporaires qui durent 1 heure. Pendant la même durée, vous bénéficiez de l'effet du sort bénédiction (sans concentration). Cette potion bleue bouillonne et fume comme si elle était en ébullition.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Doigt de guenaude",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Langue-de-chat",
+          "flags_mastercrafted_products_0_components_0_name": "Potion d'héroïsme",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "eyu8AQbYdLbTNK7s": {
+          "name": "Potion d'invulnérabilité",
+          "text": "<p>Pendant 1 minute après avoir bu cette potion, vous avez la résistance à tous les dégâts. Son liquide sirupeux ressemble à du fer liquéfié.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Métal frappé par la foudre",
+          "flags_mastercrafted_products_0_components_0_name": "Potion d'invulnérabilité",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "6qXufoiUlVVJh2Ph": {
+          "name": "Potion de lecture des pensées",
+          "text": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort détection des pensées (jet de sauvegarde de Sagesse DD 13) pendant 10 minutes. Une nuée rose et ovoïde flotte dans le liquide dense et violet de cette potion.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Satyre fétide de flagelleur mental",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Traque-lune",
+          "flags_mastercrafted_products_0_components_0_name": "Potion de lecture des pensées",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        },
+        "x40zzC2e9OEfRAqY": {
+          "name": "Puissance de Thor",
+          "text": "<p>Cette masse agitée de liquide bleu profond est parcourue de traînées blanches évoquant des éclairs. Son récipient tremble constamment. Pendant 1 minute après avoir bu cette potion, chaque attaque d'arme au corps à corps qui touche une cible produit un fracas tonitruant et inflige 1d6 dégâts de tonnerre supplémentaires. Le nombre d'utilisations pendant cette durée n'est pas limité.</p>",
+          "flags_mastercrafted_ingredients_0_components_0_name": "Volute d'élémentaire de l'air",
+          "flags_mastercrafted_ingredients_0_components_1_name": "Ongle de géant",
+          "flags_mastercrafted_ingredients_1_components_0_name": "Mousse de foudre",
+          "flags_mastercrafted_ingredients_2_components_0_name": "Ortie chantante",
+          "flags_mastercrafted_products_0_components_0_name": "Puissance de Thor",
+          "flags_mastercrafted_recipeBook_name": "L'Alchimiste infuseur",
+          "flags_mastercrafted_recipeBook_description": "Contient des recettes de préparations alchimiques rares",
+          "flags_mastercrafted_recipeBook_require": "Matériel d'alchimiste"
+        }
+      }
+    }
+  },
+  "folders": {
+    "Poisons": "Poisons",
+    "Herbalism": "Herboristerie",
+    "Alchemy": "Alchimie"
+  }
+}

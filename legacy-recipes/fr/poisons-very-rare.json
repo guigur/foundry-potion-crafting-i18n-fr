@@ -1,0 +1,224 @@
+{
+  "name": "L'Empoisonneur du piment fantôme",
+  "description": "Contient des recettes de poisons très rares",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'empoisonneur",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Sommeil mortel",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature qui ingère ce poison doit réussir un jet de sauvegarde de Constitution DD 19 sous peine d'être empoisonnée pendant 24 heures. Elle semble morte ; seul un test de Médecine DD 20 réussi permet de déterminer le contraire.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.lkaYAV7KTxFDsfoB",
+              "quantity": 1,
+              "name": "Thé revigorant"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RirFeyOudF936MLm",
+              "quantity": 1,
+              "name": "Venin de ver pourpre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.dpuvQyo5X6Ao8V1Z",
+              "quantity": 1,
+              "name": "Sommeil mortel"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Essence de rage",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette potion brune à la consistance boueuse devient transparente et rouge vif dès qu'on l'agite un peu. La boire confère l'aptitude Rage du barbare pendant 30 secondes. Si elle entre directement dans le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Constitution DD 16. En cas de réussite, elle bénéficie de Rage pendant 60 secondes. En cas d'échec, elle entre en rage pendant 30 secondes et doit attaquer au corps à corps la cible la plus proche. À partir du 2e tour suivant l'administration, elle peut effectuer un nouveau jet de sauvegarde de Constitution. Une réussite met fin à tous les effets. Cette potion n'affecte ni les artificiels ni les morts-vivants.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.FL1DOoV7dEZ4YmsH",
+              "quantity": 1,
+              "name": "Sang de dragon"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XsePsNGNXztjGhqt",
+              "quantity": 1,
+              "name": "Traque-lune"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.dJfTixoUfWKnFxkH",
+              "quantity": 1,
+              "name": "Métal frappé par la foudre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.3snkJrMRtaerbjgW",
+              "quantity": 1,
+              "name": "Essence de rage"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/flask-corked-yellow-glow.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Larmes de minuit",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature qui ingère ce poison ne subit aucun effet avant les douze coups de minuit. S'il n'a pas été neutralisé d'ici là, elle doit effectuer un jet de sauvegarde de Constitution DD 17. Elle subit 31 (9d6) dégâts de poison en cas d'échec, ou la moitié en cas de réussite.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZTXmBm0pYhuK5AxE",
+              "quantity": 1,
+              "name": "Amanite phalloïde"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.M6NM0PSPlkHUHTdO",
+              "quantity": 1,
+              "name": "Ichor d'ankheg"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.ULxdo50cAouXw76k",
+              "quantity": 1,
+              "name": "Larmes de minuit (ingestion)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Eau de mort",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce liquide a l'apparence, l'odeur et le goût de l'eau. Même la plupart des analyses alchimiques et magiques ne permettent pas de le distinguer de l'eau. Seul un sort d'identification lancé au niveau 7 ou supérieur, ou une analyse alchimique détaillée durant 24 heures et coûtant 300 po, révèle qu'il s'agit d'un des poisons les plus mortels qui soient.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WeMebyyH2jXTQtTH",
+              "quantity": 1,
+              "name": "Champignon à chapeau noir"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.k8aljL25K5d4mHOF",
+              "quantity": 1,
+              "name": "Venin de vouivre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.jjxoFljmT5atbIT8",
+              "quantity": 1,
+              "name": "Lys des rêves"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.Vj2N2FKwqvqGw8FJ",
+              "quantity": 1,
+              "name": "Eau de mort"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/drinks/alcohol-spirits-bottle-green.webp",
+      "ownership": {}
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+  "documentName": "RecipeBook"
+}

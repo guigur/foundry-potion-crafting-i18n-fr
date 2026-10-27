@@ -1,0 +1,444 @@
+{
+  "name": "L'Empoisonneur raffiné",
+  "description": "Contient des recettes de poisons rares",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'empoisonneur",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Vapeurs d'othur brûlé",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 sous peine de subir 10 (3d6) dégâts de poison. Elle doit répéter ce jet au début de chacun de ses tours. À chaque nouvel échec, elle subit 3 (1d6) dégâts de poison. Le poison prend fin après trois réussites.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.f9G9joeHSclgyXNL",
+              "quantity": 1,
+              "name": "Fleur de cendre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XsePsNGNXztjGhqt",
+              "quantity": 1,
+              "name": "Traque-lune"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.HTPPWRpqCtxroDYd",
+              "quantity": 1,
+              "name": "Vapeurs d'othur brûlé (inhalation)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Poudre du diable",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette poudre rouge très fine, à l'arôme légèrement fumé, doit être soufflée au visage de la cible avant de se disperser sans danger. La cible doit effectuer un jet de sauvegarde de Charisme DD 18. En cas d'échec, sa perception de la réalité est altérée pendant 1 heure : elle voit un monde infernal peuplé de créatures abjectes et devient extrêmement sensible à l'intimidation, à la persuasion agressive et à la tromperie. En cas de réussite, elle devient légèrement paranoïaque et craintive.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.2Q5eat8DBOS7E7Xf",
+              "quantity": 1,
+              "name": "Trompette des anges"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.hJMFlmpilZ8LpVKE",
+              "quantity": 1,
+              "name": "Spores de flétrissure"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.OlHm63B7QG6Yk8EZ",
+              "quantity": 1,
+              "name": "Poudre du diable"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/food/salt-seasoning-spice-pink.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Essence de Dracula",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Conservé dans une fiole de cristal, ce poison ressemble à du sang frais constamment en mouvement, comme s'il cherchait à s'échapper. À l'ouverture, il s'immobilise et prend une couleur rouille. Si on le boit ou s'il entre dans le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Constitution DD 18. En cas de réussite, elle vomit tout le contenu de son estomac et subit 2d8 dégâts de poison.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.0Lapqd8kzpmS0R0z",
+              "quantity": 1,
+              "name": "Sang de Dracula"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.FL1DOoV7dEZ4YmsH",
+              "quantity": 1,
+              "name": "Sang de dragon"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.S9WUHdPbBP3XPpJO",
+              "quantity": 1,
+              "name": "Sanguinaire"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": 1,
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.mguaqQrM3KQ3JTLi",
+              "quantity": 1,
+              "name": "Essence de Dracula"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/vial-cork-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Poison drow",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce poison est généralement fabriqué uniquement par les drows, dans un lieu totalement à l'abri du soleil. Une créature qui y est exposée doit réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonnée pendant 1 heure. Si elle échoue de 5 ou plus, elle est également inconsciente tant qu'elle est ainsi empoisonnée. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.yCtZ2e5lV2ehnECa",
+              "quantity": 1,
+              "name": "Venin de drider"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.B6DIfwy19Ts5ikHU",
+              "quantity": 1,
+              "name": "Racine de mandragore"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.3sWcIOW3ptzVHclM",
+              "quantity": 1,
+              "name": "Poison drow (blessure)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-bubbling-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Essence d'éther",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 8 heures. La créature empoisonnée est inconsciente. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PpZ5ysLIab4PNiCL",
+              "quantity": 1,
+              "name": "Belladone"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.B6DIfwy19Ts5ikHU",
+              "quantity": 1,
+              "name": "Racine de mandragore"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.APBEyAEY0D23XRCW",
+              "quantity": 1,
+              "name": "Essence d'éther (inhalation)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/commodities/materials/bowl-powder-grey.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Fléau des mages",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette potion ressemble à du vin rouge mais sent les vieilles bottes. La boire confère le don Tueur de mages pendant 1 minute.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.Ag50fstRwIuLyrhr",
+              "quantity": 1,
+              "name": "Aconit tue-loup"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.yCtZ2e5lV2ehnECa",
+              "quantity": 1,
+              "name": "Venin de drider"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ilkJBDWZgW16fnmd",
+              "quantity": 1,
+              "name": "Venin de serpent"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.i2se49eebXjBOmOT",
+              "quantity": 1,
+              "name": "Fléau des mages"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Huile de taggit",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonnée pendant 24 heures. La créature empoisonnée est inconsciente. Elle se réveille si elle subit des dégâts.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.BdmLXPQWZ023gdiY",
+              "quantity": 1,
+              "name": "Huile (flasque)"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.Ag50fstRwIuLyrhr",
+              "quantity": 1,
+              "name": "Aconit tue-loup"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.2doouzb9Y9KeO8rT",
+              "quantity": 1,
+              "name": "Huile de taggit (contact)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Thessaltoxine",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce poison a été créé à l'origine à partir du sang de l'artificier Thessalar. Une créature qui y est exposée doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de changer de forme comme sous l'effet du sort métamorphose. Sa nouvelle forme est une bête aléatoire ou une créature qu'elle a vue au cours des 24 dernières heures, au choix du MJ. La transformation dure jusqu'à la fin de son prochain repos long. Ni dissipation de la magie ni délivrance des malédictions ne peuvent y mettre fin, mais restauration supérieure lui rend sa forme d'origine.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.0Lapqd8kzpmS0R0z",
+              "quantity": 1,
+              "name": "Sang de Dracula"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WeMebyyH2jXTQtTH",
+              "quantity": 1,
+              "name": "Champignon à chapeau noir"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.JJzwN0uJzLRrK5LH",
+              "quantity": 1,
+              "name": "Thessaltoxine"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Torpeur",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 4d6 heures. La créature empoisonnée est neutralisée.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.B6DIfwy19Ts5ikHU",
+              "quantity": 1,
+              "name": "Racine de mandragore"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.MkUnBgXfcD2QwUwN",
+              "quantity": 1,
+              "name": "Mousse de foudre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.DvsP0UXceEf4uoTa",
+              "quantity": 1,
+              "name": "Torpeur (ingestion)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/tools/laboratory/bowl-mixing.webp",
+      "ownership": {}
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+  "documentName": "RecipeBook"
+}

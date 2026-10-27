@@ -1,0 +1,604 @@
+{
+  "name": "L'Alchimiste infuseur",
+  "description": "Contient des recettes de préparations alchimiques rares",
+  "ownership": {},
+  "tools": "Matériel d'alchimiste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Encre (très rare)",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveaux 6 à 8.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RPIaybBhCR5X8nyM",
+              "quantity": 1,
+              "name": "Charbon de bois"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.SMab7kAjsYtxGJKJ",
+              "quantity": 1,
+              "name": "Fruit d'ombresaule"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.DV72ygEGCy6YXUyE",
+              "quantity": 1,
+              "name": "Encre (très rare)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Huile du fléau des dragons",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette huile peut enduire une seule arme pour 3 utilisations, ou jusqu'à 3 munitions pour 1 utilisation chacune. Un dragon qui subit des dégâts d'une arme ou d'une munition enduite de cette huile subit 6d6 dégâts supplémentaires de l'attaque. L'huile sèche au bout de 1 heure et devient inerte.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.FL1DOoV7dEZ4YmsH",
+              "quantity": 1,
+              "name": "Sang de dragon"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.k8aljL25K5d4mHOF",
+              "quantity": 1,
+              "name": "Venin de vouivre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.Ii5gy259isUXMqSg",
+              "quantity": 1,
+              "name": "Huile du fléau des dragons"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-metal-yellow-gray.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de forme gazeuse",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous bénéficiez de l'effet du sort forme gazeuse pendant 1 heure (sans concentration), ou jusqu'à ce que vous mettiez fin à l'effet par une action bonus. Le récipient semble contenir une brume qui se déplace et se verse comme de l'eau.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.OQAPiXDbXeOTP5TD",
+              "quantity": 1,
+              "name": "Ectoplasme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZxuFEfo7SerKMoMR",
+              "quantity": 1,
+              "name": "Ortie chantante"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.9HkCG49rFoI8DMLI",
+              "quantity": 1,
+              "name": "Potion de forme gazeuse"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de force de géant",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, votre valeur de Force change pendant 1 heure. Le type de géant détermine cette valeur. La potion n'a aucun effet si votre Force est déjà égale ou supérieure à cette valeur. Un fragment d'ongle du type de géant correspondant flotte dans le liquide transparent de cette potion.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.4ybCoZqAMDLiQsmb",
+              "quantity": 1,
+              "name": "Lichen de givre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.A9RbPBHYwoNK1OpV",
+              "quantity": 1,
+              "name": "Ongle de géant"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.JN5rimyT8P5RDjnA",
+              "quantity": 1,
+              "name": "Potion de force de géant"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-circular-corked-labeled-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de mana",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 4 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 4 points de sorcellerie.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WglM0mvztSmJL7Lv",
+              "quantity": 1,
+              "name": "Parasol de pixie"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.IvLk97TKspuqU1eX",
+              "quantity": 1,
+              "name": "Épine d'argent"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.FL1DOoV7dEZ4YmsH",
+              "quantity": 1,
+              "name": "Sang de dragon"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.Ni8DI1Zn9li3vzGT",
+              "quantity": 1,
+              "name": "Potion de mana"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-bubbling-blue.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de rêves véridiques",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Noir comme le néant, ce liquide semble produire des éclats de couleurs vives lorsqu'on le regarde du coin de l'œil. Si vous buvez cette potion avant de vous endormir, vos rêves vous montrent des visions véridiques du passé, du présent ou d'événements futurs possibles liés à une créature, un lieu ou un objet de votre choix. Le MJ détermine la nature et la durée de ces visions.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XZe2WSquLSLKzHrm",
+              "quantity": 1,
+              "name": "Larmes de nothic"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.SMab7kAjsYtxGJKJ",
+              "quantity": 1,
+              "name": "Fruit d'ombresaule"
+            },
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.MdAPFn646hCxbo7D",
+              "quantity": 1,
+              "name": "Huile d'ombresaule"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.HYLFCu9GlUmXbJcH",
+              "quantity": 1,
+              "name": "Potion de rêves véridiques"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-tied-blue.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Huile de forme éthérée",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Des gouttelettes de cette huile grise et trouble se forment à l'extérieur du récipient et s'évaporent rapidement. L'huile peut recouvrir une créature de taille M ou inférieure ainsi que son équipement porté et transporté (une fiole supplémentaire est nécessaire par catégorie de taille au-dessus de M). L'application prend 10 minutes. La créature affectée bénéficie ensuite de l'effet du sort forme éthérée pendant 1 heure.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.OQAPiXDbXeOTP5TD",
+              "quantity": 1,
+              "name": "Ectoplasme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.BdmLXPQWZ023gdiY",
+              "quantity": 1,
+              "name": "Huile (flasque)"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.mkS93V9FDtR6k0JI",
+              "quantity": 1,
+              "name": "Huile de forme éthérée"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de clairvoyance",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous bénéficiez de l'effet du sort clairvoyance pendant 10 minutes. Un globe oculaire flotte dans ce liquide jaunâtre et disparaît à l'ouverture de la potion.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.q56qk1upHBqOeFo0",
+              "quantity": 1,
+              "name": "Rosée du matin"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.B6DIfwy19Ts5ikHU",
+              "quantity": 1,
+              "name": "Racine de mandragore"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.KQ0CCqBtrOoycN5x",
+              "quantity": 1,
+              "name": "Potion de clairvoyance"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de diminution",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous bénéficiez de l'effet « rapetissement » du sort agrandissement/rapetissement pendant 1d4 heures (sans concentration). La teinte rouge du liquide se contracte continuellement en une minuscule perle, puis se dilate pour colorer le liquide transparent qui l'entoure. Secouer la bouteille n'interrompt pas ce phénomène.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WglM0mvztSmJL7Lv",
+              "quantity": 1,
+              "name": "Parasol de pixie"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XsePsNGNXztjGhqt",
+              "quantity": 1,
+              "name": "Traque-lune"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.6IfVTFhqoV1XLltR",
+              "quantity": 1,
+              "name": "Potion de diminution"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion d'héroïsme",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Pendant 1 heure après l'avoir bue, vous gagnez 10 points de vie temporaires qui durent 1 heure. Pendant la même durée, vous bénéficiez de l'effet du sort bénédiction (sans concentration). Cette potion bleue bouillonne et fume comme si elle était en ébullition.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.8U61IScvrNcit1ZJ",
+              "quantity": 1,
+              "name": "Langue-de-chat"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.Q6fYSgZiPZjXLim8",
+              "quantity": 1,
+              "name": "Potion d'héroïsme"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion d'invulnérabilité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Pendant 1 minute après avoir bu cette potion, vous avez la résistance à tous les dégâts. Son liquide sirupeux ressemble à du fer liquéfié.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.dJfTixoUfWKnFxkH",
+              "quantity": 1,
+              "name": "Métal frappé par la foudre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.G7to2Rc0QfMXUHoX",
+              "quantity": 1,
+              "name": "Potion d'invulnérabilité"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-corled-pink-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de lecture des pensées",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous bénéficiez de l'effet du sort détection des pensées (jet de sauvegarde de Sagesse DD 13) pendant 10 minutes. Une nuée rose et ovoïde flotte dans le liquide dense et violet de cette potion.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ebflYPaV5OfihxDW",
+              "quantity": 1,
+              "name": "Satyre fétide de flagelleur mental"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XsePsNGNXztjGhqt",
+              "quantity": 1,
+              "name": "Traque-lune"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.VoNuxKAMcZueGMOr",
+              "quantity": 1,
+              "name": "Potion de lecture des pensées"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Puissance de Thor",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette masse agitée de liquide bleu profond est parcourue de traînées blanches évoquant des éclairs. Son récipient tremble constamment. Pendant 1 minute après avoir bu cette potion, chaque attaque d'arme au corps à corps qui touche une cible produit un fracas tonitruant et inflige 1d6 dégâts de tonnerre supplémentaires. Le nombre d'utilisations pendant cette durée n'est pas limité.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.oJHIjX6NgapONg7e",
+              "quantity": 1,
+              "name": "Volute d'élémentaire de l'air"
+            },
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.A9RbPBHYwoNK1OpV",
+              "quantity": 1,
+              "name": "Ongle de géant"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.MkUnBgXfcD2QwUwN",
+              "quantity": 1,
+              "name": "Mousse de foudre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZxuFEfo7SerKMoMR",
+              "quantity": 1,
+              "name": "Ortie chantante"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.mb8AMSs0FCZkbjrq",
+              "quantity": 1,
+              "name": "Puissance de Thor"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-round-stopped-yellow-green.webp",
+      "ownership": {}
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-potion-blue.webp",
+  "documentName": "RecipeBook"
+}

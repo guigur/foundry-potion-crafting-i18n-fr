@@ -1,0 +1,255 @@
+{
+  "label": "Fabrication de potions — Herboristerie",
+  "mapping": {
+    "name": "name",
+    "flags_magicitems_destroyFlavorText": "flags.magicitems.destroyFlavorText",
+    "description": "system.description.value",
+    "system_description_unidentified": "system.description.unidentified",
+    "flags_magicitems_spells_0_name": "flags.magicitems.spells.0.name",
+    "effects": {
+      "path": "effects",
+      "converter": "document",
+      "documentType": "ActiveEffect",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name"
+      }
+    }
+  },
+  "entries": {
+    "0ZENuE2tlVOFjMfE": {
+      "name": "Potion d'avantage",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Quand vous buvez cette potion, vous avez l'avantage à un test de caractéristique, un jet d'attaque ou un jet de sauvegarde de votre choix effectué au cours de l'heure suivante.</p>\n<p>Cette potion prend la forme d'une brume dorée et scintillante qui se déplace et se verse comme de l'eau.</p>",
+      "system_description_unidentified": "Potion"
+    },
+    "3xULlbFXYFbFaVrq": {
+      "name": "Potion de réanimation",
+      "description": "<p>Cette potion noire et entièrement opaque contient un point lumineux suspendu en son centre. Elle n'a aucun effet sur les vivants, mais la verser dans la gorge d'une personne morte depuis moins d'une minute la ranime avec 1 point de vie. Elle ne fonctionne pas sur une personne morte de vieillesse et ne peut pas restaurer des parties du corps manquantes.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "5gWo8DBZYDf5a7il": {
+      "name": "Antitoxine supérieure",
+      "description": "<p>Ce liquide trouble, orange citrouille, confère pendant 12 heures l'avantage aux jets de sauvegarde contre les dégâts de poison ou l'état empoisonné. Pendant cette période, le buveur ne subit pas non plus les dégâts persistants des poisons et ses points de vie ne peuvent pas tomber à 0 à cause de dégâts de poison.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "AJurKm3Nmof0fBCz": {
+          "name": "Antitoxine supérieure"
+        }
+      }
+    },
+    "63O4sBNqbRkLvybn": {
+      "name": "Élixir de vie de Murgaxor",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Quiconque boit cette mixture a l'avantage aux jets de sauvegarde contre la mort pendant 24 heures.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "8Mf40znvsETtXOyc": {
+      "name": "Potion de soins",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Un personnage qui boit le liquide rouge magique de cette fiole récupère 2d4 + 2 points de vie. Boire une potion ou l'administrer nécessite une action.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "8dJD3aTwScmPhdhu": {
+      "name": "Liqueur de vie",
+      "description": "<p>Cette potion rose vif est parfaitement transparente et contient l'image flottante d'un cœur rouge. Quel que soit l'angle sous lequel on la regarde, le cœur apparaît toujours de la même façon. Boire cette potion confère 2d6+2 points de vie temporaires.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "8t6z474F66KdqalY": {
+      "name": "Chance liquide",
+      "description": "<p>Impossible à distinguer visuellement de l'eau, ce liquide a le goût et l'odeur du fruit préféré du buveur. Il confère l'avantage à tous les tests de Tromperie, de Perspicacité et de Persuasion pendant 3 heures.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "XK1hBIdnrcDySaAG": {
+          "name": "Chance liquide"
+        }
+      }
+    },
+    "9GZEN1z5fxIRmjaQ": {
+      "name": "Pomme de senteur protectrice",
+      "description": "<p>Cette boule d'épices et de parfums aromatiques emplit d'une forte odeur une zone de 15 pieds de rayon pendant 24 heures après son déballage. Les morts-vivants de facteur de puissance 2 ou inférieur qui entrent dans cette zone doivent réussir un jet de sauvegarde de Sagesse DD 15 sous peine d'être renvoyés, comme avec l'aptitude Renvoi des morts-vivants du clerc.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "VD22MJmDp8uE94wZ": {
+          "name": "Pomme de senteur protectrice"
+        }
+      }
+    },
+    "AzmqxeFRA4vAO8D5": {
+      "name": "Potion de restauration",
+      "description": "<p>Des images de fibres musculaires, de vaisseaux sanguins et de fragments d'organes flottent dans cette potion violette. La boire fait repousser en une semaine les parties du corps et les organes détruits ou manquants. Cette repousse provoque de fortes démangeaisons et parfois des douleurs irritantes aux endroits concernés.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "FpMpNmVYcFXPokKI": {
+      "name": "Potion de vitalité",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Quand vous buvez cette potion, elle supprime tout @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{épuisement} dont vous souffrez et soigne toute maladie ou tout poison qui vous affecte. Pendant les 24 heures suivantes, chaque dé de vie dépensé vous rend le maximum de points de vie. Le liquide écarlate de la potion émet régulièrement une faible pulsation lumineuse évoquant un battement de cœur.</p>",
+      "system_description_unidentified": "Potion"
+    },
+    "HaoqYzxdcao45krj": {
+      "name": "Teinture de fléau des loups-garous",
+      "description": "<p>Tout lycanthrope qui boit cette teinture doit effectuer un jet de sauvegarde de Constitution DD 19. En cas d'échec, il subit 3d10 dégâts nécrotiques et doit reprendre sa forme humanoïde s'il ne l'avait pas déjà. Il ne peut ensuite plus changer de forme pendant 24 heures. En cas de réussite, il ne subit que la moitié de ces dégâts.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "1qFoUT4x9qgb4MSS": {
+          "name": "Fléau des loups-garous"
+        }
+      }
+    },
+    "KHulWtdUanyW3N0X": {
+      "name": "Ichor de flétrissure",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Cette mixture amère de couleur chartreuse est distillée à partir d'un champignon originaire des terres désolées de Blightshore. Cette liqueur verdâtre possède de puissantes propriétés psychédéliques. Une créature qui n'est ni un artificiel ni un mort-vivant et qui en reçoit une dose a l'avantage aux tests d'Intelligence et de Sagesse, mais devient vulnérable aux dégâts psychiques pendant 1 heure. Pour chaque dose consommée, elle doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 1d6 heures et de subir les effets du sort confusion pendant 1 minute. Un mort-vivant qui reçoit une dose d'ichor de flétrissure a l'avantage à tous ses tests de Dextérité et est immunisé contre l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{effrayé} pendant 1 heure.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "KMS4fSU2cl0eHA8J": {
+      "name": "Piments revigorants",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Ces en-cas bénéfiques sont très piquants et agréablement croquants. Manger un piment revigorant confère 3 points de vie temporaires.</p>"
+    },
+    "MdAPFn646hCxbo7D": {
+      "name": "Huile d'ombresaule",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>On peut extraire une huile bleu sombre du fruit rare de l'ombresaule. Une créature peut utiliser son action pour appliquer cette huile à une autre créature qui subit l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{pétrifié} depuis moins de 1 minute ; l’état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{pétrifié} de cette créature prend fin au début de ce qui aurait été son prochain tour.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "NFPYHXc4VXcGcg7b": {
+      "name": "Potion de puissance maximale",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>La première fois que vous lancez un sort infligeant des dégâts de niveau 4 ou inférieur dans un délai de 1 minute après avoir bu la potion, vous pouvez utiliser le résultat maximal de chaque dé au lieu de lancer les dés de dégâts.</p>\n<p>Ce liquide violet lumineux sent le sucre et la prune, mais a un goût de boue.</p>",
+      "system_description_unidentified": "Potion"
+    },
+    "QQlIKiwfThxbuXiL": {
+      "name": "Antitoxine",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Une créature qui boit le contenu de cette fiole a l'avantage aux jets de sauvegarde contre le poison pendant 1 heure. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "VAiC2oDr4p49l3ni": {
+      "name": "Onguent apaisant",
+      "description": "<p>Un onguent collant à l'odeur aigre qui s'applique sur les blessures. Lorsque vous dépensez des dés de vie pour récupérer des points de vie sous son effet, vous récupérez 3 points de vie supplémentaires par dé dépensé. L'effet dure 1 heure après l'application.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "iyGN07WKyHhGE7lV": {
+          "name": "Onguent apaisant"
+        }
+      }
+    },
+    "Vxsfg5tLaCwyE1TU": {
+      "name": "Élixir de santé",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Quand vous buvez cette potion, elle soigne toutes vos maladies et supprime les états @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{aveuglé}, @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{assourdi}, @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{paralysé}, et @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} . De minuscules bulles lumineuses flottent dans ce liquide rouge transparent.</p>",
+      "system_description_unidentified": "Potion"
+    },
+    "Xba0Y9JepZjQ6Kio": {
+      "name": "Baume de muroosa",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Cette pâte issue de l'arbuste muroosa est connue pour prévenir les coups de soleil, mais elle est aussi ignifuge. Après avoir passé 1 minute à appliquer un quart de pinte de ce baume sur votre peau, vous gagnez la résistance aux dégâts de feu pendant 1 heure.</p>\n<p><em>Coût :</em> 1 po par dose contre les coups de soleil, 100 po pour une application complète contre le feu.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "augf8aBoKEZF6QCw": {
+      "name": "Potion de protection",
+      "description": "<p>Un liquide trouble, gris acier, dans lequel flottent de minuscules perles jaunes, vertes, rouges, bleues, violettes, blanches et noires. Il immunise le buveur pendant 1 heure contre tous les états, sauf à terre, agrippé, entravé et inconscient.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "7MZNkPubnAHsLPt3": {
+          "name": "Potion de protection"
+        }
+      }
+    },
+    "bEYdVoyhYKyWBSMs": {
+      "name": "Baume de feu",
+      "description": "<p>Une pâte orange à base de plantes qui aide à récupérer de diverses affections. Une dose confère un bonus de +3 à un seul jet de sauvegarde de Constitution, de Sagesse ou de Charisme effectué au cours des 14 heures suivantes.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "OyaimeX2vwLGYHwh": {
+          "name": "Baume de feu"
+        }
+      }
+    },
+    "bXOvler0ARXKOpbA": {
+      "name": "Matériel d'herboriste",
+      "description": "<p>Ce matériel comprend divers instruments, tels que des cisailles, un mortier et un pilon, ainsi que les sachets et fioles utilisés pour préparer remèdes et potions. Sa maîtrise vous permet d'ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour identifier ou utiliser des plantes. Elle est également nécessaire pour fabriquer de l'antitoxine et toute potion de soins.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "i1n6hdw1K0gxGwTQ": {
+      "name": "Philtre désaltérant",
+      "description": "<p>Une potion bleue contenant toujours 2 glaçons, un brin de menthe et 2 rondelles de citron. Elle est toujours fraîche au toucher. Elle étanche complètement la soif et supprime le besoin de boire pendant 2 jours. Les voyageurs des caravanes la recherchent particulièrement près des déserts.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "yw5TcRcgJrEKGdkK": {
+          "name": "Désaltéré"
+        }
+      }
+    },
+    "kWuOuNmefQ86QCrm": {
+      "name": "Antidote à la thessaltoxine",
+      "description": "<p>Cette potion semble changer de couleur et de texture à chaque regard. Quand vous la buvez, elle met fin à l'effet de métamorphose imposé par la thessaltoxine.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "lkaYAV7KTxFDsfoB": {
+      "name": "Thé revigorant",
+      "description": "<p>Cette boisson chaude supprime un niveau d'épuisement chez quiconque la boit.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "oSAN4j6USHosFvqL": {
+      "name": "Potion de changement de forme",
+      "description": "<p><span style=\"font-family:OpenSans\">Cette étrange potion change de couleur et de transparence, ainsi que de forme et de matériau de récipient, chaque fois que personne ne la regarde. À l'ouverture, elle retrouve son récipient et son apparence d'origine : un liquide rose pâle dans lequel flottent de fines lamelles d'argent. Elle permet au buveur d'utiliser le sort modification d'apparence sur lui-même pendant 30 minutes, sans concentration.</span></p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "cv8oVlwO4DqiZbzJ": {
+          "name": "Potion de changement de forme"
+        }
+      }
+    },
+    "oWgxhdYXSWTGjwjo": {
+      "name": "Potion de langage des plantes",
+      "description": "<p>Un liquide brun transparent contenant des brindilles et des feuilles vert vif. Il devient jaune pâle à l'ouverture. Il confère au buveur la capacité de communiquer avec les plantes pendant 5 minutes.</p>",
+      "flags_magicitems_spells_0_name": "Communication avec les plantes",
+      "effects": {
+        "tqFZh92kLxboAmyk": {
+          "name": "Communication avec les plantes"
+        }
+      }
+    },
+    "ochw6JbyYtwJUGVn": {
+      "name": "Potion de métamorphose",
+      "description": "<p>Une potion vert pâle presque transparente contenant une projection de créature qui change constamment de forme. Elle permet au buveur d'utiliser le sort métamorphose sur lui-même pendant 15 minutes, sans concentration.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "ZNYQisahLFADUslC": {
+          "name": "Potion de métamorphose"
+        }
+      }
+    },
+    "pGqjE4LL9KETdnXF": {
+      "name": "Breuvage de Babel",
+      "description": "<p>Bleu layette et très opaque, avec une présence blanche qui s'y déplace à la limite du regard, ce liquide devient d'un jaune aveuglant lorsqu'on l'agite. Il permet de parler et de comprendre une langue au choix pendant 1 heure, mais pas de la lire ni de l'écrire.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "5Tf4Oqjle5GQoAqT": {
+          "name": "Breuvage de Babel"
+        }
+      }
+    },
+    "rN9kdGbEOgWkqJ0g": {
+      "name": "Potion de soins (supérieure)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Vous récupérez 8d4 + 8 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite.</p>",
+      "system_description_unidentified": "Potion"
+    },
+    "sN3n80xcO2CuYRkB": {
+      "name": "Potion de soins (majeure)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Vous récupérez 4d4 + 4 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite.</p>",
+      "system_description_unidentified": "Potion"
+    },
+    "xjZZVQclrHZJe1sB": {
+      "name": "Potion de soins (suprême)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Vous récupérez 10d4 + 20 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite.</p>",
+      "system_description_unidentified": "Potion"
+    }
+  }
+}

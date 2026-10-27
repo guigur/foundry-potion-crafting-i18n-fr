@@ -1,0 +1,148 @@
+{
+  "name": "L'Empoisonneur novice",
+  "description": "Contient des recettes de poisons courants",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'empoisonneur",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Poison rudimentaire",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Le poison de cette fiole peut enduire une arme tranchante ou perforante, ou jusqu'à trois munitions. L'application nécessite une action. Une créature touchée par l'arme ou la munition empoisonnée doit réussir un jet de sauvegarde de Constitution DD 10 sous peine de subir 1d4 dégâts de poison. Une fois appliqué, le poison reste actif pendant 1 minute avant de sécher.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PpZ5ysLIab4PNiCL",
+              "quantity": 1,
+              "name": "Belladone"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.v4AeMM9MmplrULaL",
+              "quantity": 1,
+              "name": "Poison rudimentaire (fiole)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-bubbling-green.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Souffle de Biza",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 sous peine d'être empoisonnée pendant 1 minute. La créature empoisonnée doit utiliser son action pour effectuer une attaque au corps à corps contre une créature déterminée aléatoirement à sa portée. S'il n'y en a aucune, elle ne fait rien pendant son tour. Elle peut répéter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet sur elle-même en cas de réussite.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.2Q5eat8DBOS7E7Xf",
+              "quantity": 1,
+              "name": "Trompette des anges"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.4ybCoZqAMDLiQsmb",
+              "quantity": 1,
+              "name": "Lichen de givre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.KiKpQdTDuJTUFVsK",
+              "quantity": 1,
+              "name": "Souffle de Biza (inhalation)"
+            }
+          ]
+        }
+      ],
+      "img": "ddb-images/other/equipment-Poison.jpg",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Paranoïa liquide",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature qui ingère ce poison subit l'état effrayé. La source de sa peur est le prochain humanoïde qu'elle voit dans les 5 minutes suivant l'ingestion. Elle doit effectuer un jet de sauvegarde de Sagesse DD 15 : la peur dure 1 heure en cas d'échec, ou deux fois moins longtemps en cas de réussite.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.XsePsNGNXztjGhqt",
+              "quantity": 1,
+              "name": "Traque-lune"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-poisons.it2rFB0l1YwZPU5i",
+              "quantity": 1,
+              "name": "Paranoïa liquide"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+  "documentName": "RecipeBook"
+}

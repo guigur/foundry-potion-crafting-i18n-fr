@@ -1,0 +1,9 @@
+{
+  "PCGFR": {
+    "ImportSetting": "Importer le contenu au démarrage",
+    "ImportHint": "Au prochain chargement, proposer l'importation des tables, journaux et recettes du module.",
+    "ImportTitle": "Fabrication de potions et récolte",
+    "ImportPrompt": "Voulez-vous importer toutes les tables, tous les journaux et toutes les recettes ?",
+    "ImportSuccess": "Livres de recettes importés. Le module Potion Crafting & Gathering doit rester activé, car les objets sont stockés dans ses compendiums."
+  }
+}

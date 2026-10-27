@@ -1,0 +1,858 @@
+{
+  "name": "L'Alchimiste distillateur",
+  "description": "Contient des recettes de préparations alchimiques peu communes",
+  "ownership": {},
+  "tools": "Matériel d'alchimiste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Encre (rare)",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveaux 1 à 5.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RPIaybBhCR5X8nyM",
+              "quantity": 1,
+              "name": "Charbon de bois"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.csQt8WZWfyuzq0zS",
+              "quantity": 1,
+              "name": "Encre (rare)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Encre invisible",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une bouteille de 1 once d'encre qui ne peut être rendue visible que par des sorts, des aptitudes ou des objets permettant de voir l'invisible, ou par l'application d'un acide doux.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WglM0mvztSmJL7Lv",
+              "quantity": 1,
+              "name": "Parasol de pixie"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.BYMeQsPpEJv14uCq",
+              "quantity": 1,
+              "name": "Encre (bouteille de 5 onces)"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.53DRxgqmxGvds7TL",
+              "quantity": 1,
+              "name": "Encre invisible"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/vial-cork-empty.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de mana mineure",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 2 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 2 points de sorcellerie.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WglM0mvztSmJL7Lv",
+              "quantity": 1,
+              "name": "Parasol de pixie"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.IvLk97TKspuqU1eX",
+              "quantity": 1,
+              "name": "Épine d'argent"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.2pTgWbzz110XVGkn",
+              "quantity": 1,
+              "name": "Potion de mana mineure"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-bubbling-blue.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Huile de minuit",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Lorsqu'elle alimente une lanterne, l'huile de minuit émet une lumière vive sur 5 pieds et une lumière faible sur 5 pieds supplémentaires pendant 8 heures. Une créature qui reste dans cette lumière durant les 8 heures bénéficie de tous les avantages d'un repos long sans dormir, à condition de ne pratiquer que des activités légères : lecture, étude, conversation, etc.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.BdmLXPQWZ023gdiY",
+              "quantity": 1,
+              "name": "Huile (flasque)"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.WglM0mvztSmJL7Lv",
+              "quantity": 1,
+              "name": "Parasol de pixie"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.d2Y3PCs0OE3HrNXe",
+              "quantity": 1,
+              "name": "Huile de minuit"
+            }
+          ]
+        }
+      ],
+      "img": "icons/sundries/lights/candle-lit-yellow.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Huile glissante",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette huile peut recouvrir une créature de taille M ou inférieure, ainsi que tout son équipement porté et transporté (une fiole supplémentaire est nécessaire par catégorie de taille au-dessus de M). L'application prend 10 minutes. La créature affectée bénéficie ensuite de l'effet du sort liberté de mouvement pendant 8 heures. Vous pouvez aussi verser l'huile au sol au prix d'une action : elle couvre alors un carré de 10 pieds de côté et reproduit l'effet du sort graisse dans cette zone pendant 8 heures.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.BdmLXPQWZ023gdiY",
+              "quantity": 1,
+              "name": "Huile (flasque)"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.LBEZq5ozg7BsldsS",
+              "quantity": 1,
+              "name": "Mucus de charognard rampant"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.cPEvS5IOvDBuvtxw",
+              "quantity": 1,
+              "name": "Gouttelettes d'élémentaire de l'eau"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.eqPxYq4E7uaZRLBs",
+              "quantity": 1,
+              "name": "Huile glissante"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-circular-corked-labeled-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion d'amitié avec les animaux",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Agiter ce liquide boueux fait apparaître de petits fragments : une écaille de poisson, une langue de colibri, une griffe de chat ou un poil d'écureuil. Quand vous buvez cette potion, vous pouvez lancer à volonté le sort amitié avec les animaux (jet de sauvegarde de Sagesse DD 13) pendant 1 heure.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.8U61IScvrNcit1ZJ",
+              "quantity": 1,
+              "name": "Langue-de-chat"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.uze4YQECLH6snte7",
+              "quantity": 1,
+              "name": "Écaille de quipper"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.djbCMiHqrvcqkoKL",
+              "quantity": 1,
+              "name": "Potion d'amitié avec les animaux"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de souffle de feu",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Après avoir bu cette potion, vous pouvez utiliser une action bonus pour cracher du feu sur une cible située à 30 pieds ou moins. Elle doit effectuer un jet de sauvegarde de Dextérité DD 13 et subit 4d6 dégâts de feu en cas d'échec, ou la moitié en cas de réussite. L'effet prend fin après trois souffles de feu ou au bout de 1 heure. Le liquide orange de cette potion vacille. De la fumée remplit le haut du récipient et s'en échappe à chaque ouverture.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.f9G9joeHSclgyXNL",
+              "quantity": 1,
+              "name": "Fleur de cendre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.j97S0KQGurQL55do",
+              "quantity": 1,
+              "name": "Braises d'élémentaire du feu"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.Zq7uyoZOKGkqYKzQ",
+              "quantity": 1,
+              "name": "Potion de souffle de feu"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de croissance",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous bénéficiez de l'effet « agrandissement » du sort agrandissement/rapetissement pendant 1d4 heures (sans concentration). La teinte rouge du liquide se dilate continuellement à partir d'une minuscule perle pour colorer le liquide transparent qui l'entoure, puis se contracte. Secouer la bouteille n'interrompt pas ce phénomène.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.5SU6evgnA2ocp13r",
+              "quantity": 1,
+              "name": "Herbe aigre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sgg30hrdXOD3vAGC",
+              "quantity": 1,
+              "name": "Baie de givre éternel"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.knMK5veO989xYVz1",
+              "quantity": 1,
+              "name": "Poils d'araignée-loup géante"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.VKJUbbWyOdLPfIW6",
+              "quantity": 1,
+              "name": "Potion de croissance"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance à l'acide",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.LBEZq5ozg7BsldsS",
+              "quantity": 1,
+              "name": "Mucus de charognard rampant"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.jmym9x3mVQ453tsY",
+              "quantity": 1,
+              "name": "Potion de résistance à l'acide"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance au froid",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.4ybCoZqAMDLiQsmb",
+              "quantity": 1,
+              "name": "Lichen de givre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.aJBs7hy7bvUXywf0",
+              "quantity": 1,
+              "name": "Potion de résistance au froid"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance au feu",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.f9G9joeHSclgyXNL",
+              "quantity": 1,
+              "name": "Fleur de cendre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.SvXfEsBU0zayWwrd",
+              "quantity": 1,
+              "name": "Potion de résistance au feu"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance à la force",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.TZvJoNp0bBKYoxON",
+              "quantity": 1,
+              "name": "Salive d'amphibien"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.xHS8LA30Lvfg3IVE",
+              "quantity": 1,
+              "name": "Potion de résistance à la force"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance à la foudre",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.MkUnBgXfcD2QwUwN",
+              "quantity": 1,
+              "name": "Mousse de foudre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.u39tvP7ujeRk758q",
+              "quantity": 1,
+              "name": "Potion de résistance à la foudre"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance nécrotique",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PpZ5ysLIab4PNiCL",
+              "quantity": 1,
+              "name": "Belladone"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.AHuq7ezHfKVlddob",
+              "quantity": 1,
+              "name": "Potion de résistance nécrotique"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance au poison",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.Z3AeLcmiknIMJWI0",
+              "quantity": 1,
+              "name": "Cailloux d'élémentaire de la terre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.3UA5JE8oQPwMJqti",
+              "quantity": 1,
+              "name": "Potion de résistance au poison"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance psychique",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ebflYPaV5OfihxDW",
+              "quantity": 1,
+              "name": "Satyre fétide de flagelleur mental"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.vOXNiFLaUB2dHbVu",
+              "quantity": 1,
+              "name": "Potion de résistance psychique"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance radiante",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.5SU6evgnA2ocp13r",
+              "quantity": 1,
+              "name": "Herbe aigre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.z6sD1upZsTO5clXS",
+              "quantity": 1,
+              "name": "Potion de résistance radiante"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-vial-corked-labeled-purple.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de résistance au tonnerre",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Ce type dépend de l'ingrédient spécial ajouté.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZxuFEfo7SerKMoMR",
+              "quantity": 1,
+              "name": "Ortie chantante"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.world.ddb-pcandg-items.Yg6Y3uivbl1rC6mZ",
+              "quantity": 1,
+              "name": "Potion de résistance au tonnerre"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+      "ownership": {}
+    },
+    {
+      "name": "Potion de respiration aquatique",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Vous pouvez respirer sous l'eau pendant 1 heure après avoir bu cette potion. Son liquide vert trouble sent la mer et contient une bulle flottante semblable à une méduse.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.kUzQnkx0GC5NTHsv",
+              "quantity": 1,
+              "name": "Branchiflore"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.cPEvS5IOvDBuvtxw",
+              "quantity": 1,
+              "name": "Gouttelettes d'élémentaire de l'eau"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.8X3nBG9jXmVpCHa6",
+              "quantity": 1,
+              "name": "Potion de respiration aquatique"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
+      "ownership": {}
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-potion-blue.webp",
+  "documentName": "RecipeBook"
+}

@@ -1,0 +1,387 @@
+{
+  "label": "Fabrication de potions — Ingrédients",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "flags_magicitems_destroyFlavorText": "flags.magicitems.destroyFlavorText",
+    "system_description_unidentified": "system.description.unidentified",
+    "effects": {
+      "path": "effects",
+      "converter": "document",
+      "documentType": "ActiveEffect",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name"
+      }
+    }
+  },
+  "entries": {
+    "0Lapqd8kzpmS0R0z": {
+      "name": "Sang de Dracula",
+      "description": "<section id=\"secret-qRxWk9avtN6PtLjH\" class=\"secret\"><p>Rareté : très rare (DD 20)</p><p>Prélèvement : matériel d'alchimiste (DD 10)</p><p>Quantité : 1d4 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : essence de Dracula, thessaltoxine</p></section>"
+    },
+    "2Q5eat8DBOS7E7Xf": {
+      "name": "Trompette des anges",
+      "description": "<p>Cette fleur doit son nom à sa beauté et à sa forme de trompette : elle est d'un blanc immaculé, avec des tiges jaunes. Elle est pourtant dangereuse. Respirer directement son parfum impose un jet de sauvegarde de Sagesse DD 13. En cas d'échec, la cible est confuse pendant 1 minute et ne peut ni se déplacer, ni effectuer d'action ou de réaction. Cette propriété est utilisée dans des poisons pour paralyser les cibles ou rendre les esclaves plus dociles.</p><section id=\"secret-GXiprcTiJqIwcy7w\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d8 fleurs</p><p>Lieu : forêts, collines</p><p>Utilisations (3) : poudre des anges, poudre du diable, souffle de Biza</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "2bMDUwUaYlWYHQA8": {
+          "name": "Confus"
+        }
+      }
+    },
+    "4ybCoZqAMDLiQsmb": {
+      "name": "Lichen de givre",
+      "description": "<p>Un lichen d'un blanc aveuglant qui pousse sur les rochers des régions où les températures restent négatives toute l'année.</p><section id=\"secret-kTVpHDoKt08yl8tf\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 bouquets</p><p>Lieu : Arctique</p><p>Utilisations (4) : grenade fumigène, potion de force de géant, potion de résistance au froid, souffle de Biza</p></section>"
+    },
+    "5SU6evgnA2ocp13r": {
+      "name": "Herbe aigre",
+      "description": "<p>Cette herbe verte aux longs brins possède une odeur et un goût âcres. Les humanoïdes qui s'approchent à 5 pieds ou moins d'herbe aigre non coupée doivent réussir un jet de sauvegarde de Constitution DD 10 sous peine d'être pris de nausées et de subir l'état empoisonné pendant 30 secondes.</p><section id=\"secret-lWZ7ACwYutfxjwg5\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 5)</p><p>Quantité : 2d4 touffes</p><p>Lieu : prairies, montagnes</p><p>Utilisations (4) : onguent apaisant, potion de croissance, potion de résistance radiante, antitoxine supérieure</p></section>"
+    },
+    "5eMY7G5AibuPbPAG": {
+      "name": "Baie funeste",
+      "description": "<p>Ces arbres produisent des grappes serrées de petites baies rouges et blanches sans jamais fleurir. Bien que délicieuses, elles sont toxiques et peuvent être mortelles pour les enfants. Ces arbres poussant facilement aux abords des villes, ils causent chaque année la mort de dizaines d'enfants. On pense qu'ils sont l'œuvre de Cyric, de Beshaba ou de Loviatar.</p><section id=\"secret-FZFL4rWFJGEa3ulU\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 2d4 baies</p><p>Lieu : zones urbaines</p><p>Utilisations (3) : extrait de baie funeste, potion de poison, herbicide courant</p></section>"
+    },
+    "8U61IScvrNcit1ZJ": {
+      "name": "Langue-de-chat",
+      "description": "<p>Cette plante herbacée de taille moyenne porte des bouquets de petites fleurs violettes et blanches à 5 pétales, qui deviennent rapidement des gousses de la taille d'une figue. Leur enveloppe légèrement toxique protège un fruit acidulé et très nutritif.</p><section id=\"secret-YUQ93wLMTMI0Qn8c\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 2d4 gousses</p><p>Lieu : prairies, forêts</p><p>Utilisations (6) : potion d'amitié avec les animaux, potion d'héroïsme, antitoxine, thé revigorant, potion de vitalité, potion de langage des plantes</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "A9RbPBHYwoNK1OpV": {
+      "name": "Ongle de géant",
+      "description": "<section id=\"secret-1OqvafddkiZCM22l\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : couteau (DD 10)</p><p>Quantité : 7 ongles</p><p>État de la créature : morte ou neutralisée, ou obtenus par échange</p><p>Utilisations (2) : potion de force de géant, puissance de Thor</p></section>"
+    },
+    "Ag50fstRwIuLyrhr": {
+      "name": "Aconit tue-loup",
+      "description": "<p>Cette fleur blanc grisâtre ne s'épanouit qu'à la pleine lune et en altitude. Les canidés qui s'approchent à 10 pieds ou moins doivent réussir un jet de sauvegarde de Sagesse DD 15 sous peine de devoir s'éloigner de la plante aussi loin que possible.</p><section id=\"secret-7yZ8U1WTFgYYaGPm\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d4 fleurs</p><p>Lieu : montagnes</p><p>Utilisations (3) : teinture de fléau des loups-garous, huile de taggit, fléau des mages</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "CPs9m6rpq2oTz3v5": {
+          "name": "Odeur d'aconit tue-loup"
+        }
+      }
+    },
+    "AvyiJlB22uJt9J5E": {
+      "name": "Graine blanche d'orchidée fantôme",
+      "description": "<p>Plus rarement, les orchidées produisent une petite gousse contenant une seule graine blanche. Parmi ses propriétés magiques, une graine blanche réduite en poudre puis dispersée sur un cadavre lui fait bénéficier du sort résurrection. La consommer ne produit aucun effet.</p><section id=\"secret-OmvIVMJgOVSkTvlZ\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 1d4 graines</p><p>Lieu : forêts, côtes</p><p>Utilisations (4) : élixir de vie de Murgaxor, antidote à la thessaltoxine, potion de protection, potion de réanimation</p></section>",
+      "system_description_unidentified": "Équipement"
+    },
+    "B6DIfwy19Ts5ikHU": {
+      "name": "Racine de mandragore",
+      "description": "<p>Cette racine pâle et tordue ressemble à un nourrisson humanoïde difforme. L'ingérer inflige l'état empoisonné pendant 1 heure.</p><section id=\"secret-kVY6tOd1zTluLVIp\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d4 racines</p><p>Lieu : souterrains</p><p>Utilisations (4) : potion de clairvoyance, poison drow, essence d'éther, torpeur</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "XMKCWdlVEmsptJ2A": {
+          "name": "Poison de racine de mandragore"
+        }
+      }
+    },
+    "BdmLXPQWZ023gdiY": {
+      "name": "Huile (flasque)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>L'huile se présente généralement dans une flasque d'argile de 1 pinte. Au prix d'une action, vous pouvez en asperger une créature située à 5 pieds ou moins, ou lancer la flasque jusqu'à 20 pieds ; elle se brise à l'impact. Effectuez une attaque à distance contre une créature ou un objet en traitant l'huile comme une arme improvisée. Si vous touchez, la cible est couverte d'huile. Si elle subit des dégâts de feu avant que l'huile ne sèche (au bout de 1 minute), elle subit 5 dégâts de feu supplémentaires dus à l'huile enflammée. Vous pouvez aussi verser une flasque d'huile sur une surface plane pour couvrir un carré de 5 pieds de côté. Une fois allumée, l'huile brûle pendant 2 rounds et inflige 5 dégâts de feu à toute créature qui entre dans la zone ou y termine son tour. Une créature ne peut subir ces dégâts qu'une fois par tour.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "FL1DOoV7dEZ4YmsH": {
+      "name": "Sang de dragon",
+      "description": "<section id=\"secret-TS6YvAPB5LfZ8Mng\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : couteau (DD 10) (1/4 de l'expérience normale)</p><p>Quantité : Xd8 (X dépend de la taille du dragon) s'il est mort ou neutralisé, 1d4 en cas d'échange</p><p>État de la créature : morte ou neutralisée, ou obtenu par échange</p><p>Utilisations (4) : huile du fléau des dragons, potion de mana, potion de mana supérieure, essence de rage</p></section>"
+    },
+    "I9eoMEsooRxuJqtA": {
+      "name": "Résidu de vase grise",
+      "description": "<section id=\"secret-sDEup6PeCd9dzWOR\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : matériel d'alchimiste (DD 15)</p><p>Quantité : 1d4 fioles</p><p>État de la créature : morte</p><p>Utilisations (1) : fiole d'acide</p></section>"
+    },
+    "IvLk97TKspuqU1eX": {
+      "name": "Épine d'argent",
+      "description": "<p>Cette liane épineuse est d'une couleur argent pâle et aussi dure que le métal. Les zones d'épines d'argent constituent un terrain difficile et infligent 1d6 dégâts perforants à quiconque les traverse à vitesse normale.</p><section id=\"secret-76cAvUFc79goPVKY\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 épines</p><p>Lieu : Arctique, montagnes</p><p>Utilisations (6) : teinture de fléau des loups-garous, huile d'affûtage, potion de vitalité, potion de mana mineure, potion de mana, potion de mana supérieure</p></section>"
+    },
+    "KxyuMr06YyMT9uVI": {
+      "name": "Lys de flamme",
+      "description": "<p>Cette fleur doit son nom à ses 7 pétales rouges et orange tournés vers le ciel, contrairement à sa tige penchée, ce qui lui donne l'apparence d'une flamme. Employées avec précaution, ses fleurs entrent dans des préparations curatives, mais elles sont mortelles à forte dose.</p><section id=\"secret-Dm8eGisHtKBpFxHJ\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d8 fleurs</p><p>Lieu : déserts, savanes</p><p>Utilisations (5) : poudre explosive, grenade fumigène, baume de muroosa, baume de feu, pâte de lave</p></section>"
+    },
+    "LBEZq5ozg7BsldsS": {
+      "name": "Mucus de charognard rampant",
+      "description": "<p>Une créature qui entre en contact avec ce mucus doit réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonnée pendant 1 minute. La créature empoisonnée est paralysée. Elle peut répéter le jet à la fin de chacun de ses tours et met fin à l'effet sur elle-même en cas de réussite.</p><section id=\"secret-7lKhwAiARFm2TIRG\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : matériel d'empoisonneur (DD 20)</p><p>Quantité : 1d4 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : potion de résistance à l'acide, huile glissante</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "M6NM0PSPlkHUHTdO": {
+      "name": "Ichor d'ankheg",
+      "description": "<p>Ichor d'ankheg : une créature qui entre en contact avec ce mucus doit réussir un jet de sauvegarde de Constitution DD 13 sous peine d'être empoisonnée pendant 1 minute. La créature empoisonnée est paralysée. Elle peut répéter le jet à la fin de chacun de ses tours et met fin à l'effet sur elle-même en cas de réussite.</p><section id=\"secret-sBwdQeOVzgEpzhl2\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : matériel d'empoisonneur (DD 15)</p><p>Quantité : 1d4 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : huile d'affûtage, larmes de minuit</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "R9KKBJDZ7RbEdnZD": {
+          "name": "Ichor d'ankheg"
+        }
+      }
+    },
+    "MkUnBgXfcD2QwUwN": {
+      "name": "Mousse de foudre",
+      "description": "<p>Cette mousse bleu clair ne pousse qu'aux endroits frappés par la foudre et produit une faible décharge d'électricité statique au toucher. En la frottant sous les pieds ou les chaussures d'une créature, on augmente sa vitesse de 5 pieds pendant 1 heure.</p><section id=\"secret-iCAC2GTJr77bVgsS\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 touffes</p><p>Lieu : côtes, montagnes</p><p>Utilisations (4) : potion de résistance à la foudre, torpeur, potion de vitesse, puissance de Thor</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "8oCKUeVAmZw2L6J2": {
+          "name": "Mousse de foudre"
+        }
+      }
+    },
+    "N0AouALqeIy09kCX": {
+      "name": "Sève noire",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Cette substance goudronneuse récoltée sur les branches sombres du saule à tête de mort est un puissant intoxicant. Elle peut être fumée sous forme concentrée ou injectée directement dans le sang. Une créature qui en reçoit une dose ne peut être ni charmée ni effrayée pendant 1d6 heures.</p><p>Pour chaque dose de sève noire consommée, une créature doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 2d4 heures. Cet effet se cumule avec les doses successives.</p><section id=\"null\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 doses</p><p>Lieu : endroits où les morts sont fréquentes ou massives</p><p>Utilisations (2) : malice, teinture pâle</p></section>",
+      "system_description_unidentified": "Équipement",
+      "effects": {
+        "kz3cDuK1jPKGRUIC": {
+          "name": "Poison de sève noire"
+        },
+        "WFZDrJnatMrqXOmF": {
+          "name": "Immunité aux états charmé et effrayé"
+        }
+      }
+    },
+    "O0eT04b4AYt7qvr9": {
+      "name": "Champignon arc-en-ciel",
+      "description": "<p>Malgré son nom évocateur, ce champignon semble banal : chapeau brun, lamelles noires et pied blanc. Tout change lorsqu'on le coupe. La chair du chapeau, d'abord vert romarin, devient bleu clair puis bordeaux foncé. Celle du pied passe du bleu profond à l'orange pâle après la coupe ou l'arrachement. Le consommer impose un jet de sauvegarde de Sagesse DD 14. En cas d'échec, le consommateur est confus pendant 30 minutes et voit les couleurs changer de teinte et devenir plusieurs fois plus intenses que la normale.</p><section id=\"secret-03RfeseC3nEU1uVL\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d8 champignons</p><p>Lieu : forêts, montagnes, collines</p><p>Utilisations (4) : potion de métamorphose, potion de changement de forme, potion d'avantage, chance liquide</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "Jr58r2cDtELmeRL7": {
+          "name": "Confusion du champignon arc-en-ciel"
+        }
+      }
+    },
+    "OQAPiXDbXeOTP5TD": {
+      "name": "Ectoplasme",
+      "description": "<section id=\"secret-IuyHXT9BAuq25mOm\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : matériel d'alchimiste (DD 15)</p><p>Quantité : 1d4 flasques</p><p>État de la créature : sans importance</p><p>Utilisations (3) : potion de forme gazeuse, huile de forme éthérée, potion de possibilité</p></section>"
+    },
+    "PesWw8Dh27Q7hqCB": {
+      "name": "Amanite rouge",
+      "description": "<p>Ce champignon au chapeau rouge peut atteindre la taille d'une petite assiette. L'ingérer inflige 1d4 dégâts de poison, mais un herboriste soigneux peut l'employer pour préparer des potions de soins.</p><section id=\"secret-ObMPHEa9X2U035wd\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 2d4 pieds</p><p>Lieu : marais, forêts</p><p>Utilisations (8) : potion de longévité, potion de soins, potion de soins majeure, potion de soins supérieure, potion de soins suprême, liqueur de vie, essence de Dracula, potion de restauration</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "PpZ5ysLIab4PNiCL": {
+      "name": "Belladone",
+      "description": "<p>Une fleur noire comme l'encre à la tige violette. L'ingérer inflige 1d4 dégâts de poison et, en cas d'échec à un jet de sauvegarde de Constitution, l'état empoisonné pendant 2d4 heures.</p><section id=\"secret-esMC5MP7JFFwB8jL\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 20)</p><p>Quantité : 1d6 fleurs</p><p>Lieu : forêts</p><p>Utilisations (3) : potion de résistance nécrotique, poison rudimentaire, essence d'éther</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "4TF9tLteRhEA4Qs2": {
+          "name": "Poison de belladone"
+        }
+      }
+    },
+    "RPIaybBhCR5X8nyM": {
+      "name": "Charbon de bois"
+    },
+    "RfEtP6JEextGAzXp": {
+      "name": "Serre d'aigle",
+      "description": "<section id=\"secret-ZbQturV2MuziQHn9\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : couteau (DD 10)</p><p>Quantité : 1d8 griffes</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (1) : potion de vitesse</p></section>"
+    },
+    "RirFeyOudF936MLm": {
+      "name": "Venin de ver pourpre",
+      "description": "<p>Une créature touchée par une attaque avec une arme enduite de ce poison doit effectuer un jet de sauvegarde de Constitution DD 19. Elle subit 42 (12d6) dégâts de poison en cas d'échec, ou la moitié en cas de réussite.</p><section id=\"secret-IYv6SdB1z6IA7skX\" class=\"secret\"><p>Rareté : très rare (DD 20)</p><p>Prélèvement : matériel d'empoisonneur (DD 20)</p><p>Quantité : 1d8 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : sommeil mortel, eau de mort</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "S13CXdPDL9vBtWoL": {
+      "name": "Griffe de skulque",
+      "description": "<section id=\"secret-D4KOWhJ50btlJzDf\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : couteau (DD 10)</p><p>Quantité : 1d10 griffes</p><p>État de la créature : morte</p><p>Utilisations (3) : potion d'escalade, potion d'invisibilité, potion de possibilité</p></section>"
+    },
+    "S9WUHdPbBP3XPpJO": {
+      "name": "Sanguinaire",
+      "description": "<p>Au premier regard, ces racines ressemblent à des carottes violettes, mais elles laissent couler un liquide rouge sang lorsqu'on les coupe ou les brise. Correctement préparé, il sert de teinture durable ou même de colorant alimentaire. Une mauvaise préparation peut toutefois provoquer des irritations cutanées ou une intoxication alimentaire.</p><section id=\"secret-GdwA1PmD8CORnwat\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 1d8 racines</p><p>Lieu : prairies, savanes</p><p>Utilisations (2) : essence de Dracula, faux sang</p></section>"
+    },
+    "SMab7kAjsYtxGJKJ": {
+      "name": "Fruit d'ombresaule",
+      "description": "<p>Un fruit en forme de piment qui possède d'excellentes propriétés digestives.</p><section id=\"secret-FvhXHPVfVFcFlZV1\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d8 fruits</p><p>Lieu : marais, côtes, berges des rivières</p><p>Utilisations (4) : huile d'ombresaule, potion de rêves véridiques, potion de métamorphose, potion d'avantage</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "TZvJoNp0bBKYoxON": {
+      "name": "Salive d'amphibien",
+      "description": "<section id=\"secret-819mBvQTKNccAEXD\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : matériel d'empoisonneur (DD 15)</p><p>Quantité : 1d4 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (1) : potion de résistance à la force</p></section>"
+    },
+    "WeMebyyH2jXTQtTH": {
+      "name": "Champignon à chapeau noir",
+      "description": "<p>Ce beau champignon en forme de coupe, noir bleuté et extrêmement toxique, se détache nettement sur la verdure environnante, mais mieux vaut le laisser tranquille. Le toucher sans gants ou autre protection impose un jet de sauvegarde de Constitution DD 16. En cas d'échec, la créature subit 1d10 dégâts de poison.</p><section id=\"secret-gcRKP7bgdVVme2uS\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 20)</p><p>Quantité : 1d4 pieds</p><p>Lieu : forêts, marais</p><p>Utilisations (3) : eau de mort, pâte noire, thessaltoxine</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "WglM0mvztSmJL7Lv": {
+      "name": "Parasol de pixie",
+      "description": "<p>Ce minuscule champignon est facile à repérer grâce à son chapeau bleu vif et à son pied et ses lamelles blancs. La nuit, sa bioluminescence le rend particulièrement visible. Il entre dans la composition de nombreuses potions et encres. Sa récolte peut toutefois être délicate, car les pixies le défendent souvent contre ceux qui veulent l'emporter.</p><section id=\"secret-8g02sEWr7b3qiKVr\" class=\"secret\"><p>Rareté : rare (DD 20), commun (DD 10) dans la Féerie</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d12 pieds</p><p>Lieu : troncs tombés dans les climats non arides</p><p>Utilisations (6) : encre invisible, potion de diminution, huile de minuit, potion de mana mineure, potion de mana, potion de mana supérieure</p></section>"
+    },
+    "XZe2WSquLSLKzHrm": {
+      "name": "Larmes de nothic",
+      "description": "<p>Utilisées comme collyre, elles confèrent la vision dans le noir pendant 1d4 heures.</p><section id=\"secret-jF0YLBizVnNB8mN2\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Prélèvement : aucun outil</p><p>Quantité : 1d4 fioles</p><p>État de la créature : morte ou neutralisée, ou obtenues par échange</p><p>Utilisations (2) : potion de vision véritable, potion de rêves véridiques</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "m4wGoeGBd5LxpJS0": {
+          "name": "Larmes de nothic"
+        }
+      }
+    },
+    "XsePsNGNXztjGhqt": {
+      "name": "Traque-lune",
+      "description": "<p>Cette fleur bleu pâle pousse par paires, ne s'épanouit que la nuit et émet une lueur éthérée. Lorsqu'elle fleurit, elle diffuse une lumière faible sur 5 pieds. Vue de loin, on la confond souvent avec des yeux lumineux.</p><section id=\"secret-gQF5jN69sDIQy1Sh\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 1d4 x2 fleurs</p><p>Lieu : côtes, marais</p><p>Utilisations (4) : potion de diminution, potion de lecture des pensées, paranoïa liquide, essence de rage</p></section>"
+    },
+    "YYUeBM8oMDoHunTb": {
+      "name": "Ichor de remorhaz",
+      "description": "<section id=\"secret-AkoaYyAyQLCWIGq7\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : matériel d'alchimiste (DD 20)</p><p>Quantité : 1d6, 3d6 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (1) : potion de mana supérieure</p></section>"
+    },
+    "YfVnagCZGhL6uoH3": {
+      "name": "Géode de sels de lucidité",
+      "description": "<p>Une géode couverte d'une substance cristalline dont on peut extraire des sels de lucidité.</p><section id=\"secret-JnKfczsh99uaeTLW\" class=\"secret\"><p>Rareté : rare (DD 20), commun (DD 10, uniquement dans la fosse de Miskath)</p><p>Récolte : pioche ou pied-de-biche (DD 10, sans modificateur)</p><p>Quantité : 1d4 géodes</p><p>Lieu : Blightshore</p><p>Utilisations (1) : sels de lucidité</p></section>"
+    },
+    "Z3AeLcmiknIMJWI0": {
+      "name": "Cailloux d'élémentaire de la terre",
+      "description": "<section id=\"secret-j5yocbdDbsp29Ef6\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : matériel d'alchimiste (DD 15)</p><p>Quantité : 1d6 volutes</p><p>État de la créature : obtenus par échange, ou créature morte ou neutralisée</p><p>Utilisations (3/1/1/2) :</p><p>(Air) Potion de vol, puissance de Thor, souffle en bouteille,</p><p>(Terre) Potion de résistance au poison,</p><p>(Feu) Potion de souffle de feu,</p><p>(Eau) Huile glissante, potion de respiration aquatique</p></section>"
+    },
+    "ZTXmBm0pYhuK5AxE": {
+      "name": "Amanite phalloïde",
+      "description": "<p>Malgré son allure discrète, son pied blanc élancé et son chapeau blanc à brun clair, l'amanite phalloïde est dangereuse. 12 heures après avoir ingéré le champignon ou son extrait, une créature doit réussir un jet de sauvegarde de Constitution DD 17 sous peine d'être empoisonnée. Une fois empoisonnée, elle subit 2d8 dégâts de poison ainsi que de violents maux de ventre et des crampes pendant 24 heures. Sans antidote pendant cette période, son foie commence à se dégrader, ce qui provoque une jaunisse, et elle subit 1d10 dégâts de poison chaque jour à midi jusqu'à recevoir un sort de restauration supérieure ou de régénération, ou à boire un élixir de santé.</p><section id=\"secret-gxVI4t5ngxPvyahT\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 20)</p><p>Quantité : 1d4 chapeaux</p><p>Lieu : forêts, zones sèches des marais</p><p>Utilisations (3) : larmes de minuit, teinture pâle, retard ciblé</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "6l1BXvj3i0INntBd": {
+          "name": "Intoxication à l'amanite phalloïde"
+        }
+      }
+    },
+    "ZxuFEfo7SerKMoMR": {
+      "name": "Ortie chantante",
+      "description": "<p>Cette liane est couverte de poils pointus et urticants. Une créature qui les touche doit réussir un jet de sauvegarde de Sagesse DD 15 sous peine d'être saisie d'une envie irrésistible de chanter à tue-tête.</p><section id=\"secret-WWusyrkIZsZZAb3u\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 2d4 feuilles</p><p>Lieu : marais, montagnes, forêts</p><p>Utilisations (5) : potion de résistance au tonnerre, potion de forme gazeuse, potion de vol, breuvage de Babel, puissance de Thor</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "cPEvS5IOvDBuvtxw": {
+      "name": "Gouttelettes d'élémentaire de l'eau",
+      "description": "<section id=\"secret-j5yocbdDbsp29Ef6\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : matériel d'alchimiste (DD 15)</p><p>Quantité : 1d6 volutes</p><p>État de la créature : obtenus par échange, ou créature morte ou neutralisée</p><p>Utilisations (3/1/1/2) :</p><p>(Air) Potion de vol, puissance de Thor, souffle en bouteille,</p><p>(Terre) Potion de résistance au poison,</p><p>(Feu) Potion de souffle de feu,</p><p>(Eau) Huile glissante, potion de respiration aquatique</p></section>"
+    },
+    "dJfTixoUfWKnFxkH": {
+      "name": "Métal frappé par la foudre",
+      "description": "<p>Un morceau de métal frappé par la foudre pesant au moins 0,5 once. Les pièces de monnaie frappées par la foudre sont exclues.</p><section id=\"secret-sv96bbAAFspOhNna\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Récolte : -------</p><p>Quantité : -------</p><p>Lieu : -------</p><p>Utilisations (2) : potion d'invulnérabilité, essence de rage</p></section>"
+    },
+    "e9SUSA3TYHv9gxXl": {
+      "name": "Griffes immobiles",
+      "description": "<p>Cette liane rampante à croissance lente et à la longévité exceptionnelle doit son nom à ses fleurs tout aussi durables. Elles forment de grosses grappes de fleurs turquoise en forme de griffes, légèrement fluorescentes, qui semblent rester épanouies pendant des années. Certains pensent que cette plante perçoit le temps à un rythme différent de celui du reste du monde. Sa croissance lente ne lui permet de produire que très peu de gousses chaque année, très recherchées pour les potions.</p><section id=\"secret-3qAdJtOYgXb9TzPK\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d4 gousses</p><p>Lieu : collines, montagnes</p><p>Utilisations (3) : potion de vitesse, retard ciblé, potion de protection</p></section>"
+    },
+    "ebflYPaV5OfihxDW": {
+      "name": "Satyre fétide de flagelleur mental",
+      "description": "<p>Ce champignon violet possède des pieds visqueux semblables à des tentacules et sent la chair en décomposition. Une créature qui le mange doit effectuer un jet de sauvegarde de Constitution DD 10. En cas de réussite, elle peut lancer détection des pensées à volonté pendant 1 heure, sans composantes matérielles. En cas d'échec, elle subit 1d6 dégâts psychiques.</p><section id=\"secret-2TjkOZEXI08Mybl1\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 1d4 pieds</p><p>Lieu : souterrains</p><p>Utilisations (3) : potion de résistance psychique, potion de lecture des pensées, sérum de vérité</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "eSQJ2TDTuOU60KHH": {
+          "name": "Satyre fétide de flagelleur mental - Détection des pensées"
+        }
+      }
+    },
+    "f9G9joeHSclgyXNL": {
+      "name": "Fleur de cendre",
+      "description": "<p>Cette minuscule fleur rouge vif au cœur jaune ne pousse que dans les milieux chauds. L'ingérer inflige 1d4 dégâts de feu, mais un alchimiste averti peut l'utiliser pour préparer de nombreuses potions liées au feu.</p><section id=\"secret-dm5Jx76PbMgwrZbK\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 fleurs</p><p>Lieu : déserts, volcans</p><p>Utilisations (3) : potion de souffle de feu, potion de résistance au feu, vapeurs d'othur brûlé</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "gM92fpjY9teFQ8ew": {
+      "name": "Tabouret de fée",
+      "description": "<p>Ce petit champignon rose se trouve surtout dans les cercles de fées. En cas d'échec à un jet de sauvegarde de Constitution DD 20, son ingestion provoque la cécité pendant 1 minute ainsi que de vives hallucinations.</p><section id=\"secret-ULdRCk4Qr9HjqtHP\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d4 pieds</p><p>Lieu : Féerie, forêts</p><p>Utilisations (6) : potion d'invisibilité, potion de vision véritable, élixir de santé, philtre d'amour, sérum de vérité, chance liquide</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "DGZRsWcszHnYPFRV": {
+          "name": "Cécité du tabouret de fée"
+        }
+      }
+    },
+    "hJMFlmpilZ8LpVKE": {
+      "name": "Spores de flétrissure",
+      "description": "<p>Des spores rouge vif de champignons de flétrissure, qui ne poussent que dans les grottes de Blightshore et sur le versant oriental des monts de la Pénombre. Une créature exposée à une forte dose doit réussir un jet de sauvegarde de Constitution DD 16 sous peine d'être empoisonnée pendant 3d6 heures. Pendant cet état, elle subit les effets du sort confusion. Un sort de restauration ou une dose d'antitoxine peut mettre fin à l'effet.</p><section id=\"secret-VKt9eHzE7huhPojb\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 doses</p><p>Lieu : grottes de Blightshore</p><p>Utilisations (2) : ichor de flétrissure, poudre du diable</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "si035Qn8x6pwtjzz": {
+          "name": "Poison de spores de flétrissure"
+        }
+      }
+    },
+    "iO0893B9hiYU7D6X": {
+      "name": "Racine de theki",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Cette épaisse racine des marais est amère, mais réputée favoriser la digestion. Consommer une dose au prix d'une action vous confère pendant 8 heures l'avantage aux jets de sauvegarde contre les effets des substances toxiques ou vénéneuses.</p><section id=\"secret-rK7vkAJB55h5Ep0y\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 racines</p><p>Lieu : marais</p><p>Utilisations (4) : potion de puissance maximale, antitoxine supérieure, baume de feu, antidote à la thessaltoxine</p></section>",
+      "system_description_unidentified": "Équipement"
+    },
+    "icRXQFh2Fx4HvQe0": {
+      "name": "Cœur de diablotin",
+      "description": "<section id=\"secret-ErolZlt83ZGRgqLR\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : couteau (DD 15)</p><p>Quantité : 1 cœur</p><p>État de la créature : morte</p><p>Utilisations (1) : potion de longévité</p></section>"
+    },
+    "ilkJBDWZgW16fnmd": {
+      "name": "Venin de serpent",
+      "description": "<p>Une créature touchée par une attaque avec une arme enduite de ce venin doit effectuer un jet de sauvegarde de Constitution DD 11. Elle subit 10 (3d6) dégâts de poison en cas d'échec, ou la moitié en cas de réussite.</p><section id=\"secret-n0hBVogOToJopdyX\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Prélèvement : matériel d'empoisonneur (DD 10)</p><p>Quantité : 1d3 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : philtre d'amour, fléau des mages</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "j97S0KQGurQL55do": {
+      "name": "Braises d'élémentaire du feu",
+      "description": "<section id=\"secret-j5yocbdDbsp29Ef6\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : matériel d'alchimiste (DD 15)</p><p>Quantité : 1d6 volutes</p><p>État de la créature : obtenus par échange, ou créature morte ou neutralisée</p><p>Utilisations (3/1/1/2) :</p><p>(Air) Potion de vol, puissance de Thor, souffle en bouteille,</p><p>(Terre) Potion de résistance au poison,</p><p>(Feu) Potion de souffle de feu,</p><p>(Eau) Huile glissante, potion de respiration aquatique</p></section>"
+    },
+    "jjxoFljmT5atbIT8": {
+      "name": "Lys des rêves",
+      "description": "<p>Une fleur blanche, légèrement argentée, à 5 pointes et au parfum enivrant. Trempée dans l'eau chaude, elle produit un liquide psychoactif qui a l'odeur et le goût de votre boisson préférée. Une créature sous son effet est empoisonnée pendant 1 heure. Pendant cette période, elle est immunisée contre la peur et, la première fois que ses points de vie tombent à 0 sans qu'elle soit tuée sur le coup, ils tombent à 1 à la place.</p><section id=\"secret-USOkZBxbNDIXQH5I\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 2d6 fleurs</p><p>Lieu : prairies, côtes</p><p>Utilisations (6) : potion de poison, potion de puissance maximale, potion de métamorphose, poudre des anges, somnifères, potion de réanimation</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "L4xm7yAfd1FxHBVW": {
+          "name": "Poison de lys des rêves"
+        }
+      }
+    },
+    "k8aljL25K5d4mHOF": {
+      "name": "Venin de vouivre",
+      "description": "<p>Une créature touchée par une attaque avec une arme enduite de ce poison doit effectuer un jet de sauvegarde de Constitution DD 15. Elle subit 24 (7d6) dégâts de poison en cas d'échec, ou la moitié en cas de réussite.</p><section id=\"secret-RZiAbhrjREAzmQwv\" class=\"secret\"><p>Rareté : rare (DD 18)</p><p>Prélèvement : matériel d'empoisonneur (DD 15)</p><p>Quantité : 1d8 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : huile du fléau des dragons, eau de mort</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "kUzQnkx0GC5NTHsv": {
+      "name": "Branchiflore",
+      "description": "<p>Cette algue vert émeraude pousse sous l'eau et reste couverte de minuscules bulles d'air qui permettent à un herboriste expérimenté de la repérer facilement.</p><section id=\"secret-OSXfN9zoRqm3hFNQ\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 2d4 feuilles</p><p>Lieu : côtes, marais</p><p>Utilisations (4) : potion de respiration aquatique, élixir de santé, potion de rafistolage, philtre désaltérant</p></section>"
+    },
+    "knMK5veO989xYVz1": {
+      "name": "Poils d'araignée-loup géante",
+      "description": "<section id=\"secret-uzgoRPwqKVpjL86O\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Prélèvement : couteau</p><p>Quantité : 1d8 touffes</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (1) : potion d'escalade</p></section>"
+    },
+    "oJHIjX6NgapONg7e": {
+      "name": "Volute d'élémentaire de l'air",
+      "description": "<section id=\"secret-j5yocbdDbsp29Ef6\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : matériel d'alchimiste (DD 15)</p><p>Quantité : 1d6 volutes</p><p>État de la créature : obtenus par échange, ou créature morte ou neutralisée</p><p>Utilisations (3/1/1/2) :</p><p>(Air) Potion de vol, puissance de Thor, souffle en bouteille,</p><p>(Terre) Potion de résistance au poison,</p><p>(Feu) Potion de souffle de feu,</p><p>(Eau) Huile glissante, potion de respiration aquatique</p></section>"
+    },
+    "pENSKogWx0Tz0fzn": {
+      "name": "Feuille d'olisuba",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Les feuilles séchées de l'arbre olisuba, préparées en infusion, aident à récupérer d'un effort intense. Si vous buvez une dose de thé d'olisuba pendant un repos long, votre niveau d'épuisement diminue de 2 au lieu de 1 à la fin de ce repos.</p><section id=\"null\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 2d6 feuilles</p><p>Lieu : forêts, prairies</p><p>Utilisations (3) : potion de vitalité, potion de puissance maximale, potion de changement de forme</p></section>",
+      "system_description_unidentified": "Équipement"
+    },
+    "q56qk1upHBqOeFo0": {
+      "name": "Rosée du matin",
+      "description": "<p>Cette plante forme un grand arbuste ou un petit arbre et semble se reproduire par ses racines, car elle ne porte aucune fleur. Ses feuilles longues et étroites servent à préparer des infusions et des remèdes.</p><section id=\"secret-R8XeIdKU1BmXcicv\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Cueillette : matériel d'herboriste (DD 10)</p><p>Quantité : 2d6 feuilles</p><p>Lieu : forêts, savanes</p><p>Utilisations (5) : potion de clairvoyance, thé revigorant, potion de vitalité, malice, potion de restauration</p></section>"
+    },
+    "qXk27yXG0KVONssI": {
+      "name": "Doigt de guenaude",
+      "description": "<p>Ces petits tubercules vert pâle maladif ressemblent à de longs doigts. Une fois séchés et réduits en poudre, ils dégagent un arôme puissant et servent d'ingrédient aux préparations d'herboristerie et aux potions.</p><section id=\"secret-eSVJ0fpjr7ukOF5a\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d4 doigts séchés</p><p>Lieu : forêts, marais</p><p>Utilisations (4) : potion de résistance, potion d'héroïsme, pomme de senteur protectrice, potion de protection</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "sODZElZQJ8PiIvH1": {
+      "name": "Brindilles de muroosa",
+      "description": "<p>Cet arbuste pousse dans les régions arides des savanes et des déserts. Il semble totalement insensible à la chaleur et au soleil, quelle que soit leur intensité.</p><section id=\"secret-zpFtVKTkgsDQWHsH\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 brindilles</p><p>Lieu : déserts, savanes</p><p>Utilisations (5) : baume de muroosa, liqueur de vie, chance liquide, potion de langage des plantes, philtre désaltérant</p></section>"
+    },
+    "sgg30hrdXOD3vAGC": {
+      "name": "Baie de givre éternel",
+      "description": "<p><span style=\"font-family:OpenSans\">Une baie bleu layette en forme de cœur, de la taille d'une myrtille, réputée pour ses propriétés purifiantes. Les plantes qui la portent sont totalement immunisées contre les dégâts de gel et produisent une abondance de fruits durant les hivers rigoureux.</span></p><section class=\"secret\" id=\"secret-m1ijoKyeQq1q9UnZ\"><p>Rareté : commun (DD 10)</p><p>Cueillette : matériel d'herboriste (DD 5)</p><p>Quantité : 3d6 baies</p><p>Lieu : prairies, forêts</p><p>Utilisations (4) : potion de croissance, potion de résistance au poison, antitoxine, remède contre l'acné</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "u50QJdilHzM5EQaV": {
+      "name": "Sucre",
+      "description": "<p></p>"
+    },
+    "uze4YQECLH6snte7": {
+      "name": "Écaille de quipper",
+      "description": "<section id=\"secret-T5bgh3epd18uPZDQ\" class=\"secret\"><p>Rareté : commun (DD 10)</p><p>Prélèvement : couteau (DD 5)</p><p>Quantité : 1d4 écailles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : potion d'amitié avec les animaux, potion de nage</p></section>"
+    },
+    "vperyfe91D7Y0mWW": {
+      "name": "Rosée acide",
+      "description": "<p>Comme ses parentes plus connues, les droséras, la rosée acide est une plante carnivore, mais plus agressive. Ses gouttelettes dissolvent ses proies dans un acide collant plutôt qu'avec des enzymes sirupeuses. Toucher les fleurs sans protection impose un jet de sauvegarde de Dextérité DD 13 ; la cible subit 1d6 dégâts de poison en cas d'échec. Étonnamment, cet acide possède d'excellentes propriétés curatives une fois suffisamment dilué, et favorise la fermeture des blessures.</p><section id=\"secret-UOOzZcneNbIBe7Eu\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 20)</p><p>Quantité : 1d6 fleurs</p><p>Lieu : marais, forêts</p><p>Utilisations (5) : onguent apaisant, baume de feu, lotion antipelliculaire, potion de réanimation, potion de restauration</p></section>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "yCtZ2e5lV2ehnECa": {
+      "name": "Venin de drider",
+      "description": "<section id=\"secret-N6BDCQxQDYYgrATV\" class=\"secret\"><p>Rareté : rare (DD 20)</p><p>Prélèvement : matériel d'empoisonneur (DD 15)</p><p>Quantité : 1d6 fioles</p><p>État de la créature : morte ou neutralisée</p><p>Utilisations (2) : poison drow, fléau des mages</p></section>"
+    },
+    "yg1RFBtdR2AfVS5t": {
+      "name": "Pois de feu",
+      "description": "<p>Malgré les fleurs bleu pâle de cette plante, les gousses de ce petit arbuste sont extrêmement piquantes. Elles constituent une épice recherchée dans certaines régions du monde.</p><section id=\"secret-NjYPK2wh98GhHlQc\" class=\"secret\"><p>Rareté : peu commun (DD 15)</p><p>Cueillette : matériel d'herboriste (DD 15)</p><p>Quantité : 1d6 gousses</p><p>Lieu : déserts, savanes</p><p>Utilisations (3) : feu grégeois, pâte de lave, piments revigorants</p></section>"
+    }
+  }
+}

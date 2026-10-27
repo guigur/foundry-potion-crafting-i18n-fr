@@ -1,0 +1,429 @@
+{
+  "label": "Fabrication de potions — Alchimie",
+  "mapping": {
+    "name": "name",
+    "flags_magicitems_destroyFlavorText": "flags.magicitems.destroyFlavorText",
+    "description": "system.description.value",
+    "system_description_unidentified": "system.description.unidentified",
+    "system_chatFlavor": "system.chatFlavor",
+    "effects": {
+      "path": "effects",
+      "converter": "document",
+      "documentType": "ActiveEffect",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name"
+      }
+    }
+  },
+  "entries": {
+    "0e3lLYXHmzisu59a": {
+      "name": "Feu grégeois (flasque)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Ce liquide collant et adhésif s'enflamme au contact de l'air. Au prix d'une action, vous pouvez lancer cette flasque à une distance maximale de 20 pieds ; elle se brise à l'impact. Effectuez une attaque à distance contre une créature ou un objet, en traitant le feu grégeois comme une arme improvisée. Si l'attaque touche, la cible subit 1d4 dégâts de feu au début de chacun de ses tours. Une créature peut mettre fin à ces dégâts en utilisant son action pour effectuer un test de Dextérité DD 10 afin d'éteindre les flammes.</p>",
+      "system_description_unidentified": "Équipement",
+      "system_chatFlavor": "arme improvisée"
+    },
+    "24kj5977TOuIQC0L": {
+      "name": "Potion d'invisibilité",
+      "description": "<p>Le récipient de cette potion semble vide, mais paraît contenir un liquide lorsqu'on le manipule. Quand vous la buvez, vous devenez @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{invisible} pendant 1 heure. Tout ce que vous portez ou transportez devient @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{invisible} avec vous. L'effet prend fin prématurément si vous attaquez ou lancez un sort.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "2pTgWbzz110XVGkn": {
+      "name": "Potion de mana mineure",
+      "description": "<p>D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 2 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 2 points de sorcellerie.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "3IQJ9tESxUsZk1J8": {
+      "name": "Poudre explosive",
+      "description": "<p>Cette poudre alchimique instable est contenue dans un petit sachet. Elle explose lorsqu'on l'allume avec une flamme nue ou une mèche. Chaque créature située à 5 pieds ou moins du sachet qui explose doit effectuer un jet de sauvegarde de Dextérité DD 13. Elle subit 3d6 dégâts contondants en cas d'échec, ou la moitié en cas de réussite.</p>\n<p>Un personnage peut attacher plusieurs sachets de poudre explosive ensemble pour les faire exploser simultanément. Chaque sachet supplémentaire augmente les dégâts de 1d6 (jusqu'à un maximum de 10d6) et le rayon de l'explosion de 5 pieds (jusqu'à un maximum de 20 pieds).</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "4Lo0EWc2jquFAc4K": {
+      "name": "Potion d'escalade",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse d'escalade égale à votre vitesse de marche. Pendant cette période, vous avez l'avantage aux tests de Force (@Compendium[dnd5e.rules.0AGfrwZRzSG0vNKb]{Athlétisme}) effectués pour escalader. La potion se compose de couches brunes, argentées et grises qui évoquent des strates rocheuses. Secouer la bouteille ne mélange pas les couleurs.</p>",
+      "system_description_unidentified": "Potion",
+      "effects": {
+        "AMcH0aulWojBJph9": {
+          "name": "Potion d'escalade - Effets du consommable"
+        }
+      }
+    },
+    "53DRxgqmxGvds7TL": {
+      "name": "Encre invisible",
+      "description": "<p>Une bouteille de 1 once d'encre qui ne peut être rendue visible que par des sorts, des aptitudes ou des objets permettant de voir l'invisible, ou par l'application d'un acide doux.</p>"
+    },
+    "5eJzwqLa17xsXshP": {
+      "name": "Matériel d'alchimiste",
+      "description": "<p>Ces outils spécialisés comprennent le nécessaire pour exercer un artisanat ou un métier. La maîtrise d'un type d'outils d'artisan vous permet d'ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour utiliser ces outils dans votre métier. Chaque type d'outils d'artisan requiert une maîtrise distincte.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "5n8eEW3IaxjAhzTK": {
+      "name": "Potion de résistance psychique",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts psychiques pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "zdVYU7zcy294Qtyw": {
+          "name": "Potion de résistance psychique - Effets du consommable"
+        }
+      }
+    },
+    "6IfVTFhqoV1XLltR": {
+      "name": "Potion de diminution",
+      "description": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet « rapetissement » du sort <strong></strong><strong>agrandissement/rapetissement</strong> pendant 1d4 heures (sans concentration). La teinte rouge du liquide se contracte continuellement en une minuscule perle, puis se dilate pour colorer le liquide transparent qui l'entoure. Secouer la bouteille n'interrompt pas ce phénomène.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "ahSbu59yYSN2u9NJ": {
+          "name": "Potion de diminution"
+        }
+      }
+    },
+    "6iDKM2mkAjIhQIux": {
+      "name": "Potion de résistance au tonnerre",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts de tonnerre pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "JSyg2wHA8qCLDU29": {
+          "name": "Potion de résistance au tonnerre - Effets du consommable"
+        }
+      }
+    },
+    "8X3nBG9jXmVpCHa6": {
+      "name": "Potion de respiration aquatique",
+      "description": "<p>Vous pouvez respirer sous l'eau pendant 1 heure après avoir bu cette potion. Son liquide vert trouble sent la mer et contient une bulle flottante semblable à une méduse.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "9HkCG49rFoI8DMLI": {
+      "name": "Potion de forme gazeuse",
+      "description": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort <strong></strong><strong>forme gazeuse</strong> pendant 1 heure (sans concentration), ou jusqu'à ce que vous mettiez fin à l'effet par une action bonus. Le récipient semble contenir une brume qui se déplace et se verse comme de l'eau.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "B06KsRlhGGbHLfpM": {
+      "name": "Potion de nage",
+      "description": "<p>Cette potion se compose de couches de liquide bleu sarcelle, bleu clair et indigo qui évoquent les profondeurs de l'océan. Secouer la bouteille ne mélange pas les couleurs.</p><p>Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse de nage égale à votre vitesse de marche. Pendant cette période, vous avez l'avantage aux tests de Force (Athlétisme) effectués pour nager.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "BYMeQsPpEJv14uCq": {
+      "name": "Encre (bouteille de 5 onces)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>L'encre s'utilise généralement avec un porte-plume pour écrire.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "DV72ygEGCy6YXUyE": {
+      "name": "Encre (très rare)",
+      "description": "<p>Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveaux 6 à 8.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "HYLFCu9GlUmXbJcH": {
+      "name": "Potion de rêves véridiques",
+      "description": "<p>Noir comme le néant, ce liquide semble produire des éclats de couleurs vives lorsqu'on le regarde du coin de l'œil. Si vous buvez cette potion avant de vous endormir, vos rêves vous montrent des visions véridiques du passé, du présent ou d'événements futurs possibles liés à une créature, un lieu ou un objet de votre choix. Le MJ détermine la nature et la durée de ces visions.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "I07yfNbjLGsC8RLb": {
+      "name": "Encre (légendaire)",
+      "description": "<p><span style=\"font-family:OpenSans\">Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveau 9.</span></p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "Ii5gy259isUXMqSg": {
+      "name": "Huile du fléau des dragons",
+      "description": "<p>Cette huile peut enduire une seule arme pour 3 utilisations, ou jusqu'à 3 munitions pour 1 utilisation chacune. Un dragon qui subit des dégâts d'une arme ou d'une munition enduite de cette huile subit 6d6 dégâts supplémentaires de l'attaque. L'huile sèche au bout de 1 heure et devient inerte.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "E4rkJfyZafFFTCKT": {
+          "name": "Huile du fléau des dragons"
+        }
+      }
+    },
+    "ImKqidK2awM2bNKG": {
+      "name": "Potion d'invulnérabilité",
+      "description": "<p>Pendant 1 minute après avoir bu cette potion, vous avez la résistance à tous les dégâts. Son liquide sirupeux ressemble à du fer liquéfié. </p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "JN5rimyT8P5RDjnA": {
+      "name": "Potion de force de géant",
+      "description": "<p>Quand vous buvez cette potion, votre valeur de Force change pendant 1 heure. Le type de géant détermine cette valeur (voir le tableau ci-dessous). La potion n'a aucun effet si votre Force est déjà égale ou supérieure à cette valeur.</p>\n<p>Un fragment d'ongle du type de géant correspondant flotte dans le liquide transparent de cette potion. La potion de force de géant du givre et celle de géant des pierres produisent le même effet.</p>\n<table>\n<thead>\n<tr>\n<th>Type de géant</th>\n<th>Force</th>\n<th>Rareté</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Potion de force de géant des collines</td>\n<td>21</td>\n<td>Peu commun</td>\n</tr>\n<tr>\n<td>Potion de force de géant du givre</td>\n<td>23</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Potion de force de géant des pierres</td>\n<td>23</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Potion de force de géant du feu</td>\n<td>25</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Potion de force de géant des nuages</td>\n<td>27</td>\n<td>Très rare</td>\n</tr>\n<tr>\n<td>Potion de force de géant des tempêtes</td>\n<td>29</td>\n<td>Légendaire</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "nJQdVWhNNIRHaYM5": {
+          "name": "Potion de force de géant - Effets du consommable"
+        }
+      }
+    },
+    "KQ0CCqBtrOoycN5x": {
+      "name": "Potion de clairvoyance",
+      "description": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort clairvoyance. Un globe oculaire flotte dans ce liquide jaunâtre et disparaît à l'ouverture de la potion.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "LPEKhzRjjwlhAaYh": {
+      "name": "Potion de résistance au poison",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts de poison pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "QArhjGa53NxFjJ8s": {
+          "name": "Potion de résistance au poison - Effets du consommable"
+        }
+      }
+    },
+    "MfE2g2kZs1L04oOm": {
+      "name": "Potion de résistance radiante",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts radiants pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "fvt2i1gbroqEumxT": {
+          "name": "Potion de résistance radiante - Effets du consommable"
+        }
+      }
+    },
+    "N6KtY0Vq3kBln0Dx": {
+      "name": "Potion de résistance à la foudre",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts de foudre pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "pbfEOqfAPcM5nUEU": {
+          "name": "Potion de résistance à la foudre - Effets du consommable"
+        }
+      }
+    },
+    "Ni8DI1Zn9li3vzGT": {
+      "name": "Potion de mana",
+      "description": "<p><span style=\"font-family:OpenSans\">D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 4 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 4 points de sorcellerie.</span></p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "Q6fYSgZiPZjXLim8": {
+      "name": "Potion d'héroïsme",
+      "description": "<p>Pendant 1 heure après l'avoir bue, vous gagnez 10 points de vie temporaires qui durent 1 heure. Pendant la même durée, vous bénéficiez de l'effet du sort <strong></strong><strong>bénédiction</strong> (sans concentration). Cette potion bleue bouillonne et fume comme si elle était en ébullition.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "r25a16ze0cCMgeBV": {
+          "name": "Potion d'héroïsme"
+        }
+      }
+    },
+    "QVF5CvK1crupWD1N": {
+      "name": "Potion de mana supérieure",
+      "description": "<p><span style=\"font-family:OpenSans\">D'un bleu vif et d'un violet profond, parsemée de points blancs et argentés, cette potion évoque le ciel nocturne. Lorsqu'on l'agite, elle émet une douce lumière violette. Après l'avoir bue, l'utilisateur récupère 8 points de récupération, similaires à ceux de la Récupération arcanique du magicien, ou récupère 8 points de sorcellerie.</span></p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "RYc2autIgxbhYjj3": {
+      "name": "Potion de longévité",
+      "description": "<p>Quand vous buvez cette potion, votre âge physique diminue de 1d6 + 6 ans, jusqu'à un minimum de 13 ans. Chaque fois que vous buvez ensuite une <em>potion de longévité</em>, vous avez 10 % de chances cumulatives de vieillir au contraire de 1d6 +6 ans. Une queue de scorpion, un croc de vipère, une araignée morte et un minuscule cœur qui, contre toute logique, bat encore sont suspendus dans ce liquide ambré. Les ingrédients disparaissent à l'ouverture de la potion.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "SCwysSQlyAbgwtEj": {
+      "name": "Potion de résistance à la force",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts de force pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "Gt0gTO52d0TmCabx": {
+          "name": "Potion de résistance à la force - Effets du consommable"
+        }
+      }
+    },
+    "SwR5HXZIayKe9wRQ": {
+      "name": "Sels de lucidité",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Les sels de lucidité proviennent d'une substance cristalline naturelle découverte dans les étendues sauvages du rivage de Miskath. Ces cristaux écarlates sont extraits de filons souterrains, comme ceux à l'entrée de la fosse de Miskath, et se trouvent aussi dans de petites géodes près de sites ravagés par la Calamité. Les sels de lucidité se consomment par voie orale, en doses de la taille d'une pastille. Leurs consommateurs réguliers se reconnaissent aux traces écarlates autour de la bouche. Une créature qui prend une dose de sels de lucidité a l'avantage à tous ses tests d'Intelligence pendant 1d4 heures.</p>\n<p>Pour chaque dose de sels de lucidité consommée, la créature doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de gagner un niveau d'épuisement. Cet effet se cumule avec les doses successives.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "Uu1lGRorxTFbj1K4": {
+      "name": "Huile glissante",
+      "description": "<p>Cet onguent noir et collant est épais et lourd dans son récipient, mais s'écoule rapidement lorsqu'on le verse. L'huile peut recouvrir une créature de taille M ou inférieure, ainsi que tout son équipement porté et transporté (une fiole supplémentaire est nécessaire par catégorie de taille au-dessus de M). Appliquer l'huile prend 10 minutes. La créature affectée bénéficie ensuite de l'effet du sort <strong></strong><strong>liberté de mouvement</strong> pendant 8 heures.</p>\n<p>Vous pouvez aussi verser l'huile au sol au prix d'une action. Elle couvre alors un carré de 10 pieds de côté et reproduit l'effet du sort <strong></strong><strong>graisse</strong> dans cette zone pendant 8 heures.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "VKJUbbWyOdLPfIW6": {
+      "name": "Potion de croissance",
+      "description": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet « agrandissement » du sort <strong></strong><strong>agrandissement/rapetissement</strong> pendant 1d4 heures (sans concentration). La teinte rouge du liquide se dilate continuellement à partir d'une minuscule perle pour colorer le liquide transparent qui l'entoure, puis se contracte. Secouer la bouteille n'interrompt pas ce phénomène.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "b2Xw4C6jepxMELvZ": {
+          "name": "Potion de croissance"
+        }
+      }
+    },
+    "XRYSJU59a4tE7QMK": {
+      "name": "Potion de vol",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse de vol égale à votre vitesse de marche et pouvez voler sur place. Si vous êtes dans les airs quand l'effet prend fin, vous tombez, sauf si vous disposez d'un autre moyen de rester en vol. Le liquide transparent flotte au sommet du récipient et contient des impuretés blanches et nuageuses.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "CcTCTdDCsWCpKrNB": {
+          "name": "Potion de vol"
+        }
+      }
+    },
+    "Zo2nHuWzdnFTpvSf": {
+      "name": "Potion d'amitié avec les animaux",
+      "description": "<p>Quand vous buvez cette potion, vous pouvez lancer à volonté le sort <strong></strong><strong>amitié avec les animaux</strong> (DD de sauvegarde 13) pendant 1 heure. Agiter ce liquide boueux fait apparaître de petits fragments : une écaille de poisson, une langue de colibri, une griffe de chat ou un poil d'écureuil.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "aPRvt8ocEIx90pDC": {
+      "name": "Potion de résistance au froid",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts de froid pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "pfXXUZr2ROHatUPu": {
+          "name": "Potion de résistance au froid - Effets du consommable"
+        }
+      }
+    },
+    "aUFirgBdb7axX2wj": {
+      "name": "Potion de vitesse",
+      "description": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort <strong></strong><strong>hâte</strong> pendant 1 minute (sans concentration). Le liquide jaune de la potion est strié de noir et tourbillonne de lui-même.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "acHCqHI55d3UcsZc": {
+      "name": "Huile d'affûtage",
+      "description": "<p>Cette huile transparente et gélatineuse scintille de minuscules éclats d'argent extrêmement fins. Elle peut enduire une arme tranchante ou perforante, ou jusqu'à 5 munitions infligeant des dégâts tranchants ou perforants. L'application prend 1 minute. Pendant 1 heure, l'objet enduit est magique et bénéficie d'un bonus de +3 aux jets d'attaque et de dégâts.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "csQt8WZWfyuzq0zS": {
+      "name": "Encre (rare)",
+      "description": "<p>Une bouteille de 1 once d'encre destinée à l'écriture. Suffisante pour fabriquer des parchemins de sorts de niveaux 1 à 5.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "d2Y3PCs0OE3HrNXe": {
+      "name": "Huile de minuit",
+      "description": "<p>Lorsqu'elle alimente une lanterne, l'huile de minuit émet une lumière vive sur 5 pieds et une lumière faible sur 5 pieds supplémentaires pendant 8 heures. Une créature qui reste dans cette lumière durant les 8 heures bénéficie de tous les avantages d'un repos long sans dormir, à condition de ne pratiquer que des activités légères : lecture, étude, conversation, etc.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "GIwBRUS9GX7ibCdk": {
+          "name": "Huile de minuit"
+        }
+      }
+    },
+    "dHl1yzSwizLALtJS": {
+      "name": "Matériel d'empoisonneur",
+      "description": "<p>Le matériel d'empoisonneur comprend les fioles, produits chimiques et autres équipements nécessaires à la fabrication de poisons. Sa maîtrise vous permet d'ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour fabriquer ou utiliser des poisons.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "dhsVGbyG9FpA1oCb": {
+      "name": "Potion de vision véritable",
+      "description": "<p>Boire cette potion confère la vision véritable sur une portée de 120 pieds pendant 1 heure.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "L8NtA6BiAXiIxhk3": {
+          "name": "Vision véritable"
+        }
+      }
+    },
+    "iMpwkLKGgMdJH2Cb": {
+      "name": "Faux sang",
+      "description": "<p>Préparée à partir de sanguinaire et de petites quantités de poudre de fer, cette mixture a l'apparence, l'odeur et même le goût du vrai sang. Un test d'Investigation de 15 ou plus, ou toute magie d'identification, révèle sa véritable nature.</p>"
+    },
+    "mLMSixc5umwddQaI": {
+      "name": "Souffle en bouteille",
+      "description": "<p>Cette bouteille contient une bouffée d'air élémentaire. Lorsque vous l'inhalez, vous pouvez soit l'expirer, soit retenir votre souffle.</p><p>Si vous expirez, vous bénéficiez de l'effet du sort bourrasque. Si vous retenez votre souffle, vous n'avez pas besoin de respirer pendant 1 heure, mais vous pouvez mettre fin à cet avantage prématurément, par exemple pour parler. Y mettre fin de cette manière ne vous confère pas l'effet de l'expiration.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "mb8AMSs0FCZkbjrq": {
+      "name": "Puissance de Thor",
+      "description": "<p>Cette masse agitée de liquide bleu profond est parcourue de traînées blanches évoquant des éclairs. Son récipient tremble constamment. Pendant 1 minute après avoir bu cette potion, chaque attaque d'arme au corps à corps qui touche une cible produit un fracas tonitruant et inflige 1d6 dégâts de tonnerre supplémentaires. Le nombre d'utilisations pendant cette durée n'est pas limité.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "RPto9jPesilz3BQ4": {
+          "name": "Puissance de Thor"
+        }
+      }
+    },
+    "mkS93V9FDtR6k0JI": {
+      "name": "Huile de forme éthérée",
+      "description": "<p>Des gouttelettes de cette huile grise et trouble se forment à l'extérieur du récipient et s'évaporent rapidement. L'huile peut recouvrir une créature de taille M ou inférieure ainsi que son équipement porté et transporté (une fiole supplémentaire est nécessaire par catégorie de taille au-dessus de M). L'application prend 10 minutes. La créature affectée bénéficie ensuite de l'effet du sort <strong></strong><strong>forme éthérée</strong> pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "n1GKqHmjaTcQGC9G": {
+      "name": "Potion de résistance",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance à un type de dégâts pendant 1 heure. Le MJ choisit ce type ou le détermine aléatoirement parmi les possibilités ci-dessous.</p>\n<table>\n<thead>\n<tr>\n<th>d10</th>\n<th>Type de dégâts</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Acide</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Froid</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Feu</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Force</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Potion de résistance à la foudre ; foudre</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Nécrotique</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Poison</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Résistance psychique</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Radiant</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Tonnerre</td>\n</tr>\n</tbody>\n</table><div id=\"table-link\">@Compendium[world.ddb-pcandg-tables.Potion of Resistance: Damage Type]{Ouvrir la table Potion de résistance : type de dégâts}</div>\n<p> </p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "blMWw7cYhCV0hA7K": {
+          "name": "Potion de résistance - Effets du consommable"
+        }
+      }
+    },
+    "oquayQZ25uK2MH2u": {
+      "name": "Potion de possibilité",
+      "description": "<p>Quand vous buvez cette potion transparente, vous gagnez deux fragments de possibilité. Chacun ressemble à une minuscule perle d'énergie grisâtre qui vous suit en restant constamment à 1 pied ou moins de vous. Chaque fragment dure 8 heures ou jusqu'à son utilisation.</p>\n<p>Lorsque vous effectuez un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez dépenser un fragment pour lancer un d20 supplémentaire et choisir lequel des d20 utiliser. Vous pouvez aussi dépenser un fragment lorsqu'une attaque vous prend pour cible, lancer un d20 et choisir lequel des d20 utiliser : le vôtre ou celui de l'attaquant.</p>\n<p>Si le jet de d20 initial bénéficie de l'avantage ou subit le désavantage, vous lancez votre d20 après l'application de cet avantage ou désavantage au jet initial.</p>\n<p>Tant que vous possédez au moins un fragment de possibilité provenant de cette potion, vous ne pouvez pas obtenir d'autre fragment de possibilité, quelle qu'en soit la source.</p>\n<p> </p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "raNDRyDaI8fg01G3": {
+      "name": "Grenade fumigène",
+      "description": "<p>Au prix d'une action, un personnage peut lancer une grenade vers un point situé à 60 pieds ou moins. Avec un lance-grenades, il peut la propulser jusqu'à 120 <span class=\"No-Break\">pieds.</span></p>\n<p>Un round après qu'une <span class=\"Serif-Character-Style_Bold-Serif\">grenade fumigène</span> a atterri, elle émet un nuage de fumée qui crée une zone à visibilité nulle dans un rayon de 20 pieds. Un vent modéré (au moins 10 miles par heure) disperse la fumée en 4 rounds ; un vent fort (au moins 20 miles par heure) la disperse en<span class=\"No-Break\"> 1 round.</span></p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "tdz8MUeoTvaMThcQ": {
+      "name": "Potion de lecture des pensées",
+      "description": "<p>Quand vous buvez cette potion, vous bénéficiez de l'effet du sort <strong></strong><strong>détection des pensées</strong> (DD de sauvegarde 13). Une nuée rose et ovoïde flotte dans le liquide dense et violet de cette potion.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "v7Ewly1v2N34EbdJ": {
+      "name": "Potion de résistance au feu",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts de feu pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "Y17PAEhGTYhZ2gyV": {
+          "name": "Potion de résistance au feu - Effets du consommable"
+        }
+      }
+    },
+    "vL7ajFoL9uo6vcgo": {
+      "name": "Potion de résistance à l'acide",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts d'acide pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "ZZkVVVfRfNosjs5p": {
+          "name": "Potion de résistance à l'acide - Effets du consommable"
+        }
+      }
+    },
+    "yY1KN3e6BQfX162b": {
+      "name": "Potion de résistance nécrotique",
+      "description": "<p>Quand vous buvez cette potion, vous gagnez la résistance aux dégâts nécrotiques pendant 1 heure.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "G5FJRSW1TBHc2I3j": {
+          "name": "Potion de résistance nécrotique - Effets du consommable"
+        }
+      }
+    },
+    "ybFip13T0PaQvvrY": {
+      "name": "Potion de souffle de feu",
+      "description": "<p>Après avoir bu cette potion, vous pouvez utiliser une action bonus pour cracher du feu sur une cible située à 30 pieds ou moins. Elle doit effectuer un jet de sauvegarde de Dextérité DD 13 et subit 4d6 dégâts de feu en cas d'échec, ou la moitié en cas de réussite. L'effet prend fin après trois souffles de feu ou au bout de 1 heure.</p>\n<p>Le liquide orange de cette potion vacille. De la fumée remplit le haut du récipient et s'en échappe à chaque ouverture.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    }
+  }
+}

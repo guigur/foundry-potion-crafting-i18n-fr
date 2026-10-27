@@ -1,0 +1,51 @@
+{
+  "source": "potion-crafting-and-gathering",
+  "sourceVersion": "0.8.2",
+  "sourceCommit": "98847c5f676297a112f8e51948faadfcc3c5cb0f",
+  "language": "fr",
+  "packs": {
+    "ingredients": {
+      "documents": 65,
+      "effects": 15,
+      "folders": 0
+    },
+    "alchemy": {
+      "documents": 53,
+      "effects": 21,
+      "folders": 0
+    },
+    "herbalism": {
+      "documents": 32,
+      "effects": 12,
+      "folders": 0
+    },
+    "poisons": {
+      "documents": 28,
+      "effects": 8,
+      "folders": 0
+    },
+    "journal": {
+      "documents": 2,
+      "pages": 18,
+      "folders": 0
+    },
+    "recipes": {
+      "documents": 12,
+      "pages": 108,
+      "folders": 3
+    },
+    "tables": {
+      "documents": 15,
+      "results": 106,
+      "folders": 0
+    }
+  },
+  "catalogSegments": 841,
+  "translatedFieldOccurrences": 2297,
+  "legacyRecipeFiles": 12,
+  "runtimeValidation": "Pending verification in a running Foundry VTT 14 world",
+  "notes": [
+    "Dracula's Essence description is truncated in the upstream source; the cutoff is marked in French.",
+    "Source credits, URLs, identifiers, source-book citations, and mechanical enum values remain unchanged."
+  ]
+}

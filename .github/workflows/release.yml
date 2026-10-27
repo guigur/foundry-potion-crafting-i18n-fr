@@ -1,0 +1,65 @@
+name: Check and publish release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Check interface adapters
+        run: node tests/register.test.mjs
+      - name: Build and validate release files
+        run: |
+          python3 tools/prepare_release.py
+          python3 tools/package.py
+          python3 tools/check_package.py
+
+  publish:
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Prepare assets
+        run: |
+          python3 tools/prepare_release.py
+          python3 tools/package.py
+          python3 tools/check_package.py
+      - name: Publish a new version if it does not exist
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          version=$(python3 -c 'import json; print(json.load(open("module.json"))["version"])')
+          tag="v${version}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release ${tag} already exists. Increase module.json version to publish an update."
+            exit 0
+          fi
+          gh release create "$tag" \
+            --target "$GITHUB_SHA" \
+            --title "Traduction française ${tag}" \
+            --notes-file RELEASE-NOTES.md \
+            --latest \
+            dist/module.json \
+            dist/foundry-custom-i18n-fr.zip \
+            dist/pcg-translations-local-fr.zip \
+            GUIDE-INSTALLATION-FR.html

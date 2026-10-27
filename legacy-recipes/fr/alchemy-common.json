@@ -1,0 +1,418 @@
+{
+  "name": "L'Alchimiste brasseur",
+  "description": "Contient des recettes de préparations alchimiques courantes",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'alchimiste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Feu grégeois",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce liquide collant et adhésif s'enflamme au contact de l'air. Au prix d'une action, vous pouvez lancer cette flasque à une distance maximale de 20 pieds ; elle se brise à l'impact. Effectuez une attaque à distance contre une créature ou un objet, en traitant le feu grégeois comme une arme improvisée. Si l'attaque touche, la cible subit 1d4 dégâts de feu au début de chacun de ses tours. Une créature peut mettre fin à ces dégâts en utilisant son action pour effectuer un test de Dextérité DD 10 afin d'éteindre les flammes.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.yg1RFBtdR2AfVS5t",
+              "quantity": 1,
+              "name": "Pois de feu"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.BdmLXPQWZ023gdiY",
+              "quantity": 1,
+              "name": "Huile (flasque)"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.0e3lLYXHmzisu59a",
+              "quantity": 1,
+              "name": "Feu grégeois (flasque)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-corked-orange.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Souffle en bouteille",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette bouteille contient une bouffée d'air élémentaire. Lorsque vous l'inhalez, vous pouvez soit l'expirer, soit retenir votre souffle. Si vous expirez, vous bénéficiez de l'effet du sort bourrasque. Si vous retenez votre souffle, vous n'avez pas besoin de respirer pendant 1 heure, mais vous pouvez mettre fin à cet avantage prématurément, par exemple pour parler. Y mettre fin de cette manière ne vous confère pas l'effet de l'expiration.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.oJHIjX6NgapONg7e",
+              "quantity": 1,
+              "name": "Volute d'élémentaire de l'air"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.mLMSixc5umwddQaI",
+              "quantity": 1,
+              "name": "Souffle en bouteille"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-empty-glass.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Poudre explosive",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette poudre alchimique instable est contenue dans un petit sachet. Elle explose lorsqu'on l'allume avec une flamme nue ou une mèche. Chaque créature située à 5 pieds ou moins du sachet qui explose doit effectuer un jet de sauvegarde de Dextérité DD 13. Elle subit 3d6 dégâts contondants en cas d'échec, ou la moitié en cas de réussite. Un personnage peut attacher plusieurs sachets de poudre explosive ensemble pour les faire exploser simultanément. Chaque sachet supplémentaire augmente les dégâts de 1d6 (jusqu'à un maximum de 10d6) et le rayon de l'explosion de 5 pieds (jusqu'à un maximum de 20 pieds).",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.KxyuMr06YyMT9uVI",
+              "quantity": 1,
+              "name": "Lys de flamme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RPIaybBhCR5X8nyM",
+              "quantity": 1,
+              "name": "Charbon de bois"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.3IQJ9tESxUsZk1J8",
+              "quantity": 1,
+              "name": "Poudre explosive"
+            }
+          ]
+        }
+      ],
+      "img": "icons/commodities/materials/powder-black.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Faux sang",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Préparée à partir de sanguinaire et de petites quantités de poudre de fer, cette mixture a l'apparence, l'odeur et même le goût du vrai sang. Un test d'Investigation de 15 ou plus, ou toute magie d'identification, révèle sa véritable nature.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.S9WUHdPbBP3XPpJO",
+              "quantity": 1,
+              "name": "Sanguinaire"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.iMpwkLKGgMdJH2Cb",
+              "quantity": 1,
+              "name": "Faux sang"
+            }
+          ]
+        }
+      ],
+      "img": "icons/commodities/materials/slime-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Grenade fumigène",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Au prix d'une action, un personnage peut lancer une grenade vers un point situé à 60 pieds ou moins. Avec un lance-grenades, il peut la propulser jusqu'à 120 pieds. Un round après l'atterrissage d'une grenade fumigène, elle émet un nuage de fumée qui crée une zone à visibilité nulle dans un rayon de 20 pieds. Un vent modéré (au moins 10 miles par heure) disperse la fumée en 4 rounds ; un vent fort (au moins 20 miles par heure) la disperse en 1 round.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.KxyuMr06YyMT9uVI",
+              "quantity": 1,
+              "name": "Lys de flamme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.4ybCoZqAMDLiQsmb",
+              "quantity": 1,
+              "name": "Lichen de givre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.raNDRyDaI8fg01G3",
+              "quantity": 1,
+              "name": "Grenade fumigène"
+            }
+          ]
+        }
+      ],
+      "img": "icons/weapons/thrown/grenade-round.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Encre",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une bouteille de 5 onces destinée à l'écriture.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.RPIaybBhCR5X8nyM",
+              "quantity": 1,
+              "name": "Charbon de bois"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.BYMeQsPpEJv14uCq",
+              "quantity": 1,
+              "name": "Encre (bouteille de 5 onces)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion d'escalade",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse d'escalade égale à votre vitesse de marche. Pendant cette période, vous avez l'avantage aux tests de Force (Athlétisme) effectués pour escalader. La potion se compose de couches brunes, argentées et grises qui évoquent des strates rocheuses. Secouer la bouteille ne mélange pas les couleurs.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.knMK5veO989xYVz1",
+              "quantity": 1,
+              "name": "Poils d'araignée-loup géante"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.S13CXdPDL9vBtWoL",
+              "quantity": 1,
+              "name": "Griffe de skulque"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.4Lo0EWc2jquFAc4K",
+              "quantity": 1,
+              "name": "Potion d'escalade"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de nage",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette potion se compose de couches de liquide bleu sarcelle, bleu clair et indigo qui évoquent les profondeurs de l'océan. Secouer la bouteille ne mélange pas les couleurs. Quand vous buvez cette potion, vous gagnez pendant 1 heure une vitesse de nage égale à votre vitesse de marche. Pendant cette période, vous avez l'avantage aux tests de Force (Athlétisme) effectués pour nager.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.uze4YQECLH6snte7",
+              "quantity": 1,
+              "name": "Écaille de quipper"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.B06KsRlhGGbHLfpM",
+              "quantity": 1,
+              "name": "Potion de nage"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Sels de lucidité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Les sels de lucidité proviennent d'une substance cristalline naturelle découverte dans les étendues sauvages du rivage de Miskath. Ces cristaux écarlates sont extraits de filons souterrains, comme ceux à l'entrée de la fosse de Miskath, et se trouvent aussi dans de petites géodes près de sites ravagés par la Calamité. Les sels de lucidité se consomment par voie orale, en doses de la taille d'une pastille. Leurs consommateurs réguliers se reconnaissent aux traces écarlates autour de la bouche. Une créature qui prend une dose de sels de lucidité a l'avantage à tous ses tests d'Intelligence pendant 1d4 heures. Pour chaque dose de sels de lucidité consommée, la créature doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de gagner un niveau d'épuisement. Cet effet se cumule avec les doses successives.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.YfVnagCZGhL6uoH3",
+              "quantity": 1,
+              "name": "Géode de sels de lucidité"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-alchemy.SwR5HXZIayKe9wRQ",
+              "quantity": 1,
+              "name": "Sels de lucidité"
+            }
+          ]
+        }
+      ],
+      "img": "icons/commodities/materials/bowl-powder-gold.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-potion-blue.webp",
+  "documentName": "RecipeBook"
+}

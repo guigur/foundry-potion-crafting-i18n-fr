@@ -1,0 +1,178 @@
+{
+  "name": "Le Maître herboriste",
+  "description": "Contient des recettes de potions et d'onguents très rares",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'herboriste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Potion de protection",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Un liquide trouble, gris acier, dans lequel flottent de minuscules perles jaunes, vertes, rouges, bleues, violettes, blanches et noires. Il immunise le buveur pendant 1 heure contre tous les états, sauf à terre, agrippé, entravé et inconscient.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.e9SUSA3TYHv9gxXl",
+              "quantity": 1,
+              "name": "Griffes immobiles"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.AvyiJlB22uJt9J5E",
+              "quantity": 1,
+              "name": "Graine blanche d'orchidée fantôme"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.augf8aBoKEZF6QCw",
+              "quantity": 1,
+              "name": "Potion de protection"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-corked-empty.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de soins suprême",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Vous récupérez 10d4 + 20 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": "4",
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.xjZZVQclrHZJe1sB",
+              "quantity": 1,
+              "name": "Potion de soins (suprême)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de vitalité",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Le liquide écarlate de cette potion émet régulièrement une faible pulsation lumineuse évoquant un battement de cœur. La boire supprime tout épuisement et soigne toutes les maladies et tous les poisons du buveur. Pendant les 24 heures suivantes, celui-ci dispose du double de dés de vie à dépenser pendant les repos courts et récupère le maximum de points de vie pour chaque dé dépensé.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.q56qk1upHBqOeFo0",
+              "quantity": "2",
+              "name": "Rosée du matin"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.8U61IScvrNcit1ZJ",
+              "quantity": "2",
+              "name": "Langue-de-chat"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.pENSKogWx0Tz0fzn",
+              "quantity": 1,
+              "name": "Feuille d'olisuba"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.FpMpNmVYcFXPokKI",
+              "quantity": 1,
+              "name": "Potion de vitalité"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-flask-corled-pink-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-leaf-gold-green.webp",
+  "documentName": "RecipeBook"
+}

@@ -1,0 +1,388 @@
+{
+  "name": "L'Herboriste débutant",
+  "description": "Contient des recettes de potions et d'onguents courants",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'herboriste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Antitoxine",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une créature qui boit le contenu de cette fiole a l'avantage aux jets de sauvegarde contre le poison pendant 1 heure. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sgg30hrdXOD3vAGC",
+              "quantity": 1,
+              "name": "Baie de givre éternel"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.8U61IScvrNcit1ZJ",
+              "quantity": 1,
+              "name": "Langue-de-chat"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.QQlIKiwfThxbuXiL",
+              "quantity": 1,
+              "name": "Antitoxine"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de soins",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Un personnage qui boit le liquide rouge magique de cette fiole récupère 2d4 + 2 points de vie. Boire une potion ou l'administrer nécessite une action.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": 1,
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs",
+              "quantity": 1,
+              "name": "Potion de soins"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Baume de muroosa",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette pâte issue de l'arbuste muroosa est connue pour prévenir les coups de soleil, mais elle est aussi ignifuge. Après avoir passé 1 minute à appliquer un quart de pinte de ce baume sur votre peau, vous gagnez la résistance aux dégâts de feu pendant 1 heure.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.KxyuMr06YyMT9uVI",
+              "quantity": 1,
+              "name": "Lys de flamme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sODZElZQJ8PiIvH1",
+              "quantity": 1,
+              "name": "Brindilles de muroosa"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.Xba0Y9JepZjQ6Kio",
+              "quantity": 1,
+              "name": "Baume de muroosa"
+            }
+          ]
+        }
+      ],
+      "img": "icons/tools/laboratory/bowl-herbs-green.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Piments revigorants",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ces en-cas bénéfiques sont très piquants et agréablement croquants. Manger un piment revigorant confère 3 points de vie temporaires.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.yg1RFBtdR2AfVS5t",
+              "quantity": 1,
+              "name": "Pois de feu"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.KMS4fSU2cl0eHA8J",
+              "quantity": "6",
+              "name": "Piments revigorants"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/vegetable/cauliflower-head-white.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de langage des plantes",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Un liquide brun transparent contenant des brindilles et des feuilles vert vif. Il devient jaune pâle à l'ouverture. Il confère au buveur la capacité de communiquer avec les plantes pendant 5 minutes.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.8U61IScvrNcit1ZJ",
+              "quantity": 1,
+              "name": "Langue-de-chat"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sODZElZQJ8PiIvH1",
+              "quantity": 1,
+              "name": "Brindilles de muroosa"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.oWgxhdYXSWTGjwjo",
+              "quantity": 1,
+              "name": "Potion de langage des plantes"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-yellow.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Onguent apaisant",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Un onguent collant à l'odeur aigre qui s'applique sur les blessures. Lorsque vous dépensez des dés de vie pour récupérer des points de vie sous son effet, vous récupérez 3 points de vie supplémentaires par dé dépensé. L'effet dure 1 heure après l'application.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.5SU6evgnA2ocp13r",
+              "quantity": 1,
+              "name": "Herbe aigre"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.vperyfe91D7Y0mWW",
+              "quantity": 1,
+              "name": "Rosée acide"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.VAiC2oDr4p49l3ni",
+              "quantity": 1,
+              "name": "Onguent apaisant"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-white.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Philtre désaltérant",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une potion bleue contenant toujours 2 glaçons, un brin de menthe et 2 rondelles de citron. Elle est toujours fraîche au toucher. Elle étanche complètement la soif et supprime le besoin de boire pendant 2 jours. Les voyageurs des caravanes la recherchent particulièrement près des déserts.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sODZElZQJ8PiIvH1",
+              "quantity": 1,
+              "name": "Brindilles de muroosa"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.kUzQnkx0GC5NTHsv",
+              "quantity": 1,
+              "name": "Branchiflore"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.i1n6hdw1K0gxGwTQ",
+              "quantity": 1,
+              "name": "Philtre désaltérant"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Huile d'ombresaule",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "On peut extraire une huile bleu sombre du fruit de l'ombresaule. Une créature peut utiliser son action pour appliquer cette huile à une autre créature pétrifiée depuis moins de 1 minute ; l'état pétrifié de cette créature prend fin au début de ce qui aurait été son prochain tour.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.SMab7kAjsYtxGJKJ",
+              "quantity": 1,
+              "name": "Fruit d'ombresaule"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.MdAPFn646hCxbo7D",
+              "quantity": 1,
+              "name": "Huile d'ombresaule"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-leaf-gold-green.webp",
+  "documentName": "RecipeBook"
+}

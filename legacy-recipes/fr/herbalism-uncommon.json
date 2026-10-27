@@ -1,0 +1,638 @@
+{
+  "name": "L'Herboriste en herbe",
+  "description": "Contient des recettes de potions et d'onguents peu communs",
+  "ownership": {
+    "rqEOxzm9pWZpMhH4": "2",
+    "QAdDWUaUNK09Iq3x": "2",
+    "GOvXOrkQSzey7yZ5": "2",
+    "56XvGn6U8R9S2vlW": "2",
+    "HHjDcylTiWQFDEbS": "2"
+  },
+  "tools": "Matériel d'herboriste",
+  "ingredientsInspection": "1",
+  "productInspection": "1",
+  "recipes": [
+    {
+      "name": "Ichor de flétrissure",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette mixture amère de couleur chartreuse est distillée à partir d'un champignon originaire des terres désolées de Blightshore. Cette liqueur verdâtre possède de puissantes propriétés psychédéliques. Une créature qui n'est ni un artificiel ni un mort-vivant et qui en reçoit une dose a l'avantage aux tests d'Intelligence et de Sagesse, mais devient vulnérable aux dégâts psychiques pendant 1 heure. Pour chaque dose consommée, elle doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d'être empoisonnée pendant 1d6 heures et de subir les effets du sort confusion pendant 1 minute. Un mort-vivant qui reçoit une dose d'ichor de flétrissure a l'avantage à tous ses tests de Dextérité et est immunisé contre l'état effrayé pendant 1 heure.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.hJMFlmpilZ8LpVKE",
+              "quantity": 1,
+              "name": "Spores de flétrissure"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.KHulWtdUanyW3N0X",
+              "quantity": 1,
+              "name": "Ichor de flétrissure"
+            }
+          ]
+        }
+      ],
+      "img": "icons/commodities/materials/liquid-green.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Breuvage de Babel",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Bleu layette et très opaque, avec une présence blanche qui s'y déplace à la limite du regard, ce liquide devient d'un jaune aveuglant lorsqu'on l'agite. Il permet de parler et de comprendre une langue au choix pendant 1 heure, mais pas de la lire ni de l'écrire.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.ZxuFEfo7SerKMoMR",
+              "quantity": "2",
+              "name": "Ortie chantante"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.pGqjE4LL9KETdnXF",
+              "quantity": 1,
+              "name": "Breuvage de Babel"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Baume de feu",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Une pâte orange à base de plantes qui aide à récupérer de diverses affections. Une dose confère un bonus de +3 à un seul jet de sauvegarde de Constitution, de Sagesse ou de Charisme effectué au cours des 14 heures suivantes.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.KxyuMr06YyMT9uVI",
+              "quantity": 1,
+              "name": "Lys de flamme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.BdmLXPQWZ023gdiY",
+              "quantity": 1,
+              "name": "Huile (flasque)"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.iO0893B9hiYU7D6X",
+              "quantity": 1,
+              "name": "Racine de theki"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.bEYdVoyhYKyWBSMs",
+              "quantity": 1,
+              "name": "Baume de feu"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-metal-yellow-gray.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Antitoxine supérieure",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Ce liquide trouble, orange citrouille, confère pendant 12 heures l'avantage aux jets de sauvegarde contre les dégâts de poison ou l'état empoisonné. Pendant cette période, le buveur ne subit pas non plus les dégâts persistants des poisons et ses points de vie ne peuvent pas tomber à 0 à cause de dégâts de poison.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.iO0893B9hiYU7D6X",
+              "quantity": 1,
+              "name": "Racine de theki"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.5SU6evgnA2ocp13r",
+              "quantity": 1,
+              "name": "Herbe aigre"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.5gWo8DBZYDf5a7il",
+              "quantity": 1,
+              "name": "Antitoxine supérieure"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/conical-ornate-purple.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Liqueur de vie",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette potion rose vif est parfaitement transparente et contient l'image flottante d'un cœur rouge. Quel que soit l'angle sous lequel on la regarde, le cœur apparaît toujours de la même façon. Boire cette potion confère 2d6+2 points de vie temporaires.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": 1,
+              "name": "Amanite rouge"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.sODZElZQJ8PiIvH1",
+              "quantity": 1,
+              "name": "Brindilles de muroosa"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.8dJD3aTwScmPhdhu",
+              "quantity": 1,
+              "name": "Liqueur de vie"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Élixir de vie de Murgaxor",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quiconque boit cette mixture a l'avantage aux jets de sauvegarde contre la mort pendant 24 heures.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.AvyiJlB22uJt9J5E",
+              "quantity": 1,
+              "name": "Graine blanche d'orchidée fantôme"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.63O4sBNqbRkLvybn",
+              "quantity": 1,
+              "name": "Élixir de vie de Murgaxor"
+            }
+          ]
+        }
+      ],
+      "img": "ddb-images/other/equipment-Potion.jpg",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Pomme de senteur protectrice",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette boule d'épices et de parfums aromatiques emplit d'une forte odeur une zone de 15 pieds de rayon pendant 24 heures après son déballage. Les morts-vivants de facteur de puissance 2 ou inférieur qui entrent dans cette zone doivent réussir un jet de sauvegarde de Sagesse DD 15 sous peine d'être renvoyés, comme avec l'aptitude Renvoi des morts-vivants du clerc.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.qXk27yXG0KVONssI",
+              "quantity": 1,
+              "name": "Doigt de guenaude"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.9GZEN1z5fxIRmjaQ",
+              "quantity": 1,
+              "name": "Pomme de senteur protectrice"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/vegetable/garlic-lautrec-pink.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion d'avantage",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Quand vous buvez cette potion, vous avez l'avantage à un test de caractéristique, un jet d'attaque ou un jet de sauvegarde de votre choix effectué au cours de l'heure suivante. Cette potion prend la forme d'une brume dorée et scintillante qui se déplace et se verse comme de l'eau.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.SMab7kAjsYtxGJKJ",
+              "quantity": 1,
+              "name": "Fruit d'ombresaule"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.O0eT04b4AYt7qvr9",
+              "quantity": 1,
+              "name": "Champignon arc-en-ciel"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.0ZENuE2tlVOFjMfE",
+              "quantity": 1,
+              "name": "Potion d'avantage"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de soins majeure",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Vous récupérez 4d4 + 4 points de vie quand vous buvez cette potion. Son liquide rouge scintille lorsqu'on l'agite. Les morts-vivants et les artificiels n'en tirent aucun bénéfice.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.PesWw8Dh27Q7hqCB",
+              "quantity": "2",
+              "name": "Amanite rouge"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.sN3n80xcO2CuYRkB",
+              "quantity": 1,
+              "name": "Potion de soins (majeure)"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de puissance maximale",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "La première fois que vous lancez un sort infligeant des dégâts de niveau 4 ou inférieur dans un délai de 1 minute après avoir bu la potion, vous pouvez utiliser le résultat maximal de chaque dé au lieu de lancer les dés de dégâts. Ce liquide violet lumineux sent le sucre et la prune, mais a un goût de boue.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.iO0893B9hiYU7D6X",
+              "quantity": 1,
+              "name": "Racine de theki"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.pENSKogWx0Tz0fzn",
+              "quantity": 1,
+              "name": "Feuille d'olisuba"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.jjxoFljmT5atbIT8",
+              "quantity": 1,
+              "name": "Lys des rêves"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.NFPYHXc4VXcGcg7b",
+              "quantity": 1,
+              "name": "Potion de puissance maximale"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Potion de changement de forme",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette étrange potion change de couleur et de transparence, ainsi que de forme et de matériau de récipient, chaque fois que personne ne la regarde. À l'ouverture, elle retrouve son récipient et son apparence d'origine : un liquide rose pâle dans lequel flottent de fines lamelles d'argent. Elle permet au buveur d'utiliser le sort modification d'apparence sur lui-même pendant 30 minutes, sans concentration.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.O0eT04b4AYt7qvr9",
+              "quantity": 1,
+              "name": "Champignon arc-en-ciel"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.pENSKogWx0Tz0fzn",
+              "quantity": 1,
+              "name": "Feuille d'olisuba"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.oSAN4j6USHosFvqL",
+              "quantity": 1,
+              "name": "Potion de changement de forme"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Thé revigorant",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette boisson chaude supprime un niveau d'épuisement chez quiconque la boit.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.q56qk1upHBqOeFo0",
+              "quantity": 1,
+              "name": "Rosée du matin"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.8U61IScvrNcit1ZJ",
+              "quantity": 1,
+              "name": "Langue-de-chat"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.lkaYAV7KTxFDsfoB",
+              "quantity": 1,
+              "name": "Thé revigorant"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    },
+    {
+      "name": "Antidote à la thessaltoxine",
+      "macroName": "",
+      "ingredientsInspection": "0",
+      "productInspection": "0",
+      "description": "Cette potion semble changer de couleur et de texture à chaque regard. Quand vous la buvez, elle met fin à l'effet de métamorphose imposé par la thessaltoxine.",
+      "tools": "",
+      "ingredients": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.AvyiJlB22uJt9J5E",
+              "quantity": 1,
+              "name": "Graine blanche d'orchidée fantôme"
+            }
+          ]
+        },
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-ingredients.iO0893B9hiYU7D6X",
+              "quantity": 1,
+              "name": "Racine de theki"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": null,
+          "components": [
+            {
+              "uuid": "Compendium.potion-crafting-and-gathering.potion-crafting-and-gathering-herbalism.kWuOuNmefQ86QCrm",
+              "quantity": 1,
+              "name": "Antidote à la thessaltoxine"
+            }
+          ]
+        }
+      ],
+      "img": "icons/consumables/potions/bottle-conical-corked-cyan.webp",
+      "ownership": {
+        "rqEOxzm9pWZpMhH4": "0",
+        "QAdDWUaUNK09Iq3x": "0",
+        "GOvXOrkQSzey7yZ5": "0",
+        "56XvGn6U8R9S2vlW": "0",
+        "HHjDcylTiWQFDEbS": "0"
+      }
+    }
+  ],
+  "img": "icons/sundries/books/book-symbol-leaf-gold-green.webp",
+  "documentName": "RecipeBook"
+}

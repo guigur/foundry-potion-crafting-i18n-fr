@@ -1,0 +1,426 @@
+{
+  "label": "Fabrication de potions — Tables de récolte",
+  "mapping": {
+    "name": "name",
+    "description": "description",
+    "results": {
+      "path": "results",
+      "converter": "document",
+      "documentType": "TableResult",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name"
+      }
+    }
+  },
+  "entries": {
+    "98yWStx4EoQY3Eex": {
+      "name": "Cueillette : désert",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "GjlEdgIHgj3ghj9U": {
+          "name": "Pois de feu"
+        },
+        "DLna4ERNGWc0Zfom": {
+          "name": "Lys de flamme"
+        },
+        "5Q9zI6Wd8Q7zzCe9": {
+          "name": "Brindilles de muroosa"
+        }
+      }
+    },
+    "AzUAaxT1dM4dn0Xv": {
+      "name": "Cueillette : volcans",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "R0CZmwC4xNAqltIT": {
+          "name": "Fleur de cendre"
+        }
+      }
+    },
+    "CIvugLRRsEfEe9oN": {
+      "name": "Cueillette : collines",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "6zu70xPFy5xZTOr3": {
+          "name": "Trompette des anges"
+        },
+        "4YHtVFWVAChKplN5": {
+          "name": "Griffes immobiles"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        },
+        "T2LkWh4tbpYOalo5": {
+          "name": "Champignon arc-en-ciel"
+        }
+      }
+    },
+    "DMitUeO7hzFz2lmi": {
+      "name": "Cueillette : forêts",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "4XJ14r6znl8bh0cF": {
+          "name": "Rosée acide"
+        },
+        "6zu70xPFy5xZTOr3": {
+          "name": "Trompette des anges"
+        },
+        "XVOry8UpBOGVpFkl": {
+          "name": "Langue-de-chat"
+        },
+        "sXqlox1CCai1Sjfd": {
+          "name": "Amanite phalloïde"
+        },
+        "mfRjzFYypJ7mYmyS": {
+          "name": "Baie de givre éternel"
+        },
+        "sVmMWfGw0GaHdL0v": {
+          "name": "Tabouret de fée"
+        },
+        "qBVPW8fB1iAqwj0c": {
+          "name": "Doigt de guenaude"
+        },
+        "IXqBBB8xHGclKInw": {
+          "name": "Rosée du matin"
+        },
+        "sLYo8s9Av2rWOYtD": {
+          "name": "Belladone"
+        },
+        "qWDvCtTseyJk0JZE": {
+          "name": "Feuille d'olisuba"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        },
+        "T2LkWh4tbpYOalo5": {
+          "name": "Champignon arc-en-ciel"
+        },
+        "TZi3YGRPT0U1mDT4": {
+          "name": "Amanite rouge"
+        },
+        "hbkj4scS4LrmfDyr": {
+          "name": "Ortie chantante"
+        },
+        "XBO4nJnVMQkl5lJy": {
+          "name": "Graine blanche d'orchidée fantôme"
+        }
+      }
+    },
+    "ExBxGVPNbit8FYIz": {
+      "name": "Cueillette : côte",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "PYLJHdmou7ZRtOPj": {
+          "name": "Lys des rêves"
+        },
+        "G3FLdLLR9WaSh6Yi": {
+          "name": "Branchiflore"
+        },
+        "hZeN2PpoVMjm5s0y": {
+          "name": "Mousse de foudre"
+        },
+        "XBO4nJnVMQkl5lJy": {
+          "name": "Graine blanche d'orchidée fantôme"
+        },
+        "2H8QNwyGP1N077Jc": {
+          "name": "Fruit d'ombresaule"
+        }
+      }
+    },
+    "Qszptw2PDK1MZwj0": {
+      "name": "Toutes les plantes",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "4XJ14r6znl8bh0cF": {
+          "name": "Rosée acide"
+        },
+        "6zu70xPFy5xZTOr3": {
+          "name": "Trompette des anges"
+        },
+        "R0CZmwC4xNAqltIT": {
+          "name": "Fleur de cendre"
+        },
+        "ukpBY10OSBJOO0I6": {
+          "name": "Baie funeste"
+        },
+        "Nq9K0VpHRNG9973s": {
+          "name": "Champignon à chapeau noir"
+        },
+        "hiIpq5BL3P1b0FSR": {
+          "name": "Sève noire"
+        },
+        "lMd47cTmoEXC7SdM": {
+          "name": "Spores de flétrissure"
+        },
+        "w301PsLNumSYWCUb": {
+          "name": "Sanguinaire"
+        },
+        "XVOry8UpBOGVpFkl": {
+          "name": "Langue-de-chat"
+        },
+        "sXqlox1CCai1Sjfd": {
+          "name": "Amanite phalloïde"
+        },
+        "PYLJHdmou7ZRtOPj": {
+          "name": "Lys des rêves"
+        },
+        "mfRjzFYypJ7mYmyS": {
+          "name": "Baie de givre éternel"
+        },
+        "sVmMWfGw0GaHdL0v": {
+          "name": "Tabouret de fée"
+        },
+        "GjlEdgIHgj3ghj9U": {
+          "name": "Pois de feu"
+        },
+        "DLna4ERNGWc0Zfom": {
+          "name": "Lys de flamme"
+        },
+        "XeHi6vU8fK6o51GZ": {
+          "name": "Lichen de givre"
+        },
+        "G3FLdLLR9WaSh6Yi": {
+          "name": "Branchiflore"
+        },
+        "qBVPW8fB1iAqwj0c": {
+          "name": "Doigt de guenaude"
+        },
+        "4YHtVFWVAChKplN5": {
+          "name": "Griffes immobiles"
+        },
+        "hZeN2PpoVMjm5s0y": {
+          "name": "Mousse de foudre"
+        },
+        "kV9ZiCunRZpOivy0": {
+          "name": "Racine de mandragore"
+        },
+        "mZqMxOgNCAlaQsmR": {
+          "name": "Satyre fétide de flagelleur mental"
+        },
+        "qBJaWvSFCWOYf5Y7": {
+          "name": "Traque-lune"
+        },
+        "IXqBBB8xHGclKInw": {
+          "name": "Rosée du matin"
+        },
+        "5Q9zI6Wd8Q7zzCe9": {
+          "name": "Brindilles de muroosa"
+        },
+        "sLYo8s9Av2rWOYtD": {
+          "name": "Belladone"
+        },
+        "qWDvCtTseyJk0JZE": {
+          "name": "Feuille d'olisuba"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        },
+        "T2LkWh4tbpYOalo5": {
+          "name": "Champignon arc-en-ciel"
+        },
+        "TZi3YGRPT0U1mDT4": {
+          "name": "Amanite rouge"
+        },
+        "m70PwSxL8N7jQW3U": {
+          "name": "Épine d'argent"
+        },
+        "hbkj4scS4LrmfDyr": {
+          "name": "Ortie chantante"
+        },
+        "tgfwR7EqoxHAq0Ka": {
+          "name": "Herbe aigre"
+        },
+        "usstOCRvWx2wUnFi": {
+          "name": "Racine de theki"
+        },
+        "XBO4nJnVMQkl5lJy": {
+          "name": "Graine blanche d'orchidée fantôme"
+        },
+        "2H8QNwyGP1N077Jc": {
+          "name": "Fruit d'ombresaule"
+        },
+        "P2w9ol9hahPkfjFq": {
+          "name": "Aconit tue-loup"
+        }
+      }
+    },
+    "Rk8vgXLFmzJ9wc3u": {
+      "name": "Cueillette : Blightshore",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "lMd47cTmoEXC7SdM": {
+          "name": "Spores de flétrissure"
+        }
+      }
+    },
+    "UrhXVaKOH5qBpEi3": {
+      "name": "Cueillette : Arctique",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "XeHi6vU8fK6o51GZ": {
+          "name": "Lichen de givre"
+        },
+        "m70PwSxL8N7jQW3U": {
+          "name": "Épine d'argent"
+        }
+      }
+    },
+    "V3Sn8hbdCAz21S9m": {
+      "name": "Cueillette : zones urbaines",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "ukpBY10OSBJOO0I6": {
+          "name": "Baie funeste"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        }
+      }
+    },
+    "VYVMhkw2JS3JRl16": {
+      "name": "Cueillette : prairies",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "w301PsLNumSYWCUb": {
+          "name": "Sanguinaire"
+        },
+        "XVOry8UpBOGVpFkl": {
+          "name": "Langue-de-chat"
+        },
+        "PYLJHdmou7ZRtOPj": {
+          "name": "Lys des rêves"
+        },
+        "mfRjzFYypJ7mYmyS": {
+          "name": "Baie de givre éternel"
+        },
+        "IXqBBB8xHGclKInw": {
+          "name": "Rosée du matin"
+        },
+        "qWDvCtTseyJk0JZE": {
+          "name": "Feuille d'olisuba"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        },
+        "tgfwR7EqoxHAq0Ka": {
+          "name": "Herbe aigre"
+        }
+      }
+    },
+    "dkgHy4oOAhO2mqxJ": {
+      "name": "Cueillette : souterrains",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "kV9ZiCunRZpOivy0": {
+          "name": "Racine de mandragore"
+        },
+        "mZqMxOgNCAlaQsmR": {
+          "name": "Satyre fétide de flagelleur mental"
+        }
+      }
+    },
+    "fHDjKsmVn9rgQJft": {
+      "name": "Cueillette : savanes",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "w301PsLNumSYWCUb": {
+          "name": "Sanguinaire"
+        },
+        "GjlEdgIHgj3ghj9U": {
+          "name": "Pois de feu"
+        },
+        "DLna4ERNGWc0Zfom": {
+          "name": "Lys de flamme"
+        },
+        "IXqBBB8xHGclKInw": {
+          "name": "Rosée du matin"
+        },
+        "5Q9zI6Wd8Q7zzCe9": {
+          "name": "Brindilles de muroosa"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        }
+      }
+    },
+    "ixlXDcsu8V9mhqEG": {
+      "name": "Cueillette : montagnes",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "4YHtVFWVAChKplN5": {
+          "name": "Griffes immobiles"
+        },
+        "hZeN2PpoVMjm5s0y": {
+          "name": "Mousse de foudre"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        },
+        "T2LkWh4tbpYOalo5": {
+          "name": "Champignon arc-en-ciel"
+        },
+        "m70PwSxL8N7jQW3U": {
+          "name": "Épine d'argent"
+        },
+        "hbkj4scS4LrmfDyr": {
+          "name": "Ortie chantante"
+        },
+        "tgfwR7EqoxHAq0Ka": {
+          "name": "Herbe aigre"
+        },
+        "P2w9ol9hahPkfjFq": {
+          "name": "Aconit tue-loup"
+        }
+      }
+    },
+    "jcwcRtYntdgygpeP": {
+      "name": "Cueillette : marais",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "4XJ14r6znl8bh0cF": {
+          "name": "Rosée acide"
+        },
+        "sXqlox1CCai1Sjfd": {
+          "name": "Amanite phalloïde"
+        },
+        "G3FLdLLR9WaSh6Yi": {
+          "name": "Branchiflore"
+        },
+        "qBVPW8fB1iAqwj0c": {
+          "name": "Doigt de guenaude"
+        },
+        "qBJaWvSFCWOYf5Y7": {
+          "name": "Traque-lune"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        },
+        "TZi3YGRPT0U1mDT4": {
+          "name": "Amanite rouge"
+        },
+        "hbkj4scS4LrmfDyr": {
+          "name": "Ortie chantante"
+        },
+        "usstOCRvWx2wUnFi": {
+          "name": "Racine de theki"
+        },
+        "2H8QNwyGP1N077Jc": {
+          "name": "Fruit d'ombresaule"
+        }
+      }
+    },
+    "urihnJ5T4ibIvHkP": {
+      "name": "Cueillette : Féerie",
+      "description": "Une table aléatoire créée à partir du contenu du dossier des plantes.",
+      "results": {
+        "sVmMWfGw0GaHdL0v": {
+          "name": "Tabouret de fée"
+        },
+        "82CtEzWREbc0zwOe": {
+          "name": "Parasol de pixie"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Installer la traduction française de Potion Crafting and Gathering dans Foundry 14</title>
+  <style>
+    :root { color-scheme: light; font: 17px/1.65 system-ui, sans-serif; color: #243333; background: #f1f4f1; }
+    body { max-width: 880px; margin: 2rem auto; padding: 2.5rem; background: white; border-radius: 12px; }
+    h1 { font-size: 1.9rem; line-height: 1.25; color: #174b3b; }
+    h2 { margin-top: 2.5rem; font-size: 1.3rem; color: #174b3b; }
+    h3 { font-size: 1.05rem; }
+    li { margin: .6rem 0; }
+    code, pre { font-family: ui-monospace, monospace; font-size: .88em; background: #eef3ef; }
+    code { padding: .1rem .3rem; overflow-wrap: anywhere; }
+    pre { padding: 1rem; overflow-x: auto; }
+    .note { padding: 1rem 1.25rem; background: #edf5ef; border-left: 4px solid #3e7960; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { text-align: left; vertical-align: top; border-bottom: 1px solid #d7dfda; padding: .6rem; }
+    a { color: #165d46; }
+    @media (max-width: 650px) { body { margin: 0; padding: 1.3rem; } }
+    @media print { body { margin: 0; padding: 0; max-width: none; } h2 { break-after: avoid; } }
+  </style>
+</head>
+<body>
+<h1>Installer la traduction française dans Foundry 14</h1>
+<p>Cette traduction personnelle couvre les ingrédients, potions, poisons, descriptions, effets, livres de recettes, pages de journal et tables de <strong>Potion Crafting &amp; Gathering 0.8.2</strong>. Elle utilise Babele. Les fichiers d'origine restent dans leur module et continuent à recevoir ses mises à jour.</p>
+<p class="note"><strong>Aucune commande à saisir.</strong> La méthode recommandée utilise le manifeste GitHub depuis l'interface de Foundry. L'installation manuelle du ZIP reste possible. Le manifeste devient disponible après la publication de la première release.</p>
+
+<h2>1. Préparer Foundry</h2>
+<ol>
+  <li>Utilisez <strong>Foundry VTT 14</strong> et un monde avec le système <strong>dnd5e</strong>.</li>
+  <li>Depuis l'écran de configuration, onglet <strong>Add-on Modules / Modules complémentaires</strong>, installez ou mettez à jour <strong>Babele 2.8.x</strong> et <strong>Potion Crafting &amp; Gathering</strong>. La traduction a été préparée pour la version <strong>0.8.2</strong> de ce dernier.</li>
+  <li>Gardez votre module habituel de traduction française de Foundry et de dnd5e. Ce paquet ajoute le contenu de Potion Crafting &amp; Gathering.</li>
+  <li>Si le module propose immédiatement d'importer son contenu, choisissez <strong>No / Non</strong> pendant la configuration. Vous pourrez importer après avoir vérifié la traduction.</li>
+</ol>
+<p>Gatherer et Mastercrafted servent à automatiser la récolte et la fabrication. Leur propre interface appartient à ces modules et ne fait pas partie de cette traduction. Le contenu de référence reste utilisable sans leur automatisation ; certaines fiches de recettes ou de récolte nécessitent leurs types de pages pour s'afficher correctement.</p>
+
+<h2>2. Installer depuis GitHub dans l'interface</h2>
+<ol>
+  <li>Depuis l'écran de configuration de Foundry, ouvrez <strong>Add-on Modules / Modules complémentaires → Install Module / Installer un module</strong>.</li>
+  <li>Dans <strong>Manifest URL / URL du manifeste</strong>, collez l'adresse ci-dessous.</li>
+  <li>Cliquez sur <strong>Install / Installer</strong>, puis passez à l'étape 3.</li>
+</ol>
+<pre>https://github.com/guigur/foundry-potion-crafting-i18n-fr/releases/latest/download/module.json</pre>
+<p>Après publication de nouvelles versions, utilisez <strong>Update / Mettre à jour</strong> dans la liste des modules. Si le manifeste affiche une erreur 404, vérifiez qu'une release contenant <code>module.json</code> et le ZIP est bien présente dans le dépôt GitHub. Le lien SSH du dépôt et le ZIP « Source code » de GitHub ne sont pas des manifestes Foundry.</p>
+<h3>Autre possibilité : copier le ZIP manuellement</h3>
+<ol>
+  <li>Décompressez <strong>foundry-custom-i18n-fr.zip</strong>. Vous obtenez le dossier <code>foundry-custom-i18n</code>.</li>
+  <li>Dans l'écran de configuration de Foundry, repérez le <strong>User Data Path / Chemin des données utilisateur</strong>. Il désigne le dossier de données du <em>serveur</em>, qui peut être différent de votre ordinateur si vous jouez sur un hébergement distant.</li>
+  <li>Arrêtez Foundry. Dans ce dossier de données, ouvrez <code>Data</code>, puis <code>modules</code>.</li>
+  <li>Copiez <code>foundry-custom-i18n</code> dans <code>Data/modules</code>. Conservez ce nom de dossier exactement.</li>
+  <li>Vérifiez que le fichier manifeste se trouve directement ici :</li>
+</ol>
+<pre>Votre dossier de données/
+  Data/
+    modules/
+      foundry-custom-i18n/
+        module.json
+        scripts/
+        languages/
+        compendium/
+          fr/</pre>
+<p>Évitez un dossier en double tel que <code>foundry-custom-i18n/foundry-custom-i18n/module.json</code>. Redémarrez ensuite le serveur Foundry. Sur un hébergement distant, effectuez la copie et le redémarrage depuis les outils de votre hébergeur.</p>
+
+<h2>3. Activer la traduction dans l'interface</h2>
+<ol>
+  <li>Ouvrez votre monde et connectez-vous comme <strong>MJ</strong>.</li>
+  <li>Ouvrez la barre latérale <strong>Game Settings / Paramètres du jeu</strong>, puis <strong>Manage Modules / Gestion des modules</strong>.</li>
+  <li>Cochez <strong>Babele</strong>, <strong>Potion Crafting &amp; Gathering</strong> et <strong>Potion Crafting &amp; Gathering — Traduction française</strong>.</li>
+  <li>Cliquez sur <strong>Save Module Settings / Enregistrer</strong> et laissez le monde se recharger.</li>
+  <li>Dans <strong>Configure Settings / Configuration des paramètres</strong>, cherchez le réglage général <strong>Language / Langue</strong> et choisissez <strong>Français</strong>. Enregistrez, puis rechargez si Foundry le demande.</li>
+</ol>
+<p>Avec cette installation, <strong>aucun chemin n'est à renseigner dans les paramètres de Babele</strong> : le module enregistre automatiquement son dossier français. Les libellés des boutons peuvent varier selon votre traduction de l'interface.</p>
+
+<h2>4. Vérifier avant d'importer</h2>
+<ol>
+  <li>Ouvrez l'onglet <strong>Compendium Packs / Compendiums</strong> de la barre latérale.</li>
+  <li>Cherchez <strong>Fabrication de potions et récolte</strong>. Les sept compendiums doivent porter des titres français.</li>
+  <li>Ouvrez <strong>Fabrication de potions — Alchimie</strong>, puis <strong>Potion d'escalade</strong> : sa description doit être en français.</li>
+  <li>Dans les ingrédients, ouvrez <strong>Lichen de givre</strong>. En tant que MJ, vous pouvez aussi vérifier les notes secrètes de récolte.</li>
+  <li>Dans <strong>Livres de recettes</strong>, ouvrez <strong>L'Alchimiste brasseur</strong>, puis une recette : vérifiez son texte et les noms de ses ingrédients.</li>
+  <li>Dans les tables, ouvrez <strong>Cueillette : forêts</strong> et vérifiez les noms des résultats.</li>
+</ol>
+
+<h2>5. Utiliser le contenu dans votre monde</h2>
+<p>Pour un objet, ouvrez son compendium et faites-le glisser vers l'inventaire du personnage ou vers l'onglet Objets. Pour une entrée de journal, utilisez son action d'importation. Faites ces imports <strong>après</strong> l'activation de la traduction.</p>
+<p>Si vous utilisez l'automatisation de Gatherer ou de Mastercrafted, leurs versions doivent être compatibles avec Foundry 14. La traduction conserve les références et les formules existantes ; elle ne répare pas les éventuels problèmes d'automatisation du module d'origine.</p>
+<p>Pour installer les tables de récolte dans le monde, faites un clic droit sur leur compendium, choisissez <strong>Import All Content / Importer tout le contenu</strong> et conservez les identifiants des documents avec l'option correspondante. Les points de récolte d'origine référencent ces identifiants. Faites de même pour les journaux et les livres de recettes si votre configuration d'automatisation les utilise.</p>
+<p>Si Gatherer et Mastercrafted sont installés, vous pouvez aussi utiliser l'importation proposée par le module d'origine : dans ses paramètres, activez <strong>Importer le contenu au démarrage</strong>, enregistrez et rechargez, puis acceptez la demande. Cette fonction importe les tables, journaux et recettes avec leurs identifiants. Vérifiez d'abord que ces imports ne remplaceront pas des documents que vous avez personnalisés.</p>
+<p class="note"><strong>Contenu déjà importé en anglais :</strong> les objets et journaux du monde sont des copies. L'activation du module ne réécrit pas automatiquement ces anciennes copies. Comparez d'abord avec le compendium traduit et réimportez les documents souhaités. Un import conservant les identifiants peut remplacer une copie existante portant le même identifiant ; un import individuel crée généralement une nouvelle copie. Gardez vos modifications personnelles avant de remplacer quoi que ce soit.</p>
+<p>Les outils requis portent désormais les noms <strong>Matériel d'alchimiste</strong>, <strong>Matériel d'herboriste</strong> et <strong>Matériel d'empoisonneur</strong>. Si une recette ne reconnaît pas un ancien outil anglais, importez l'outil traduit du compendium correspondant et vérifiez le réglage de prérequis dans votre module de fabrication.</p>
+
+<h2>Autre méthode : uniquement le dossier Babele</h2>
+<p>Le fichier <strong>pcg-translations-local-fr.zip</strong> fournit les mêmes traductions de compendiums sans installer le module personnel. Cette méthode ne traduit pas les messages d'importation codés en dur ; pour ceux-ci, utilisez l'installation complète ci-dessus.</p>
+<ol>
+  <li>Décompressez le ZIP et copiez son dossier <code>pcg-translations</code> dans le dossier <code>Data</code> de votre serveur Foundry. Il doit contenir un sous-dossier <code>fr</code> avec huit fichiers JSON.</li>
+  <li>Dans le monde, ouvrez <strong>Configuration des paramètres → Babele → Translation Files Directory</strong>.</li>
+  <li>Avec le sélecteur de dossier, sélectionnez <code>pcg-translations</code>, <strong>pas</strong> son sous-dossier <code>fr</code>. Le chemin enregistré doit être <code>pcg-translations</code>, sans le préfixe <code>Data/</code>.</li>
+  <li>Enregistrez, réglez la langue sur Français et rechargez le monde.</li>
+</ol>
+<p>Les JSON sont des fichiers de traduction Babele : ne les chargez pas avec l'action <strong>Import Data / Importer des données</strong> d'un objet ou d'un compendium. Le sélecteur Babele choisit leur dossier sur le serveur. Vous n'avez pas besoin d'activer simultanément cette méthode et le module personnel. Si Babele utilise déjà un dossier privé pour d'autres traductions, ajoutez simplement les huit fichiers dans son sous-dossier <code>fr</code> existant.</p>
+
+<h2>Si du texte reste en anglais</h2>
+<table>
+  <thead><tr><th>Ce que vous voyez</th><th>Que vérifier</th></tr></thead>
+  <tbody>
+    <tr><td>Le module personnel n'apparaît pas.</td><td>Emplacement du fichier <code>module.json</code>, nom du dossier et redémarrage du serveur.</td></tr>
+    <tr><td>Les compendiums restent anglais.</td><td>Langue <code>fr</code>, activation des trois modules, Babele 2.8.x, puis rechargement de tous les clients. Si vous utilisez le dossier privé, vérifiez son sous-dossier <code>fr</code>.</td></tr>
+    <tr><td>Le compendium est français, mais l'inventaire ou le livre existant est anglais.</td><td>Il s'agit probablement d'une ancienne copie importée : voir l'étape 5.</td></tr>
+    <tr><td>Une autre traduction prend le dessus.</td><td>Dans les paramètres de Babele, utilisez <strong>Translation Source Priority</strong> pour la collection concernée. La source placée en dernier est prioritaire.</td></tr>
+    <tr><td>Des boutons de Mastercrafted ou de Gatherer sont anglais.</td><td>Ils appartiennent à ces modules distincts, dont l'interface n'est pas incluse ici.</td></tr>
+    <tr><td>Une fiche spéciale ne s'ouvre pas.</td><td>Vérifiez la présence et la compatibilité de Mastercrafted ou de Gatherer pour le type de page concerné.</td></tr>
+  </tbody>
+</table>
+
+<h2>Fichiers anciens et mises à jour</h2>
+<p>Le dossier <code>legacy-recipes/fr</code> contient également les douze livres JSON de l'ancien format fourni avec le module. Ils sont traduits, mais ne sont pas nécessaires pour les compendiums de la version 0.8.2. Ne les importez que si votre version de Mastercrafted accepte explicitement ce format de livre ; utilisez normalement les livres du compendium actuel.</p>
+<p>Les noms propres, adresses web, crédits et références bibliographiques restent inchangés. Les distances conservent les unités et les valeurs d'origine : il s'agit d'une traduction, sans conversion des règles. La description <strong>Essence de Dracula</strong> est tronquée dans la source : sa fin est signalée en français.</p>
+<p>Le paquet a été vérifié par des contrôles de couverture, de structure, de références et de nombres, ainsi que par des tests des adaptateurs d'interface. <strong>Il reste à vérifier son comportement dans votre monde Foundry 14</strong>, notamment avec vos versions de Gatherer et Mastercrafted. Une mise à jour du module d'origine peut ajouter de nouveaux textes ou modifier ses identifiants.</p>
+<p>Pour désactiver la traduction des compendiums, décochez le module personnel dans Gestion des modules et rechargez. Avec la méthode du dossier privé, retirez ses fichiers ou rétablissez votre ancien chemin Babele. Les copies françaises déjà importées dans le monde restent françaises.</p>
+
+<h2>Références</h2>
+<ul>
+  <li><a href="https://gitlab.com/riccisi/foundryvtt-babele/-/wikis/Docs">Documentation de Babele</a> : dossiers privés, enregistrement des traductions et priorités.</li>
+  <li><a href="https://foundryvtt.com/article/modules/">Installation et activation des modules Foundry</a>.</li>
+  <li><a href="https://foundryvtt.com/article/user-data/">Dossier de données utilisateur</a>.</li>
+  <li><a href="https://foundryvtt.com/article/compendium/">Importation depuis les compendiums</a>.</li>
+  <li><a href="https://github.com/theripper93/potion-crafting-and-gathering">Potion Crafting &amp; Gathering</a> : contenu de piccolo917, adaptation d'action_jay, modules et maintenance de theripper93 ; p4535992 figure également parmi les auteurs du manifeste.</li>
+</ul>
+</body>
+</html>

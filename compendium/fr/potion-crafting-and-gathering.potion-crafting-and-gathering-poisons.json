@@ -1,0 +1,212 @@
+{
+  "label": "Fabrication de potions — Poisons",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "flags_magicitems_destroyFlavorText": "flags.magicitems.destroyFlavorText",
+    "system_description_unidentified": "system.description.unidentified",
+    "effects": {
+      "path": "effects",
+      "converter": "document",
+      "documentType": "ActiveEffect",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name"
+      }
+    }
+  },
+  "entries": {
+    "0wixBB6YRl7uOcQs": {
+      "name": "Retard ciblé",
+      "description": "<p>Ce liquide noir est très visqueux, avec la consistance d'une mélasse concentrée. Lorsqu'il entre en contact avec le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Sagesse DD 15. En cas d'échec, elle subit l'effet du sort lenteur et peut répéter le jet à la fin de chacun de ses tours. En cas de réussite, sa vitesse de déplacement est réduite de 5 pieds pendant 3 tours.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "21ziji4bYhVhTJkQ": {
+      "name": "Poison drow (blessure)",
+      "description": "<p>Ce poison est généralement fabriqué uniquement par les drows, dans un lieu totalement à l'abri du soleil. Une créature qui y est exposée doit réussir un jet de sauvegarde de Constitution DD 13 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 1 heure. Si elle échoue de 5 ou plus, elle subit également l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{inconscient} tant qu'elle subit l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} de cette manière. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer.</p>\n<p><strong>Blessure.</strong> Un poison de blessure peut enduire des armes, des munitions, des éléments de piège et d'autres objets infligeant des dégâts perforants ou tranchants. Il reste actif jusqu'à être transmis par une blessure ou lavé. Une créature qui subit des dégâts perforants ou tranchants d'un objet enduit est exposée aux effets du poison.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "2doouzb9Y9KeO8rT": {
+      "name": "Huile de taggit (contact)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 24 heures. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} subit l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{inconscient}. Elle se réveille si elle subit des dégâts.</p>\n<p><strong>Contact.</strong> Un poison de contact peut être étalé sur un objet et reste actif jusqu'à être touché ou lavé. Une créature dont la peau nue touche ce poison en subit les effets.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "3snkJrMRtaerbjgW": {
+      "name": "Essence de rage",
+      "description": "<p>Cette potion brune à la consistance boueuse devient transparente et rouge vif dès qu'on l'agite un peu. La boire confère l'aptitude Rage du barbare pendant 30 secondes. Si elle entre directement dans le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Constitution DD 16. En cas de réussite, elle bénéficie de Rage pendant 60 secondes. En cas d'échec, elle entre en rage pendant 30 secondes et doit attaquer au corps à corps la cible la plus proche. À partir du 2e tour suivant l'administration, elle peut effectuer un nouveau jet de sauvegarde de Constitution. Une réussite met fin à tous les effets. Cette potion n'affecte ni les artificiels ni les morts-vivants.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "eKVGOpK35GTKIFYT": {
+          "name": "Essence de rage"
+        }
+      }
+    },
+    "6XE396TwhJf3sO2F": {
+      "name": "Teinture pâle (ingestion)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 sous peine de subir 3 (1d6) dégâts de poison et l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné}. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} doit répéter le jet de sauvegarde toutes les 24 heures et subit 3 (1d6) dégâts de poison à chaque échec. Jusqu'à la fin du poison, ses dégâts ne peuvent être soignés par aucun moyen. Après sept réussites, l'effet prend fin et la créature peut se soigner normalement.</p>\n<p><strong>Ingestion.</strong> Une créature doit avaler une dose entière d'un poison d'ingestion pour en subir les effets. La dose peut être mêlée à de la nourriture ou à un liquide. Vous pouvez décider qu'une dose partielle produit un effet réduit, par exemple l'avantage au jet de sauvegarde ou seulement la moitié des dégâts en cas d'échec.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "APBEyAEY0D23XRCW": {
+      "name": "Essence d'éther (inhalation)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 8 heures. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} subit l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{inconscient}. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer.</p>\n<p><strong>Inhalation.</strong> Ces poisons sont des poudres ou des gaz qui agissent lorsqu'on les inhale. Souffler la poudre ou libérer le gaz expose les créatures dans un cube de 5 pieds de côté. Le nuage se dissipe aussitôt. Retenir sa respiration ne protège pas contre ces poisons : ils affectent les muqueuses nasales, les canaux lacrymaux et d'autres parties du corps.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "Ah8N6bwh8wFtFByR": {
+      "name": "Pâte noire",
+      "description": "<p>Ce poison a été conçu pour ressembler à un produit d'entretien du cuir ou à du cirage. Un vêtement traité brille comme neuf, mais toute créature qui le porte pendant un total de 12 heures, consécutives ou non, doit effectuer un jet de sauvegarde de Constitution DD 15. En cas d'échec, elle subit 1d8 dégâts de poison. Tant que le vêtement n'est pas retiré, elle doit répéter ce jet toutes les 12 heures pendant les 3 mois suivants.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "VgEIiI2uyJpwipAX": {
+          "name": "Pâte noire"
+        }
+      }
+    },
+    "Dnrr2udqlQAVcMSu": {
+      "name": "Potion de poison",
+      "description": "<p>Cette mixture a l'apparence, l'odeur et le goût d'une <strong>potion de soins</strong> ou d'une autre potion bénéfique. C'est pourtant un poison dissimulé par une illusion magique. Un sort d' <strong></strong><strong>identification</strong> révèle sa véritable @Compendium[dnd5e.rules.0AGfrwZRzSG0vNKb]{nature}.</p>\n<p>Si vous la buvez, vous subissez 3d6 dégâts de poison et devez réussir un jet de sauvegarde de Constitution DD 13 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné}. Au début de chacun de vos tours, tant que vous subissez l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} de cette manière, vous subissez 3d6 dégâts de poison. À la fin de chacun de vos tours, vous pouvez répéter le jet de sauvegarde. Chaque réussite diminue de 1d6 les dégâts de poison subis lors des tours suivants. Le poison prend fin lorsque les dégâts sont réduits à 0.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "DvsP0UXceEf4uoTa": {
+      "name": "Torpeur (ingestion)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 4d6 heures. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} subit l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{neutralisé}.</p>\n<p><strong>Ingestion.</strong> Une créature doit avaler une dose entière d'un poison d'ingestion pour en subir les effets. La dose peut être mêlée à de la nourriture ou à un liquide. Vous pouvez décider qu'une dose partielle produit un effet réduit, par exemple l'avantage au jet de sauvegarde ou seulement la moitié des dégâts en cas d'échec.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "HTPPWRpqCtxroDYd": {
+      "name": "Vapeurs d'othur brûlé (inhalation)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 sous peine de subir 10 (3d6) dégâts de poison. Elle doit répéter ce jet au début de chacun de ses tours. À chaque nouvel échec, elle subit 3 (1d6) dégâts de poison. Le poison prend fin après trois réussites.</p>\n<p><strong>Inhalation.</strong> Ces poisons sont des poudres ou des gaz qui agissent lorsqu'on les inhale. Souffler la poudre ou libérer le gaz expose les créatures dans un cube de 5 pieds de côté. Le nuage se dissipe aussitôt. Retenir sa respiration ne protège pas contre ces poisons : ils affectent les muqueuses nasales, les canaux lacrymaux et d'autres parties du corps.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "I5fUKyzt3lPyYjOQ": {
+      "name": "Sang d'assassin (ingestion)",
+      "description": "<p>Une créature exposée à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d'échec, elle subit 6 (1d12) dégâts de poison et l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 24 heures. En cas de réussite, elle ne subit que la moitié des dégâts et ne subit pas l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné}.</p>\n<p><em><strong>Ingestion.</strong></em> Une créature doit avaler une dose entière d'un poison d'ingestion pour en subir les effets. La dose peut être mêlée à de la nourriture ou à un liquide. Vous pouvez décider qu'une dose partielle produit un effet réduit, par exemple l'avantage au jet de sauvegarde ou seulement la moitié des dégâts en cas d'échec.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "JJzwN0uJzLRrK5LH": {
+      "name": "Thessaltoxine",
+      "description": "<p>Ce poison a été créé à l'origine à partir du sang de l'artificier Thessalar. Une créature qui y est exposée doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de changer de forme comme sous l'effet du sort métamorphose. Sa nouvelle forme est une bête aléatoire ou une créature qu'elle a vue au cours des 24 dernières heures, au choix du MJ. La transformation dure jusqu'à la fin de son prochain repos long. Ni dissipation de la magie ni délivrance des malédictions ne peuvent y mettre fin, mais restauration supérieure lui rend sa forme d'origine.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "KiKpQdTDuJTUFVsK": {
+      "name": "Souffle de Biza (inhalation)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 1 minute. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} doit utiliser son action pour effectuer une attaque au corps à corps contre une créature déterminée aléatoirement à sa portée. S'il n'y en a aucune, la créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} ne fait rien pendant son tour. Elle peut répéter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet sur elle-même en cas de réussite.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "LACxgInxIOos3xaf": {
+      "name": "Poudre des anges",
+      "description": "<p>Cette poudre blanche très fine, à l'arôme légèrement sucré, doit être soufflée au visage de la cible avant de se disperser sans danger. La cible doit effectuer un jet de sauvegarde de Charisme DD 15. En cas d'échec, sa perception de la réalité est altérée pendant 1 heure : elle considère tout le monde comme des amis de confiance et devient extrêmement sensible à la persuasion non agressive, à la tromperie et à la séduction. Une réussite ne produit aucun effet.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "WiKVtxc84AKYInuj": {
+          "name": "Poudre des anges"
+        }
+      }
+    },
+    "MTbjywmmGb9FOICv": {
+      "name": "Sérum de vérité (ingestion)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 1 heure. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} ne peut pas mentir sciemment, comme sous l'effet d'un sort de zone de vérité.</p>\n<p><strong>Ingestion.</strong> Une créature doit avaler une dose entière d'un poison d'ingestion pour en subir les effets. La dose peut être mêlée à de la nourriture ou à un liquide. Vous pouvez décider qu'une dose partielle produit un effet réduit, par exemple l'avantage au jet de sauvegarde ou seulement la moitié des dégâts en cas d'échec.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "OlHm63B7QG6Yk8EZ": {
+      "name": "Poudre du diable",
+      "description": "<p>Cette poudre rouge très fine, à l'arôme légèrement fumé, doit être soufflée au visage de la cible avant de se disperser sans danger. La cible doit effectuer un jet de sauvegarde de Charisme DD 18. En cas d'échec, sa perception de la réalité est altérée pendant 1 heure : elle voit un monde infernal peuplé de créatures abjectes et devient extrêmement sensible à l'intimidation, à la persuasion agressive et à la tromperie. En cas de réussite, elle devient légèrement paranoïaque et craintive.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "jVhE36XF5uQeZd3Y": {
+          "name": "Poudre du diable"
+        }
+      }
+    },
+    "ULxdo50cAouXw76k": {
+      "name": "Larmes de minuit (ingestion)",
+      "description": "<p>Une créature qui ingère ce poison ne subit aucun effet avant les douze coups de minuit. S'il n'a pas été neutralisé d'ici là, elle doit effectuer un jet de sauvegarde de Constitution DD 17. Elle subit 31 (9d6) dégâts de poison en cas d'échec, ou la moitié en cas de réussite.</p>\n<p><strong>Ingestion.</strong> Une créature doit avaler une dose entière d'un poison d'ingestion pour en subir les effets. La dose peut être mêlée à de la nourriture ou à un liquide. Vous pouvez décider qu'une dose partielle produit un effet réduit, par exemple l'avantage au jet de sauvegarde ou seulement la moitié des dégâts en cas d'échec.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "Vj2N2FKwqvqGw8FJ": {
+      "name": "Eau de mort",
+      "description": "<p>Ce liquide a l'apparence, l'odeur et le goût de l'eau. Même la plupart des analyses alchimiques et magiques ne permettent pas de le distinguer de l'eau. Seul un sort d'identification lancé au niveau 7 ou supérieur, ou une analyse alchimique détaillée durant 24 heures et coûtant 300 po, révèle qu'il s'agit d'un des poisons les plus mortels qui soient.</p><p>Fabriqué à partir de champignons, de plantes et de poisons rares, il impose à toute créature qui le touche un jet de sauvegarde de Constitution DD 20. En cas d'échec, elle est aveuglée et assourdie pendant 48 heures, et trop accablée de douleur pour se déplacer pendant 24 heures. Son maximum de points de vie diminue définitivement de 2d12 et elle subit 7d10 dégâts de poison après 12 heures. En cas de réussite, son maximum de points de vie diminue de 2d12 et sa vue et son ouïe sont troublées pendant 24 heures.</p><p>Les points de vie maximaux perdus ne peuvent être restaurés que par des soins après l'ingestion d'une potion de vitalité, ou par un sort de restauration supérieure ou de régénération lancé au niveau 8 ou supérieur.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "dpuvQyo5X6Ao8V1Z": {
+      "name": "Sommeil mortel",
+      "description": "<p>Une créature qui ingère ce poison doit réussir un jet de sauvegarde de Constitution DD 19 sous peine d'être empoisonnée pendant 24 heures. Elle semble morte ; seul un test de Médecine DD 20 réussi permet de déterminer le contraire.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "NcTHxzHrIy50QJxM": {
+          "name": "Sommeil mortel"
+        }
+      }
+    },
+    "f5gVLMEkaahGfs0c": {
+      "name": "Malice (inhalation)",
+      "description": "<p>Une créature exposée à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de subir l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} pendant 1 heure. La créature à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} subit l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{aveuglé}.</p>\n<p><strong>Inhalation.</strong> Ces poisons sont des poudres ou des gaz qui agissent lorsqu'on les inhale. Souffler la poudre ou libérer le gaz expose les créatures dans un cube de 5 pieds de côté. Le nuage se dissipe aussitôt. Retenir sa respiration ne protège pas contre ces poisons : ils affectent les muqueuses nasales, les canaux lacrymaux et d'autres parties du corps.</p>",
+      "system_description_unidentified": "Équipement",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "i2se49eebXjBOmOT": {
+      "name": "Fléau des mages",
+      "description": "<p>Cette potion ressemble à du vin rouge mais sent les vieilles bottes. La boire confère le don Tueur de mages pendant 1 minute.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "gAV6fiXG3nYTdZe1": {
+          "name": "Fléau des mages"
+        }
+      }
+    },
+    "it2rFB0l1YwZPU5i": {
+      "name": "Paranoïa liquide",
+      "description": "<p>Une créature qui ingère ce poison subit l'état effrayé. La source de sa peur est le prochain humanoïde qu'elle voit dans les 5 minutes suivant l'ingestion. Elle doit effectuer un jet de sauvegarde de Sagesse DD 15 : la peur dure 1 heure en cas d'échec, ou deux fois moins longtemps en cas de réussite.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "mguaqQrM3KQ3JTLi": {
+      "name": "Essence de Dracula",
+      "description": "<p>Conservé dans une fiole de cristal, ce poison ressemble à du sang frais constamment en mouvement, comme s'il cherchait à s'échapper. À l'ouverture, il s'immobilise et prend une couleur rouille. Si on le boit ou s'il entre dans le sang par une blessure ou une injection, la cible doit effectuer un jet de sauvegarde de Constitution DD 18. En cas de réussite, elle vomit tout le contenu de son estomac et subit 2d8 dégâts de poison.</p><p>En cas d'échec, la cible vomit immédiatement tout le contenu de son estomac, subit 2d10 dégâts de poison et devient incapable de dormir. Après 1 heure, elle devient extrêmement sensible à la lumière directe du soleil : elle subit 1d4 dégâts de feu par minute passée au soleil sans baume de muroosa. Elle ne peut plus manger ou boire autre chose que de la viande crue et du sang, avec une forte envie de ce dernier, surtout celui de sa propre espèce. Toute autre nourriture ou boisson la fait vomir et lui inflige 1d6 dégâts de poison. Chaque heure sans consommer de viande crue ni de sang, elle gagne 1… [Le texte d'origine s'interrompt ici.]</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "pH6FTxjthMCzpBWi": {
+      "name": "Philtre d'amour",
+      "description": "<p>La prochaine fois que vous voyez une créature dans les 10 minutes suivant l'absorption de ce philtre, vous subissez l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{charmé} par cette créature pendant 1 heure. Si elle appartient à une espèce et à un genre qui vous attirent habituellement, vous la considérez comme votre grand amour tant que vous êtes @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{charmé}. Le liquide rose et effervescent contient une discrète bulle en forme de cœur.</p>",
+      "system_description_unidentified": "Potion",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit."
+    },
+    "pbhs9c1MzovfF4po": {
+      "name": "Pâte de lave",
+      "description": "<p>Cette préparation ressemble à une simple pâte jaunâtre, mais elle est loin d'être ordinaire. Appliquée sur la peau ou les vêtements, elle impose un jet de sauvegarde de Constitution DD 14. En cas d'échec, la cible subit 2d6 dégâts de feu et devient vulnérable aux dégâts de feu pour 1 seule occurrence au cours des 12 heures suivantes. En cas de réussite, elle ne subit que la moitié des dégâts et ne devient pas vulnérable.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "9Q5SJ3lr2qDFSaOA": {
+          "name": "Pâte de lave"
+        }
+      }
+    },
+    "v4AeMM9MmplrULaL": {
+      "name": "Poison rudimentaire (fiole)",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "description": "<p>Le poison de cette fiole peut enduire une arme tranchante ou perforante, ou jusqu'à trois munitions. L'application nécessite une action. Une créature touchée par l'arme ou la munition à l'état @Compendium[dnd5e.rules.w7eitkpD7QQTB6j0]{empoisonné} doit réussir un jet de sauvegarde de Constitution DD 10 sous peine de subir 1d4 dégâts de poison. Une fois appliqué, le poison reste actif pendant 1 minute avant de sécher.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "wsulIzOBUrBmgT50": {
+      "name": "Matériel d'empoisonneur",
+      "description": "<p>Le matériel d'empoisonneur comprend les fioles, produits chimiques et autres équipements nécessaires à la fabrication de poisons. Sa maîtrise vous permet d'ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour fabriquer ou utiliser des poisons.</p>",
+      "system_description_unidentified": "Équipement"
+    },
+    "yXlEdxbGry90qtyN": {
+      "name": "Extrait de baie funeste",
+      "description": "<p>Rose et parfumé à la fraise, ce poison impose au buveur un jet de sauvegarde de Constitution DD 14. En cas d'échec, il est empoisonné et subit le désavantage aux jets de sauvegarde de Force, de Constitution et de Dextérité pendant 15 minutes. Une réussite ne produit aucun effet.</p>",
+      "flags_magicitems_destroyFlavorText": "atteint 0 charge : l'objet tombe en cendres et est détruit.",
+      "effects": {
+        "WJwsfFOpD81JjJ5g": {
+          "name": "Extrait de baie funeste"
+        }
+      }
+    }
+  }
+}

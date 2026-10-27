@@ -1,0 +1,53 @@
+{
+  "id": "foundry-custom-i18n",
+  "title": "Potion Crafting & Gathering — Traduction française",
+  "description": "Traduction française personnelle des compendiums et des messages d'importation de Potion Crafting & Gathering, avec Babele.",
+  "version": "1.0.0",
+  "url": "https://github.com/guigur/foundry-potion-crafting-i18n-fr",
+  "manifest": "https://github.com/guigur/foundry-potion-crafting-i18n-fr/releases/latest/download/module.json",
+  "download": "https://github.com/guigur/foundry-potion-crafting-i18n-fr/releases/download/v1.0.0/foundry-custom-i18n-fr.zip",
+  "bugs": "https://github.com/guigur/foundry-potion-crafting-i18n-fr/issues",
+  "compatibility": {
+    "minimum": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Traduction personnelle"
+    }
+  ],
+  "esmodules": [
+    "scripts/register.js"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "languages/fr.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.8.0"
+        }
+      },
+      {
+        "id": "potion-crafting-and-gathering",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.8.2"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  }
+}
